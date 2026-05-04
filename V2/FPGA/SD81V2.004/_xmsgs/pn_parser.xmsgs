@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated   -->
+<!--     by the Xilinx ISE software.  Any direct editing or        -->
+<!--     changes made to this file may result in unpredictable     -->
+<!--     behavior or data corruption.  It is strongly advised that -->
+<!--     users do not edit the contents of this file.              -->
+<!--                                                               -->
+<!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
+
+<messages>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ise/Documentos/git/github/SD81-Booster - Privado/V2/FPGA/SD81V2.004/DAC_i2s.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ise/Documentos/git/github/SD81-Booster - Privado/V2/FPGA/SD81V2.004/SD81.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ise/Documentos/git/github/SD81-Booster - Privado/V2/FPGA/SD81V2.004/ay38912.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ise/Documentos/git/github/SD81-Booster - Privado/V2/FPGA/SD81V2.004/beeper.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ise/Documentos/git/github/SD81-Booster - Privado/V2/FPGA/SD81V2.004/block_RAM.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ise/Documentos/git/github/SD81-Booster - Privado/V2/FPGA/SD81V2.004/bram_dp.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ise/Documentos/git/github/SD81-Booster - Privado/V2/FPGA/SD81V2.004/hipassf.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ise/Documentos/git/github/SD81-Booster - Privado/V2/FPGA/SD81V2.004/jt49/jt49.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ise/Documentos/git/github/SD81-Booster - Privado/V2/FPGA/SD81V2.004/jt49/jt49_bus.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ise/Documentos/git/github/SD81-Booster - Privado/V2/FPGA/SD81V2.004/jt49/jt49_cen.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ise/Documentos/git/github/SD81-Booster - Privado/V2/FPGA/SD81V2.004/jt49/jt49_div.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ise/Documentos/git/github/SD81-Booster - Privado/V2/FPGA/SD81V2.004/jt49/jt49_eg.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ise/Documentos/git/github/SD81-Booster - Privado/V2/FPGA/SD81V2.004/jt49/jt49_exp.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ise/Documentos/git/github/SD81-Booster - Privado/V2/FPGA/SD81V2.004/jt49/jt49_noise.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ise/Documentos/git/github/SD81-Booster - Privado/V2/FPGA/SD81V2.004/shift_module.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ise/Documentos/git/github/SD81-Booster - Privado/V2/FPGA/SD81V2.004/sim_int.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ise/Documentos/git/github/SD81-Booster - Privado/V2/FPGA/SD81V2.004/up_dn_serial_reg.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/Documentos/git/github/SD81-Booster - Privado/V2/FPGA/SD81V2.004/ym2149_audio.vhd&quot; into library work</arg>
+</msg>
+
+</messages>
+

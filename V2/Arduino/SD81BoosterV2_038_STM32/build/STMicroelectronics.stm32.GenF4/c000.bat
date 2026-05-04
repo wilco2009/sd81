@@ -1,0 +1,1 @@
+"C:\Users\aleja\AppData\Local\Arduino15\packages\STMicroelectronics\tools\STM32Tools\2.3.1/win/busybox.exe" sh "C:\Users\aleja\AppData\Local\Arduino15\packages\STMicroelectronics\tools\STM32Tools\2.3.1/stm32CubeProg.sh" -i dfu -f %1 -o 0xc000 -v 0x0483 -p 0xdf11

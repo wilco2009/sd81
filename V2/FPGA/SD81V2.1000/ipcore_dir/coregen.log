@@ -1,0 +1,47 @@
+INFO:sim:172 - Generating IP...
+Resolving generics for 'clk104'...
+Applying external generics to 'clk104'...
+Delivering associated files for 'clk104'...
+WARNING:sim - Component clk_wiz_v3_6 does not have a valid model name for
+   Verilog synthesis
+Delivering EJava files for 'clk104'...
+Delivered 3 files into directory /home/ise/Documentos/git/github/SD81-Booster -
+Privado/V2/FPGA/SD81V2.1000/ipcore_dir/tmp/_cg/clk104
+Delivered 1 file into directory /home/ise/Documentos/git/github/SD81-Booster -
+Privado/V2/FPGA/SD81V2.1000/ipcore_dir/tmp/_cg/clk104
+Generating ASY schematic symbol...
+Loading device for application Rf_Device from file '6slx9.nph' in environment
+/opt/Xilinx/14.7/ISE_DS/ISE/.
+INFO:sim:949 - Finished generation of ASY schematic symbol.
+Generating SYM schematic symbol for 'clk104'...
+Generating ISE project...
+XCO file found: clk104.xco
+XMDF file found: clk104_xmdf.tcl
+Adding /home/ise/Documentos/git/github/SD81-Booster -
+Privado/V2/FPGA/SD81V2.1000/ipcore_dir/tmp/_cg/clk104.asy -view all -origin_type
+imported
+Adding /home/ise/Documentos/git/github/SD81-Booster -
+Privado/V2/FPGA/SD81V2.1000/ipcore_dir/tmp/_cg/clk104.ucf -view all -origin_type
+created
+Adding /home/ise/Documentos/git/github/SD81-Booster -
+Privado/V2/FPGA/SD81V2.1000/ipcore_dir/tmp/_cg/clk104.v -view all -origin_type
+created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "/home/ise/Documentos/git/github/SD81-Booster -
+   Privado/V2/FPGA/SD81V2.1000/ipcore_dir/tmp/_cg/clk104.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding /home/ise/Documentos/git/github/SD81-Booster -
+Privado/V2/FPGA/SD81V2.1000/ipcore_dir/tmp/_cg/clk104.veo -view all -origin_type
+imported
+INFO:TclTasksC:2116 - The automatic calculation of top has been turned-off.
+   Please set the new top explicitly by running the "project set top" command.
+   To re-calculate the new top automatically, set the "Auto Implementation Top"
+   property to true.
+Top level has been set to "/clk104"
+Generating README file...
+Generating FLIST file...
+INFO:sim:948 - Finished FLIST file generation.
+Launching README viewer...
+Moving files to output directory...
+Finished moving files to output directory
+Wrote CGP file for project 'clk104'.

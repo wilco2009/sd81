@@ -1,0 +1,17 @@
+PROMGEN: Xilinx Prom Generator P.20131013
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+promgen -w -p mcs -c FF -o "/home/ise/Documentos/git/github/SD81-Booster - Privado/V2/FPGA/SD81V2.1000//SD81Booster" -s 16384 -u 0000 "/home/ise/Documentos/git/github/SD81-Booster - Privado/V2/FPGA/SD81V2.1000/SD81.bit" -spi 
+
+PROM /home/ise/Documentos/git/github/SD81-Booster - Privado/V2/FPGA/SD81V2.1000/SD81Booster.prm map: Sun May  3 15:01:09 2026
+
+Calculating PROM checksum with fill value ff
+
+Format        Mcs86 (32-bit)
+Size          16384K
+PROM start    0000:0000
+PROM end      00ff:ffff
+PROM checksum fa0e68e4
+
+        Addr1        Addr2                     Date File(s)
+    0000:0000    0005:327b     Nov 24 19:43:39 2025 /home/ise/Documentos/git/github/SD81-Booster - Privado/V2/FPGA/SD81V2.1000/SD81.bit

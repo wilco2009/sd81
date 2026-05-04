@@ -1,0 +1,2 @@
+verilog work ../../clock_pal.v
+verilog work ../example_design/clock_pal_exdes.v

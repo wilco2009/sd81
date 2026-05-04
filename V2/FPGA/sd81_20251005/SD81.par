@@ -1,0 +1,285 @@
+Release 14.7 par P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+localhost.localdomain::  Fri Oct 03 05:23:31 2025
+
+par -w -intstyle ise -ol high -xe n -mt off SD81_map.ncd SD81.ncd SD81.pcf 
+
+
+Constraints file: SD81.pcf.
+Loading device for application Rf_Device from file '6slx9.nph' in environment /opt/Xilinx/14.7/ISE_DS/ISE/.
+   "SD81" is an NCD, version 3.2, device xc6slx9, package tqg144, speed -3
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+INFO:Security:54 - 'xc6slx9' is a WebPack part.
+WARNING:Security:42 - Your software subscription period has lapsed. Your current version of Xilinx tools will continue
+to function, but you no longer qualify for Xilinx software updates or new releases.
+
+----------------------------------------------------------------------
+
+Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000 Celsius)
+Initializing voltage to 1.140 Volts. (default - Range: 1.140 to 1.260 Volts)
+
+
+Device speed data version:  "PRODUCTION 1.23 2013-10-13".
+
+
+
+Device Utilization Summary:
+
+Slice Logic Utilization:
+  Number of Slice Registers:                 1,084 out of  11,440    9%
+    Number used as Flip Flops:               1,039
+    Number used as Latches:                     37
+    Number used as Latch-thrus:                  0
+    Number used as AND/OR logics:                8
+  Number of Slice LUTs:                      1,465 out of   5,720   25%
+    Number used as logic:                    1,418 out of   5,720   24%
+      Number using O6 output only:             862
+      Number using O5 output only:             111
+      Number using O5 and O6:                  445
+      Number used as ROM:                        0
+    Number used as Memory:                      26 out of   1,440    1%
+      Number used as Dual Port RAM:             24
+        Number using O6 output only:             8
+        Number using O5 output only:             0
+        Number using O5 and O6:                 16
+      Number used as Single Port RAM:            0
+      Number used as Shift Register:             2
+        Number using O6 output only:             2
+        Number using O5 output only:             0
+        Number using O5 and O6:                  0
+    Number used exclusively as route-thrus:     21
+      Number with same-slice register load:      9
+      Number with same-slice carry load:        12
+      Number with other load:                    0
+
+Slice Logic Distribution:
+  Number of occupied Slices:                   614 out of   1,430   42%
+  Number of MUXCYs used:                       300 out of   2,860   10%
+  Number of LUT Flip Flop pairs used:        1,705
+    Number with an unused Flip Flop:           782 out of   1,705   45%
+    Number with an unused LUT:                 240 out of   1,705   14%
+    Number of fully used LUT-FF pairs:         683 out of   1,705   40%
+    Number of slice register sites lost
+      to control set restrictions:               0 out of  11,440    0%
+
+  A LUT Flip Flop pair for this architecture represents one LUT paired with
+  one Flip Flop within a slice.  A control set is a unique combination of
+  clock, reset, set, and enable signals for a registered element.
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+
+IO Utilization:
+  Number of bonded IOBs:                        96 out of     102   94%
+    Number of LOCed IOBs:                       96 out of      96  100%
+    IOB Flip Flops:                             20
+
+Specific Feature Utilization:
+  Number of RAMB16BWERs:                        32 out of      32  100%
+  Number of RAMB8BWERs:                          0 out of      64    0%
+  Number of BUFIO2/BUFIO2_2CLKs:                 1 out of      32    3%
+    Number used as BUFIO2s:                      1
+    Number used as BUFIO2_2CLKs:                 0
+  Number of BUFIO2FB/BUFIO2FB_2CLKs:             0 out of      32    0%
+  Number of BUFG/BUFGMUXs:                       8 out of      16   50%
+    Number used as BUFGs:                        8
+    Number used as BUFGMUX:                      0
+  Number of DCM/DCM_CLKGENs:                     2 out of       4   50%
+    Number used as DCMs:                         2
+    Number used as DCM_CLKGENs:                  0
+  Number of ILOGIC2/ISERDES2s:                  15 out of     200    7%
+    Number used as ILOGIC2s:                    15
+    Number used as ISERDES2s:                    0
+  Number of IODELAY2/IODRP2/IODRP2_MCBs:         0 out of     200    0%
+  Number of OLOGIC2/OSERDES2s:                   5 out of     200    2%
+    Number used as OLOGIC2s:                     5
+    Number used as OSERDES2s:                    0
+  Number of BSCANs:                              0 out of       4    0%
+  Number of BUFHs:                               0 out of     128    0%
+  Number of BUFPLLs:                             0 out of       8    0%
+  Number of BUFPLL_MCBs:                         0 out of       4    0%
+  Number of DSP48A1s:                            0 out of      16    0%
+  Number of ICAPs:                               0 out of       1    0%
+  Number of MCBs:                                0 out of       2    0%
+  Number of PCILOGICSEs:                         0 out of       2    0%
+  Number of PLL_ADVs:                            0 out of       2    0%
+  Number of PMVs:                                0 out of       1    0%
+  Number of STARTUPs:                            0 out of       1    0%
+  Number of SUSPEND_SYNCs:                       0 out of       1    0%
+
+
+Overall effort level (-ol):   High 
+Router effort level (-rl):    High 
+
+Starting initial Timing Analysis.  REAL time: 3 secs 
+Finished initial Timing Analysis.  REAL time: 3 secs 
+
+Starting Router
+
+
+Phase  1  : 12283 unrouted;      REAL time: 4 secs 
+
+Phase  2  : 8706 unrouted;      REAL time: 4 secs 
+
+Phase  3  : 3823 unrouted;      REAL time: 8 secs 
+
+Phase  4  : 3823 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 8 secs 
+
+Updating file: SD81.ncd with current fully routed design.
+
+Phase  5  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 11 secs 
+
+Phase  6  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 11 secs 
+
+Phase  7  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 11 secs 
+
+Phase  8  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 11 secs 
+
+Phase  9  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 11 secs 
+
+Phase 10  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 11 secs 
+Total REAL time to Router completion: 11 secs 
+Total CPU time to Router completion: 10 secs 
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Generating "PAR" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++---------------------+--------------+------+------+------------+-------------+
+|        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++---------------------+--------------+------+------+------------+-------------+
+|        cnt26_1_BUFG |  BUFGMUX_X2Y4| No   |   54 |  0.040     |  1.109      |
++---------------------+--------------+------+------+------------+-------------+
+|          system_clk |  BUFGMUX_X2Y3| No   |  236 |  0.547     |  1.615      |
++---------------------+--------------+------+------+------------+-------------+
+|        poke_wr_BUFG | BUFGMUX_X3Y13| No   |   61 |  0.594     |  1.664      |
++---------------------+--------------+------+------+------------+-------------+
+| mapper_port_wr_BUFG |  BUFGMUX_X2Y1| No   |   18 |  0.011     |  1.079      |
++---------------------+--------------+------+------+------------+-------------+
+|       CFG_CLK_BUFGP | BUFGMUX_X2Y12| No   |   11 |  0.067     |  1.147      |
++---------------------+--------------+------+------+------------+-------------+
+|   nCLOCK_IBUFG_BUFG |  BUFGMUX_X2Y9| No   |   13 |  0.073     |  1.143      |
++---------------------+--------------+------+------+------------+-------------+
+|aychips[0].ay/rst_n_ |              |      |      |            |             |
+|                 inv |         Local|      |  151 |  2.802     |  7.183      |
++---------------------+--------------+------+------+------------+-------------+
+|          DAC/bclk_1 |         Local|      |    9 |  1.638     |  3.110      |
++---------------------+--------------+------+------+------------+-------------+
+|              kbdint |         Local|      |    9 |  0.275     |  1.180      |
++---------------------+--------------+------+------+------------+-------------+
+|GND_1_o_GND_1_o_AND_ |              |      |      |            |             |
+|               320_o |         Local|      |    1 |  0.000     |  0.984      |
++---------------------+--------------+------+------+------------+-------------+
+|      chroma_mode_wr |         Local|      |    4 |  1.769     |  2.418      |
++---------------------+--------------+------+------+------------+-------------+
+|           nIOWR_inv |         Local|      |    2 |  0.000     |  0.311      |
++---------------------+--------------+------+------+------------+-------------+
+|          nMREQ_IBUF |         Local|      |   20 |  1.489     |  3.411      |
++---------------------+--------------+------+------+------------+-------------+
+|            DATA_out |         Local|      |    2 |  0.632     |  1.617      |
++---------------------+--------------+------+------+------------+-------------+
+|         DATA_in_out |         Local|      |    1 |  0.000     |  2.062      |
++---------------------+--------------+------+------+------------+-------------+
+|       CFG_RESET_inv |         Local|      |   14 |  1.237     |  4.974      |
++---------------------+--------------+------+------+------------+-------------+
+|            cnt26<2> |         Local|      |   84 |  0.590     |  3.831      |
++---------------------+--------------+------+------+------------+-------------+
+|            CTRL_out |         Local|      |    1 |  0.000     |  2.721      |
++---------------------+--------------+------+------+------------+-------------+
+|nRESET_GND_1_o_AND_3 |              |      |      |            |             |
+|                94_o |         Local|      |    3 |  0.000     |  0.473      |
++---------------------+--------------+------+------+------------+-------------+
+|GND_1_o_GND_1_o_AND_ |              |      |      |            |             |
+|               323_o |         Local|      |    1 |  0.000     |  0.462      |
++---------------------+--------------+------+------+------------+-------------+
+|nFE_port_RD_NMIon_OR |              |      |      |            |             |
+|              _107_o |         Local|      |    1 |  0.000     |  0.885      |
++---------------------+--------------+------+------+------------+-------------+
+|              NMIset |         Local|      |    1 |  0.000     |  0.612      |
++---------------------+--------------+------+------+------------+-------------+
+|GND_1_o_GND_1_o_AND_ |              |      |      |            |             |
+|               327_o |         Local|      |    1 |  0.000     |  0.469      |
++---------------------+--------------+------+------+------------+-------------+
+
+* Net Skew is the difference between the minimum and maximum routing
+only delays for the net. Note this is different from Clock Skew which
+is reported in TRCE timing report. Clock Skew is the difference between
+the minimum and maximum path delays which includes logic delays.
+
+* The fanout is the number of component pins not the individual BEL loads,
+for example SLICE loads not FF loads.
+
+Timing Score: 0 (Setup: 0, Hold: 0, Component Switching Limit: 0)
+
+Number of Timing Constraints that were not applied: 1
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+----------------------------------------------------------------------------------------------------------
+  Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
+                                            |             |    Slack   | Achievable | Errors |    Score   
+----------------------------------------------------------------------------------------------------------
+  TS_dcm_final_inst_clk2x = PERIOD TIMEGRP  | SETUP       |    29.880ns|     8.581ns|       0|           0
+  "dcm_final_inst_clk2x"         TS_clk_int | HOLD        |     0.381ns|            |       0|           0
+  ermediate_13mhz / 2 HIGH 50%              |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_nCLOCK = PERIOD TIMEGRP "nCLOCK" 307.6 | SETUP       |    29.915ns|    68.375ns|       0|           0
+  92 ns HIGH 50%                            | HOLD        |     0.385ns|            |       0|           0
+                                            | MINLOWPULSE |   227.692ns|    80.000ns|       0|           0
+----------------------------------------------------------------------------------------------------------
+  TS_clk_intermediate_13mhz = PERIOD TIMEGR | MINLOWPULSE |    44.922ns|    32.000ns|       0|           0
+  P "clk_intermediate_13mhz" TS_nCLOCK      |             |            |            |        |            
+      / 4 HIGH 50%                          |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+
+
+Derived Constraint Report
+Review Timing Report for more details on the following derived constraints.
+To create a Timing Report, run "trce -v 12 -fastpaths -o design_timing_report design.ncd design.pcf"
+or "Run Timing Analysis" from Timing Analyzer (timingan).
+Derived Constraints for TS_nCLOCK
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|                               |   Period    |       Actual Period       |      Timing Errors        |      Paths Analyzed       |
+|           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
+|                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|TS_nCLOCK                      |    307.692ns|     80.000ns|    128.000ns|            0|            0|          406|        13234|
+| TS_clk_intermediate_13mhz     |     76.923ns|     32.000ns|     17.162ns|            0|            0|            0|        13234|
+|  TS_dcm_final_inst_clk2x      |     38.462ns|      8.581ns|          N/A|            0|            0|        13234|            0|
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+All constraints were met.
+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 15 secs 
+Total CPU time to PAR completion: 12 secs 
+
+Peak Memory Usage:  646 MB
+
+Placer: Placement generated during map.
+Routing: Completed - No errors found.
+Timing: Completed - No errors found.
+
+Number of error messages: 0
+Number of warning messages: 0
+Number of info messages: 0
+
+Writing design to file SD81.ncd
+
+
+
+PAR done!

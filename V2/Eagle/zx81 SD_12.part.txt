@@ -1,0 +1,107 @@
+Partlist
+
+Exported from zx81 SD_12.brd at 15/07/2023 23:28
+
+EAGLE Version 9.6.2 Copyright (c) 1988-2020 Autodesk, Inc.
+
+Assembly variant: 
+
+Part     Value                                 Package                               Library             Position (mm)         Orientation
+
+1A       D7                                    EDGEPIN                               wirepad             (-6.35 -15.24)        R0
+1B       VCC                                   EDGEPIN                               wirepad             (-6.35 -15.24)        MR180
+2A       /RAMCS                                EDGEPIN                               wirepad             (-3.81 -15.24)        R0
+2B       9V                                    EDGEPIN                               wirepad             (-3.81 -15.24)        MR180
+4A       D0                                    EDGEPIN                               wirepad             (1.27 -15.24)         R0
+4B       GND                                   EDGEPIN                               wirepad             (1.27 -15.24)         MR180
+5A       D1                                    EDGEPIN                               wirepad             (3.81 -15.24)         R0
+5B       GND                                   EDGEPIN                               wirepad             (3.81 -15.24)         MR180
+6A       D2                                    EDGEPIN                               wirepad             (6.35 -15.24)         R0
+6B       /CLOCK                                EDGEPIN                               wirepad             (6.35 -15.24)         MR180
+7A       D6                                    EDGEPIN                               wirepad             (8.89 -15.24)         R0
+7B       A0                                    EDGEPIN                               wirepad             (8.89 -15.24)         MR180
+8A       D5                                    EDGEPIN                               wirepad             (11.43 -15.24)        R0
+8B       A1                                    EDGEPIN                               wirepad             (11.43 -15.24)        MR180
+9A       D3                                    EDGEPIN                               wirepad             (13.97 -15.24)        R0
+9B       A2                                    EDGEPIN                               wirepad             (13.97 -15.24)        MR180
+10A      D4                                    EDGEPIN                               wirepad             (16.51 -15.24)        R0
+10B      A3                                    EDGEPIN                               wirepad             (16.51 -15.24)        MR180
+11A      A6                                    EDGEPIN                               wirepad             (19.05 -15.24)        R0
+11B      A15                                   EDGEPIN                               wirepad             (19.05 -15.24)        MR180
+12A      /NMI                                  EDGEPIN                               wirepad             (21.59 -15.24)        R0
+12B      A14                                   EDGEPIN                               wirepad             (21.59 -15.24)        MR180
+13A      /HALT                                 EDGEPIN                               wirepad             (24.13 -15.24)        R0
+13B      A13                                   EDGEPIN                               wirepad             (24.13 -15.24)        MR180
+14A      /MREQ                                 EDGEPIN                               wirepad             (26.67 -15.24)        R0
+14B      A12                                   EDGEPIN                               wirepad             (26.67 -15.24)        MR180
+15A      /IORQ                                 EDGEPIN                               wirepad             (29.21 -15.24)        R0
+15B      A11                                   EDGEPIN                               wirepad             (29.21 -15.24)        MR180
+16A      /RD                                   EDGEPIN                               wirepad             (31.75 -15.24)        R0
+16B      A10                                   EDGEPIN                               wirepad             (31.75 -15.24)        MR180
+17A      /WR                                   EDGEPIN                               wirepad             (34.29 -15.24)        R0
+17B      A9                                    EDGEPIN                               wirepad             (34.29 -15.24)        MR180
+18A      /BUSAK                                EDGEPIN                               wirepad             (36.83 -15.24)        R0
+18B      A8                                    EDGEPIN                               wirepad             (36.83 -15.24)        MR180
+19A      /WAIT                                 EDGEPIN                               wirepad             (39.37 -15.24)        R0
+19B      A7                                    EDGEPIN                               wirepad             (39.37 -15.24)        MR180
+20A      /BUSRQ                                EDGEPIN                               wirepad             (41.91 -15.24)        R0
+20B      A6                                    EDGEPIN                               wirepad             (41.91 -15.24)        MR180
+21A      /RESET                                EDGEPIN                               wirepad             (44.45 -15.24)        R0
+21B      A5                                    EDGEPIN                               wirepad             (44.45 -15.24)        MR180
+22A      /M1                                   EDGEPIN                               wirepad             (46.99 -15.24)        R0
+22B      A4                                    EDGEPIN                               wirepad             (46.99 -15.24)        MR180
+23A      /RFSH                                 EDGEPIN                               wirepad             (49.53 -15.24)        R0
+23B      /ROMCS                                EDGEPIN                               wirepad             (49.53 -15.24)        MR180
+C1       100nF                                 C025-040X050                          rcl                 (-25.4 62.23)         R90
+C2       100nF                                 C025-040X050                          rcl                 (-28.067 40.513)      R270
+C3       100nF                                 C025-040X050                          rcl                 (-24.13 19.05)        R0
+C4       470nF                                 C025-040X050                          rcl                 (29.21 83.82)         R0
+C7       10uF                                  E2-5                                  rcl                 (52.07 89.408)        R90
+C8       100uF                                 E2-5                                  rcl                 (17.78 24.13)         R90
+C9       100uF                                 E2-5                                  rcl                 (48.26 22.86)         R180
+C10      250uF                                 E2-5                                  rcl                 (52.07 73.66)         R270
+C11      0.05uF                                C025-040X050                          rcl                 (52.324 78.359)       R180
+C12      100nF                                 C025-040X050                          rcl                 (51.943 84.201)       R180
+IC1      AS6C4008-55PIN                        DIP1524W45P254L4203H406Q32            AS6C4008-55PIN      (-5.08 36.83)         R90
+IC2      REG1117                               SOT223                                burr-brown          (46.99 16.51)         R270
+IC3      74ACT125N                             DIL14                                 74xx-eu             (-23.495 7.62)        R270
+IC4      XC95144XL-10TQG100C                   TQFP100                               XC95144XL-10TQG100C (25.4 6.35)           R0
+IC5      74HC573N                              DIL20                                 74xx-eu             (-10.16 62.23)        R0
+IC7      LM386N-4                              DIL08                                 linear              (62.23 74.93)         R0
+IC8      74HC573N                              DIL20                                 74xx-eu             (-3.81 15.24)         R0
+IC9      74HC573N                              DIL20                                 74xx-eu             (-3.81 2.54)          R0
+J1       AUDIO_JACK_3.5MM_PTH                  AUDIO-JACK                            SparkFun-Connectors (8.89 90.17)          R270
+JP1      MC45                                  JP1                                   jumper              (44.45 -6.35)         R90
+JP2                                            JP1                                   jumper              (50.419 -1.27)        R0
+JP3      JTAG                                  JP4                                   jumper              (50.419 6.477)        R90
+JP4      SPEAKER                               JP1                                   jumper              (39.116 84.074)       R0
+JP5      5V                                    JP1                                   jumper              (70.358 72.136)       R180
+LED1     SD                                    LED5MM                                adafruit            (8.89 68.58)          R0
+LED2     DIFFUSE                               LED-RGB-THRU                          SparkFun-LEDV1      (15.113 68.199)       R0
+PAD1                                           1,6/0,8                               wirepad             (17.145 -1.397)       R0
+PAD2                                           1,6/0,8                               wirepad             (36.195 7.493)        R0
+PAD3                                           1,6/0,8                               wirepad             (38.1 7.493)          R0
+PAD4                                           1,6/0,8                               wirepad             (40.005 7.493)        R0
+PAD5                                           1,6/0,8                               wirepad             (41.91 7.493)         R0
+PAD6                                           1,6/0,8                               wirepad             (36.83 13.081)        R0
+PAD7                                           1,6/0,8                               wirepad             (40.259 10.541)       R0
+PAD8                                           1,6/0,8                               wirepad             (38.735 13.081)       R0
+R1       10K                                   POT-WHEEL                             Pots                (59.69 81.28)         R0
+R2       150                                   0204/7                                rcl                 (19.05 72.39)         R180
+R3       68                                    0204/7                                rcl                 (19.05 77.47)         R180
+R4       180                                   0204/7                                rcl                 (48.26 55.88)         R270
+R5       180                                   0204/7                                rcl                 (59.69 55.88)         R270
+R6       100                                   0204/7                                rcl                 (45.72 55.88)         R270
+R7       180                                   0204/7                                rcl                 (36.83 55.88)         R270
+R8       330                                   0204/7                                rcl                 (64.77 55.88)         R270
+R9       330                                   0204/7                                rcl                 (67.31 55.88)         R270
+R10      330                                   0204/7                                rcl                 (62.23 55.88)         R270
+R11      680                                   0204/7                                rcl                 (11.43 76.2)          R270
+R12      100                                   0204/7                                rcl                 (19.05 80.01)         R180
+R13      150                                   0204/7                                rcl                 (19.05 74.93)         R180
+R14      68K                                   0204/7                                rcl                 (8.255 81.661)        R180
+R16      10                                    0204/7                                rcl                 (45.847 82.169)       R270
+S1                                             B3F-31XX                              switch-omron        (22.86 90.17)         R180
+U$1      ZX81_EDGE                             ZX81_IFACE                            EDGE                (21.59 -15.24)        R0
+U$2      E14_ARDUINO_REVC_ARDUINO_MEGA2560_PRO E14_ARDUINO_REVC_ARDUINO_MEGA2560_PRO E14_Arduino_revC    (72.39 68.58)         R180
+U$3      MICRO-SD-MODULE                       MICROSD-MODULE                        diy-modules         (-0.27 92.71)         R180

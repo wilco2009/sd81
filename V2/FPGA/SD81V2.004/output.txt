@@ -1,0 +1,8 @@
+Storage Target: SPI Flash Single FPGA
+128M
+FF
+SD81
+/home/ise/ISEWebpack/SD81V2.004
+
+MCS
+No

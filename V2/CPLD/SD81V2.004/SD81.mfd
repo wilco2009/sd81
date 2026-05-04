@@ -1,0 +1,1685 @@
+MDF Database:  version 1.0
+MDF_INFO | SD81 | XC95144XL-10-TQ100
+MACROCELL | 2 | 17 | block_0_0
+ATTRIBUTES | 8520560 | 0
+OUTPUTMC | 2 | 0 | 11 | 1 | 2
+INPUTS | 15 | BUF_block_7_0  | A7  | A5  | A3  | A2  | A1  | A6  | A4  | nWR  | A0  | nIORQ  | nRESET  | D2.PIN  | D1.PIN  | D0.PIN
+INPUTMC | 1 | 6 | 14
+INPUTP | 14 | 95 | 97 | 56 | 49 | 44 | 57 | 102 | 82 | 36 | 69 | 114 | 30 | 29 | 28
+EQ | 5 | 
+   block_0_0.D = BUF_block_7_0;
+   block_0_0.CLK = A7 & A5 & !A3 & A2 & A1 & A6 & !A4 & !nWR & 
+	A0 & !nIORQ;
+   block_0_0.AR = !nRESET;
+   block_0_0.CE = !D2.PIN & !D1.PIN & !D0.PIN;
+
+MACROCELL | 3 | 17 | block_0_1
+ATTRIBUTES | 8520560 | 0
+OUTPUTMC | 2 | 0 | 13 | 0 | 2
+INPUTS | 15 | BUF_block_7_1  | A7  | A5  | A3  | A2  | A1  | A6  | A4  | nWR  | A0  | nIORQ  | nRESET  | D2.PIN  | D1.PIN  | D0.PIN
+INPUTMC | 1 | 6 | 13
+INPUTP | 14 | 95 | 97 | 56 | 49 | 44 | 57 | 102 | 82 | 36 | 69 | 114 | 30 | 29 | 28
+EQ | 5 | 
+   block_0_1.D = BUF_block_7_1;
+   block_0_1.CLK = A7 & A5 & !A3 & A2 & A1 & A6 & !A4 & !nWR & 
+	A0 & !nIORQ;
+   block_0_1.AR = !nRESET;
+   block_0_1.CE = !D2.PIN & !D1.PIN & !D0.PIN;
+
+MACROCELL | 5 | 17 | block_0_2
+ATTRIBUTES | 8520560 | 0
+OUTPUTMC | 2 | 1 | 9 | 0 | 14
+INPUTS | 15 | BUF_block_7_2  | A7  | A5  | A3  | A2  | A1  | A6  | A4  | nWR  | A0  | nIORQ  | nRESET  | D2.PIN  | D1.PIN  | D0.PIN
+INPUTMC | 1 | 6 | 12
+INPUTP | 14 | 95 | 97 | 56 | 49 | 44 | 57 | 102 | 82 | 36 | 69 | 114 | 30 | 29 | 28
+EQ | 5 | 
+   block_0_2.D = BUF_block_7_2;
+   block_0_2.CLK = A7 & A5 & !A3 & A2 & A1 & A6 & !A4 & !nWR & 
+	A0 & !nIORQ;
+   block_0_2.AR = !nRESET;
+   block_0_2.CE = !D2.PIN & !D1.PIN & !D0.PIN;
+
+MACROCELL | 5 | 15 | block_0_3
+ATTRIBUTES | 8520560 | 0
+OUTPUTMC | 2 | 2 | 10 | 1 | 12
+INPUTS | 15 | BUF_block_7_3  | A7  | A5  | A3  | A2  | A1  | A6  | A4  | nWR  | A0  | nIORQ  | nRESET  | D2.PIN  | D1.PIN  | D0.PIN
+INPUTMC | 1 | 6 | 11
+INPUTP | 14 | 95 | 97 | 56 | 49 | 44 | 57 | 102 | 82 | 36 | 69 | 114 | 30 | 29 | 28
+EQ | 5 | 
+   block_0_3.D = BUF_block_7_3;
+   block_0_3.CLK = A7 & A5 & !A3 & A2 & A1 & A6 & !A4 & !nWR & 
+	A0 & !nIORQ;
+   block_0_3.AR = !nRESET;
+   block_0_3.CE = !D2.PIN & !D1.PIN & !D0.PIN;
+
+MACROCELL | 7 | 16 | block_0_4
+ATTRIBUTES | 8520560 | 0
+OUTPUTMC | 2 | 2 | 13 | 1 | 14
+INPUTS | 15 | BUF_block_7_4  | A7  | A5  | A3  | A2  | A1  | A6  | A4  | nWR  | A0  | nIORQ  | nRESET  | D2.PIN  | D1.PIN  | D0.PIN
+INPUTMC | 1 | 6 | 10
+INPUTP | 14 | 95 | 97 | 56 | 49 | 44 | 57 | 102 | 82 | 36 | 69 | 114 | 30 | 29 | 28
+EQ | 5 | 
+   block_0_4.D = BUF_block_7_4;
+   block_0_4.CLK = A7 & A5 & !A3 & A2 & A1 & A6 & !A4 & !nWR & 
+	A0 & !nIORQ;
+   block_0_4.AR = !nRESET;
+   block_0_4.CE = !D2.PIN & !D1.PIN & !D0.PIN;
+
+MACROCELL | 2 | 16 | block_0_5
+ATTRIBUTES | 8520560 | 0
+OUTPUTMC | 2 | 4 | 0 | 2 | 5
+INPUTS | 16 | A13  | FULL_PAGING  | A7  | A5  | A3  | A2  | A1  | A6  | A4  | nWR  | A0  | nIORQ  | nRESET  | D2.PIN  | D1.PIN  | D0.PIN
+INPUTP | 16 | 63 | 134 | 95 | 97 | 56 | 49 | 44 | 57 | 102 | 82 | 36 | 69 | 114 | 30 | 29 | 28
+EQ | 5 | 
+   block_0_5.D = A13 & FULL_PAGING;
+   block_0_5.CLK = A7 & A5 & !A3 & A2 & A1 & A6 & !A4 & !nWR & 
+	A0 & !nIORQ;
+   block_0_5.AR = !nRESET;
+   block_0_5.CE = !D2.PIN & !D1.PIN & !D0.PIN;
+
+MACROCELL | 2 | 15 | block_1_0
+ATTRIBUTES | 8520672 | 0
+OUTPUTMC | 2 | 1 | 0 | 0 | 11
+INPUTS | 15 | BUF_block_7_0  | A7  | A5  | A3  | A2  | A1  | A6  | A4  | nWR  | A0  | nIORQ  | nRESET  | D2.PIN  | D1.PIN  | D0.PIN
+INPUTMC | 1 | 6 | 14
+INPUTP | 14 | 95 | 97 | 56 | 49 | 44 | 57 | 102 | 82 | 36 | 69 | 114 | 30 | 29 | 28
+EQ | 5 | 
+   block_1_0.D = BUF_block_7_0;
+   block_1_0.CLK = A7 & A5 & !A3 & A2 & A1 & A6 & !A4 & !nWR & 
+	A0 & !nIORQ;
+   block_1_0.AP = !nRESET;
+   block_1_0.CE = !D2.PIN & !D1.PIN & D0.PIN;
+
+MACROCELL | 3 | 15 | block_1_1
+ATTRIBUTES | 8520560 | 0
+OUTPUTMC | 2 | 0 | 0 | 0 | 12
+INPUTS | 15 | BUF_block_7_1  | A7  | A5  | A3  | A2  | A1  | A6  | A4  | nWR  | A0  | nIORQ  | nRESET  | D2.PIN  | D1.PIN  | D0.PIN
+INPUTMC | 1 | 6 | 13
+INPUTP | 14 | 95 | 97 | 56 | 49 | 44 | 57 | 102 | 82 | 36 | 69 | 114 | 30 | 29 | 28
+EQ | 5 | 
+   block_1_1.D = BUF_block_7_1;
+   block_1_1.CLK = A7 & A5 & !A3 & A2 & A1 & A6 & !A4 & !nWR & 
+	A0 & !nIORQ;
+   block_1_1.AR = !nRESET;
+   block_1_1.CE = !D2.PIN & !D1.PIN & D0.PIN;
+
+MACROCELL | 5 | 13 | block_1_2
+ATTRIBUTES | 8520560 | 0
+OUTPUTMC | 2 | 1 | 9 | 0 | 14
+INPUTS | 15 | BUF_block_7_2  | A7  | A5  | A3  | A2  | A1  | A6  | A4  | nWR  | A0  | nIORQ  | nRESET  | D2.PIN  | D1.PIN  | D0.PIN
+INPUTMC | 1 | 6 | 12
+INPUTP | 14 | 95 | 97 | 56 | 49 | 44 | 57 | 102 | 82 | 36 | 69 | 114 | 30 | 29 | 28
+EQ | 5 | 
+   block_1_2.D = BUF_block_7_2;
+   block_1_2.CLK = A7 & A5 & !A3 & A2 & A1 & A6 & !A4 & !nWR & 
+	A0 & !nIORQ;
+   block_1_2.AR = !nRESET;
+   block_1_2.CE = !D2.PIN & !D1.PIN & D0.PIN;
+
+MACROCELL | 5 | 12 | block_1_3
+ATTRIBUTES | 8520560 | 0
+OUTPUTMC | 2 | 2 | 10 | 1 | 12
+INPUTS | 15 | BUF_block_7_3  | A7  | A5  | A3  | A2  | A1  | A6  | A4  | nWR  | A0  | nIORQ  | nRESET  | D2.PIN  | D1.PIN  | D0.PIN
+INPUTMC | 1 | 6 | 11
+INPUTP | 14 | 95 | 97 | 56 | 49 | 44 | 57 | 102 | 82 | 36 | 69 | 114 | 30 | 29 | 28
+EQ | 5 | 
+   block_1_3.D = BUF_block_7_3;
+   block_1_3.CLK = A7 & A5 & !A3 & A2 & A1 & A6 & !A4 & !nWR & 
+	A0 & !nIORQ;
+   block_1_3.AR = !nRESET;
+   block_1_3.CE = !D2.PIN & !D1.PIN & D0.PIN;
+
+MACROCELL | 7 | 15 | block_1_4
+ATTRIBUTES | 8520560 | 0
+OUTPUTMC | 2 | 2 | 13 | 1 | 14
+INPUTS | 15 | BUF_block_7_4  | A7  | A5  | A3  | A2  | A1  | A6  | A4  | nWR  | A0  | nIORQ  | nRESET  | D2.PIN  | D1.PIN  | D0.PIN
+INPUTMC | 1 | 6 | 10
+INPUTP | 14 | 95 | 97 | 56 | 49 | 44 | 57 | 102 | 82 | 36 | 69 | 114 | 30 | 29 | 28
+EQ | 5 | 
+   block_1_4.D = BUF_block_7_4;
+   block_1_4.CLK = A7 & A5 & !A3 & A2 & A1 & A6 & !A4 & !nWR & 
+	A0 & !nIORQ;
+   block_1_4.AR = !nRESET;
+   block_1_4.CE = !D2.PIN & !D1.PIN & D0.PIN;
+
+MACROCELL | 2 | 12 | block_1_5
+ATTRIBUTES | 8520560 | 0
+OUTPUTMC | 3 | 4 | 0 | 2 | 5 | 2 | 11
+INPUTS | 17 | A13  | FULL_PAGING  | A7  | A5  | A3  | A2  | A1  | A6  | A4  | nWR  | A0  | nIORQ  | nRESET  | D2.PIN  | D1.PIN  | D0.PIN  | BUF_block_7_0
+INPUTMC | 1 | 6 | 14
+INPUTP | 16 | 63 | 134 | 95 | 97 | 56 | 49 | 44 | 57 | 102 | 82 | 36 | 69 | 114 | 30 | 29 | 28
+EXPORTS | 1 | 2 | 11
+EQ | 6 | 
+   block_1_5.D = A13 & FULL_PAGING;
+   block_1_5.CLK = A7 & A5 & !A3 & A2 & A1 & A6 & !A4 & !nWR & 
+	A0 & !nIORQ;
+   block_1_5.AR = !nRESET;
+   block_1_5.CE = !D2.PIN & !D1.PIN & D0.PIN;
+    block_1_5.EXP  =  BUF_block_7_0
+
+MACROCELL | 2 | 11 | block_2_0
+ATTRIBUTES | 8520560 | 0
+OUTPUTMC | 3 | 1 | 1 | 0 | 10 | 2 | 10
+INPUTS | 20 | block_2_3  | A7  | A5  | A3  | A2  | A1  | A6  | A4  | nWR  | A0  | nIORQ  | nRESET  | D2.PIN  | D1.PIN  | D0.PIN  | A8  | A10  | A9  | block_5_3  | block_1_5.EXP
+INPUTMC | 3 | 5 | 10 | 5 | 4 | 2 | 12
+INPUTP | 17 | 95 | 97 | 56 | 49 | 44 | 57 | 102 | 82 | 36 | 69 | 114 | 30 | 29 | 28 | 90 | 79 | 86
+EXPORTS | 1 | 2 | 10
+IMPORTS | 1 | 2 | 12
+EQ | 8 | 
+   block_2_0.D = ;Imported pterms FB3_13
+	  BUF_block_7_0;
+   block_2_0.CLK = A7 & A5 & !A3 & A2 & A1 & A6 & !A4 & !nWR & 
+	A0 & !nIORQ;
+   block_2_0.AR = !nRESET;
+   block_2_0.CE = !D2.PIN & D1.PIN & !D0.PIN;
+    block_2_0.EXP  =  block_2_3 & !A8 & !A10 & A9
+	# block_5_3 & A8 & A10 & !A9
+
+MACROCELL | 3 | 12 | block_2_1
+ATTRIBUTES | 8520672 | 0
+OUTPUTMC | 2 | 0 | 1 | 0 | 12
+INPUTS | 15 | BUF_block_7_1  | A7  | A5  | A3  | A2  | A1  | A6  | A4  | nWR  | A0  | nIORQ  | nRESET  | D2.PIN  | D1.PIN  | D0.PIN
+INPUTMC | 1 | 6 | 13
+INPUTP | 14 | 95 | 97 | 56 | 49 | 44 | 57 | 102 | 82 | 36 | 69 | 114 | 30 | 29 | 28
+EQ | 5 | 
+   block_2_1.D = BUF_block_7_1;
+   block_2_1.CLK = A7 & A5 & !A3 & A2 & A1 & A6 & !A4 & !nWR & 
+	A0 & !nIORQ;
+   block_2_1.AP = !nRESET;
+   block_2_1.CE = !D2.PIN & D1.PIN & !D0.PIN;
+
+MACROCELL | 5 | 11 | block_2_2
+ATTRIBUTES | 8520560 | 0
+OUTPUTMC | 2 | 1 | 10 | 0 | 15
+INPUTS | 15 | BUF_block_7_2  | A7  | A5  | A3  | A2  | A1  | A6  | A4  | nWR  | A0  | nIORQ  | nRESET  | D2.PIN  | D1.PIN  | D0.PIN
+INPUTMC | 1 | 6 | 12
+INPUTP | 14 | 95 | 97 | 56 | 49 | 44 | 57 | 102 | 82 | 36 | 69 | 114 | 30 | 29 | 28
+EQ | 5 | 
+   block_2_2.D = BUF_block_7_2;
+   block_2_2.CLK = A7 & A5 & !A3 & A2 & A1 & A6 & !A4 & !nWR & 
+	A0 & !nIORQ;
+   block_2_2.AR = !nRESET;
+   block_2_2.CE = !D2.PIN & D1.PIN & !D0.PIN;
+
+MACROCELL | 5 | 10 | block_2_3
+ATTRIBUTES | 8520560 | 0
+OUTPUTMC | 2 | 1 | 11 | 2 | 11
+INPUTS | 15 | BUF_block_7_3  | A7  | A5  | A3  | A2  | A1  | A6  | A4  | nWR  | A0  | nIORQ  | nRESET  | D2.PIN  | D1.PIN  | D0.PIN
+INPUTMC | 1 | 6 | 11
+INPUTP | 14 | 95 | 97 | 56 | 49 | 44 | 57 | 102 | 82 | 36 | 69 | 114 | 30 | 29 | 28
+EQ | 5 | 
+   block_2_3.D = BUF_block_7_3;
+   block_2_3.CLK = A7 & A5 & !A3 & A2 & A1 & A6 & !A4 & !nWR & 
+	A0 & !nIORQ;
+   block_2_3.AR = !nRESET;
+   block_2_3.CE = !D2.PIN & D1.PIN & !D0.PIN;
+
+MACROCELL | 7 | 13 | block_2_4
+ATTRIBUTES | 8520560 | 0
+OUTPUTMC | 2 | 1 | 13 | 2 | 14
+INPUTS | 15 | BUF_block_7_4  | A7  | A5  | A3  | A2  | A1  | A6  | A4  | nWR  | A0  | nIORQ  | nRESET  | D2.PIN  | D1.PIN  | D0.PIN
+INPUTMC | 1 | 6 | 10
+INPUTP | 14 | 95 | 97 | 56 | 49 | 44 | 57 | 102 | 82 | 36 | 69 | 114 | 30 | 29 | 28
+EQ | 5 | 
+   block_2_4.D = BUF_block_7_4;
+   block_2_4.CLK = A7 & A5 & !A3 & A2 & A1 & A6 & !A4 & !nWR & 
+	A0 & !nIORQ;
+   block_2_4.AR = !nRESET;
+   block_2_4.CE = !D2.PIN & D1.PIN & !D0.PIN;
+
+MACROCELL | 2 | 9 | block_2_5
+ATTRIBUTES | 8520560 | 0
+OUTPUTMC | 3 | 4 | 17 | 2 | 6 | 2 | 10
+INPUTS | 20 | block_3_3  | A8  | A7  | A5  | A3  | A2  | A1  | A6  | A4  | nWR  | A0  | nIORQ  | nRESET  | D2.PIN  | D1.PIN  | D0.PIN  | A10  | A9  | block_7_3  | block_3_0.EXP
+INPUTMC | 3 | 5 | 8 | 5 | 0 | 2 | 8
+INPUTP | 17 | 90 | 95 | 97 | 56 | 49 | 44 | 57 | 102 | 82 | 36 | 69 | 114 | 30 | 29 | 28 | 79 | 86
+EXPORTS | 1 | 2 | 10
+IMPORTS | 1 | 2 | 8
+EQ | 8 | 
+   block_2_5.D = ;Imported pterms FB3_9
+	  A13 & FULL_PAGING;
+   block_2_5.CLK = A7 & A5 & !A3 & A2 & A1 & A6 & !A4 & !nWR & 
+	A0 & !nIORQ;
+   block_2_5.AR = !nRESET;
+   block_2_5.CE = !D2.PIN & D1.PIN & !D0.PIN;
+    block_2_5.EXP  =  block_3_3 & A8 & !A10 & A9
+	# block_7_3 & A8 & A10 & A9
+
+MACROCELL | 2 | 8 | block_3_0
+ATTRIBUTES | 8520672 | 0
+OUTPUTMC | 3 | 1 | 1 | 0 | 10 | 2 | 9
+INPUTS | 17 | BUF_block_7_0  | A7  | A5  | A3  | A2  | A1  | A6  | A4  | nWR  | A0  | nIORQ  | nRESET  | D2.PIN  | D1.PIN  | D0.PIN  | A13  | FULL_PAGING
+INPUTMC | 1 | 6 | 14
+INPUTP | 16 | 95 | 97 | 56 | 49 | 44 | 57 | 102 | 82 | 36 | 69 | 114 | 30 | 29 | 28 | 63 | 134
+EXPORTS | 1 | 2 | 9
+EQ | 6 | 
+   block_3_0.D = BUF_block_7_0;
+   block_3_0.CLK = A7 & A5 & !A3 & A2 & A1 & A6 & !A4 & !nWR & 
+	A0 & !nIORQ;
+   block_3_0.AP = !nRESET;
+   block_3_0.CE = !D2.PIN & D1.PIN & D0.PIN;
+    block_3_0.EXP  =  A13 & FULL_PAGING
+
+MACROCELL | 3 | 9 | block_3_1
+ATTRIBUTES | 8520672 | 0
+OUTPUTMC | 2 | 0 | 1 | 0 | 12
+INPUTS | 15 | BUF_block_7_1  | A7  | A5  | A3  | A2  | A1  | A6  | A4  | nWR  | A0  | nIORQ  | nRESET  | D2.PIN  | D1.PIN  | D0.PIN
+INPUTMC | 1 | 6 | 13
+INPUTP | 14 | 95 | 97 | 56 | 49 | 44 | 57 | 102 | 82 | 36 | 69 | 114 | 30 | 29 | 28
+EQ | 5 | 
+   block_3_1.D = BUF_block_7_1;
+   block_3_1.CLK = A7 & A5 & !A3 & A2 & A1 & A6 & !A4 & !nWR & 
+	A0 & !nIORQ;
+   block_3_1.AP = !nRESET;
+   block_3_1.CE = !D2.PIN & D1.PIN & D0.PIN;
+
+MACROCELL | 5 | 9 | block_3_2
+ATTRIBUTES | 8520560 | 0
+OUTPUTMC | 2 | 1 | 10 | 0 | 13
+INPUTS | 15 | BUF_block_7_2  | A7  | A5  | A3  | A2  | A1  | A6  | A4  | nWR  | A0  | nIORQ  | nRESET  | D2.PIN  | D1.PIN  | D0.PIN
+INPUTMC | 1 | 6 | 12
+INPUTP | 14 | 95 | 97 | 56 | 49 | 44 | 57 | 102 | 82 | 36 | 69 | 114 | 30 | 29 | 28
+EQ | 5 | 
+   block_3_2.D = BUF_block_7_2;
+   block_3_2.CLK = A7 & A5 & !A3 & A2 & A1 & A6 & !A4 & !nWR & 
+	A0 & !nIORQ;
+   block_3_2.AR = !nRESET;
+   block_3_2.CE = !D2.PIN & D1.PIN & D0.PIN;
+
+MACROCELL | 5 | 8 | block_3_3
+ATTRIBUTES | 8520560 | 0
+OUTPUTMC | 2 | 1 | 11 | 2 | 9
+INPUTS | 15 | BUF_block_7_3  | A7  | A5  | A3  | A2  | A1  | A6  | A4  | nWR  | A0  | nIORQ  | nRESET  | D2.PIN  | D1.PIN  | D0.PIN
+INPUTMC | 1 | 6 | 11
+INPUTP | 14 | 95 | 97 | 56 | 49 | 44 | 57 | 102 | 82 | 36 | 69 | 114 | 30 | 29 | 28
+EQ | 5 | 
+   block_3_3.D = BUF_block_7_3;
+   block_3_3.CLK = A7 & A5 & !A3 & A2 & A1 & A6 & !A4 & !nWR & 
+	A0 & !nIORQ;
+   block_3_3.AR = !nRESET;
+   block_3_3.CE = !D2.PIN & D1.PIN & D0.PIN;
+
+MACROCELL | 7 | 12 | block_3_4
+ATTRIBUTES | 8520560 | 0
+OUTPUTMC | 2 | 1 | 13 | 2 | 14
+INPUTS | 15 | BUF_block_7_4  | A7  | A5  | A3  | A2  | A1  | A6  | A4  | nWR  | A0  | nIORQ  | nRESET  | D2.PIN  | D1.PIN  | D0.PIN
+INPUTMC | 1 | 6 | 10
+INPUTP | 14 | 95 | 97 | 56 | 49 | 44 | 57 | 102 | 82 | 36 | 69 | 114 | 30 | 29 | 28
+EQ | 5 | 
+   block_3_4.D = BUF_block_7_4;
+   block_3_4.CLK = A7 & A5 & !A3 & A2 & A1 & A6 & !A4 & !nWR & 
+	A0 & !nIORQ;
+   block_3_4.AR = !nRESET;
+   block_3_4.CE = !D2.PIN & D1.PIN & D0.PIN;
+
+MACROCELL | 2 | 7 | block_3_5
+ATTRIBUTES | 8520560 | 0
+OUTPUTMC | 3 | 4 | 17 | 2 | 4 | 2 | 6
+INPUTS | 17 | A13  | FULL_PAGING  | A7  | A5  | A3  | A2  | A1  | A6  | A4  | nWR  | A0  | nIORQ  | nRESET  | D2.PIN  | D1.PIN  | D0.PIN  | BUF_block_7_0
+INPUTMC | 1 | 6 | 14
+INPUTP | 16 | 63 | 134 | 95 | 97 | 56 | 49 | 44 | 57 | 102 | 82 | 36 | 69 | 114 | 30 | 29 | 28
+EXPORTS | 1 | 2 | 6
+EQ | 6 | 
+   block_3_5.D = A13 & FULL_PAGING;
+   block_3_5.CLK = A7 & A5 & !A3 & A2 & A1 & A6 & !A4 & !nWR & 
+	A0 & !nIORQ;
+   block_3_5.AR = !nRESET;
+   block_3_5.CE = !D2.PIN & D1.PIN & D0.PIN;
+    block_3_5.EXP  =  BUF_block_7_0
+
+MACROCELL | 2 | 6 | block_4_0
+ATTRIBUTES | 8520560 | 0
+OUTPUTMC | 3 | 1 | 1 | 0 | 11 | 2 | 5
+INPUTS | 20 | block_2_5  | A7  | A5  | A3  | A2  | A1  | A6  | A4  | nWR  | A0  | nIORQ  | nRESET  | D2.PIN  | D1.PIN  | D0.PIN  | A8  | A10  | A9  | block_5_5  | block_3_5.EXP
+INPUTMC | 3 | 2 | 9 | 2 | 3 | 2 | 7
+INPUTP | 17 | 95 | 97 | 56 | 49 | 44 | 57 | 102 | 82 | 36 | 69 | 114 | 30 | 29 | 28 | 90 | 79 | 86
+EXPORTS | 1 | 2 | 5
+IMPORTS | 1 | 2 | 7
+EQ | 8 | 
+   block_4_0.D = ;Imported pterms FB3_8
+	  BUF_block_7_0;
+   block_4_0.CLK = A7 & A5 & !A3 & A2 & A1 & A6 & !A4 & !nWR & 
+	A0 & !nIORQ;
+   block_4_0.AR = !nRESET;
+   block_4_0.CE = D2.PIN & !D1.PIN & !D0.PIN;
+    block_4_0.EXP  =  block_2_5 & !A8 & !A10 & A9
+	# block_5_5 & A8 & A10 & !A9
+
+MACROCELL | 3 | 6 | block_4_1
+ATTRIBUTES | 8520560 | 0
+OUTPUTMC | 2 | 0 | 1 | 0 | 13
+INPUTS | 15 | BUF_block_7_1  | A7  | A5  | A3  | A2  | A1  | A6  | A4  | nWR  | A0  | nIORQ  | nRESET  | D2.PIN  | D1.PIN  | D0.PIN
+INPUTMC | 1 | 6 | 13
+INPUTP | 14 | 95 | 97 | 56 | 49 | 44 | 57 | 102 | 82 | 36 | 69 | 114 | 30 | 29 | 28
+EQ | 5 | 
+   block_4_1.D = BUF_block_7_1;
+   block_4_1.CLK = A7 & A5 & !A3 & A2 & A1 & A6 & !A4 & !nWR & 
+	A0 & !nIORQ;
+   block_4_1.AR = !nRESET;
+   block_4_1.CE = D2.PIN & !D1.PIN & !D0.PIN;
+
+MACROCELL | 5 | 7 | block_4_2
+ATTRIBUTES | 8520672 | 0
+OUTPUTMC | 2 | 1 | 10 | 0 | 14
+INPUTS | 15 | BUF_block_7_2  | A7  | A5  | A3  | A2  | A1  | A6  | A4  | nWR  | A0  | nIORQ  | nRESET  | D2.PIN  | D1.PIN  | D0.PIN
+INPUTMC | 1 | 6 | 12
+INPUTP | 14 | 95 | 97 | 56 | 49 | 44 | 57 | 102 | 82 | 36 | 69 | 114 | 30 | 29 | 28
+EQ | 5 | 
+   block_4_2.D = BUF_block_7_2;
+   block_4_2.CLK = A7 & A5 & !A3 & A2 & A1 & A6 & !A4 & !nWR & 
+	A0 & !nIORQ;
+   block_4_2.AP = !nRESET;
+   block_4_2.CE = D2.PIN & !D1.PIN & !D0.PIN;
+
+MACROCELL | 5 | 6 | block_4_3
+ATTRIBUTES | 8520560 | 0
+OUTPUTMC | 2 | 1 | 11 | 2 | 10
+INPUTS | 15 | BUF_block_7_3  | A7  | A5  | A3  | A2  | A1  | A6  | A4  | nWR  | A0  | nIORQ  | nRESET  | D2.PIN  | D1.PIN  | D0.PIN
+INPUTMC | 1 | 6 | 11
+INPUTP | 14 | 95 | 97 | 56 | 49 | 44 | 57 | 102 | 82 | 36 | 69 | 114 | 30 | 29 | 28
+EQ | 5 | 
+   block_4_3.D = BUF_block_7_3;
+   block_4_3.CLK = A7 & A5 & !A3 & A2 & A1 & A6 & !A4 & !nWR & 
+	A0 & !nIORQ;
+   block_4_3.AR = !nRESET;
+   block_4_3.CE = D2.PIN & !D1.PIN & !D0.PIN;
+
+MACROCELL | 7 | 11 | block_4_4
+ATTRIBUTES | 8520560 | 0
+OUTPUTMC | 2 | 1 | 13 | 2 | 13
+INPUTS | 15 | BUF_block_7_4  | A7  | A5  | A3  | A2  | A1  | A6  | A4  | nWR  | A0  | nIORQ  | nRESET  | D2.PIN  | D1.PIN  | D0.PIN
+INPUTMC | 1 | 6 | 10
+INPUTP | 14 | 95 | 97 | 56 | 49 | 44 | 57 | 102 | 82 | 36 | 69 | 114 | 30 | 29 | 28
+EQ | 5 | 
+   block_4_4.D = BUF_block_7_4;
+   block_4_4.CLK = A7 & A5 & !A3 & A2 & A1 & A6 & !A4 & !nWR & 
+	A0 & !nIORQ;
+   block_4_4.AR = !nRESET;
+   block_4_4.CE = D2.PIN & !D1.PIN & !D0.PIN;
+
+MACROCELL | 2 | 4 | block_4_5
+ATTRIBUTES | 8520560 | 0
+OUTPUTMC | 2 | 4 | 17 | 2 | 5
+INPUTS | 20 | block_3_5  | A8  | A7  | A5  | A3  | A2  | A1  | A6  | A4  | nWR  | A0  | nIORQ  | nRESET  | D2.PIN  | D1.PIN  | D0.PIN  | A10  | A9  | block_7_5  | block_5_5.EXP
+INPUTMC | 3 | 2 | 7 | 2 | 0 | 2 | 3
+INPUTP | 17 | 90 | 95 | 97 | 56 | 49 | 44 | 57 | 102 | 82 | 36 | 69 | 114 | 30 | 29 | 28 | 79 | 86
+EXPORTS | 1 | 2 | 5
+IMPORTS | 1 | 2 | 3
+EQ | 8 | 
+   block_4_5.D = ;Imported pterms FB3_4
+	  A13 & FULL_PAGING;
+   block_4_5.CLK = A7 & A5 & !A3 & A2 & A1 & A6 & !A4 & !nWR & 
+	A0 & !nIORQ;
+   block_4_5.AR = !nRESET;
+   block_4_5.CE = D2.PIN & !D1.PIN & !D0.PIN;
+    block_4_5.EXP  =  block_3_5 & A8 & !A10 & A9
+	# block_7_5 & A8 & A10 & A9
+
+MACROCELL | 7 | 10 | block_5_0
+ATTRIBUTES | 8520672 | 0
+OUTPUTMC | 2 | 0 | 10 | 1 | 2
+INPUTS | 15 | BUF_block_7_0  | A7  | A5  | A3  | A2  | A1  | A6  | A4  | nWR  | A0  | nIORQ  | nRESET  | D2.PIN  | D1.PIN  | D0.PIN
+INPUTMC | 1 | 6 | 14
+INPUTP | 14 | 95 | 97 | 56 | 49 | 44 | 57 | 102 | 82 | 36 | 69 | 114 | 30 | 29 | 28
+EQ | 5 | 
+   block_5_0.D = BUF_block_7_0;
+   block_5_0.CLK = A7 & A5 & !A3 & A2 & A1 & A6 & !A4 & !nWR & 
+	A0 & !nIORQ;
+   block_5_0.AP = !nRESET;
+   block_5_0.CE = D2.PIN & !D1.PIN & D0.PIN;
+
+MACROCELL | 3 | 3 | block_5_1
+ATTRIBUTES | 8520560 | 0
+OUTPUTMC | 2 | 0 | 0 | 0 | 12
+INPUTS | 15 | BUF_block_7_1  | A7  | A5  | A3  | A2  | A1  | A6  | A4  | nWR  | A0  | nIORQ  | nRESET  | D2.PIN  | D1.PIN  | D0.PIN
+INPUTMC | 1 | 6 | 13
+INPUTP | 14 | 95 | 97 | 56 | 49 | 44 | 57 | 102 | 82 | 36 | 69 | 114 | 30 | 29 | 28
+EQ | 5 | 
+   block_5_1.D = BUF_block_7_1;
+   block_5_1.CLK = A7 & A5 & !A3 & A2 & A1 & A6 & !A4 & !nWR & 
+	A0 & !nIORQ;
+   block_5_1.AR = !nRESET;
+   block_5_1.CE = D2.PIN & !D1.PIN & D0.PIN;
+
+MACROCELL | 5 | 5 | block_5_2
+ATTRIBUTES | 8520672 | 0
+OUTPUTMC | 2 | 1 | 9 | 0 | 15
+INPUTS | 15 | BUF_block_7_2  | A7  | A5  | A3  | A2  | A1  | A6  | A4  | nWR  | A0  | nIORQ  | nRESET  | D2.PIN  | D1.PIN  | D0.PIN
+INPUTMC | 1 | 6 | 12
+INPUTP | 14 | 95 | 97 | 56 | 49 | 44 | 57 | 102 | 82 | 36 | 69 | 114 | 30 | 29 | 28
+EQ | 5 | 
+   block_5_2.D = BUF_block_7_2;
+   block_5_2.CLK = A7 & A5 & !A3 & A2 & A1 & A6 & !A4 & !nWR & 
+	A0 & !nIORQ;
+   block_5_2.AP = !nRESET;
+   block_5_2.CE = D2.PIN & !D1.PIN & D0.PIN;
+
+MACROCELL | 5 | 4 | block_5_3
+ATTRIBUTES | 8520560 | 0
+OUTPUTMC | 2 | 1 | 12 | 2 | 11
+INPUTS | 15 | BUF_block_7_3  | A7  | A5  | A3  | A2  | A1  | A6  | A4  | nWR  | A0  | nIORQ  | nRESET  | D2.PIN  | D1.PIN  | D0.PIN
+INPUTMC | 1 | 6 | 11
+INPUTP | 14 | 95 | 97 | 56 | 49 | 44 | 57 | 102 | 82 | 36 | 69 | 114 | 30 | 29 | 28
+EQ | 5 | 
+   block_5_3.D = BUF_block_7_3;
+   block_5_3.CLK = A7 & A5 & !A3 & A2 & A1 & A6 & !A4 & !nWR & 
+	A0 & !nIORQ;
+   block_5_3.AR = !nRESET;
+   block_5_3.CE = D2.PIN & !D1.PIN & D0.PIN;
+
+MACROCELL | 7 | 9 | block_5_4
+ATTRIBUTES | 8520560 | 0
+OUTPUTMC | 2 | 1 | 14 | 2 | 14
+INPUTS | 15 | BUF_block_7_4  | A7  | A5  | A3  | A2  | A1  | A6  | A4  | nWR  | A0  | nIORQ  | nRESET  | D2.PIN  | D1.PIN  | D0.PIN
+INPUTMC | 1 | 6 | 10
+INPUTP | 14 | 95 | 97 | 56 | 49 | 44 | 57 | 102 | 82 | 36 | 69 | 114 | 30 | 29 | 28
+EQ | 5 | 
+   block_5_4.D = BUF_block_7_4;
+   block_5_4.CLK = A7 & A5 & !A3 & A2 & A1 & A6 & !A4 & !nWR & 
+	A0 & !nIORQ;
+   block_5_4.AR = !nRESET;
+   block_5_4.CE = D2.PIN & !D1.PIN & D0.PIN;
+
+MACROCELL | 2 | 3 | block_5_5
+ATTRIBUTES | 8520560 | 0
+OUTPUTMC | 3 | 4 | 0 | 2 | 6 | 2 | 4
+INPUTS | 16 | A13  | FULL_PAGING  | A7  | A5  | A3  | A2  | A1  | A6  | A4  | nWR  | A0  | nIORQ  | nRESET  | D2.PIN  | D1.PIN  | D0.PIN
+INPUTP | 16 | 63 | 134 | 95 | 97 | 56 | 49 | 44 | 57 | 102 | 82 | 36 | 69 | 114 | 30 | 29 | 28
+EXPORTS | 1 | 2 | 4
+EQ | 6 | 
+   block_5_5.D = A13 & FULL_PAGING;
+   block_5_5.CLK = A7 & A5 & !A3 & A2 & A1 & A6 & !A4 & !nWR & 
+	A0 & !nIORQ;
+   block_5_5.AR = !nRESET;
+   block_5_5.CE = D2.PIN & !D1.PIN & D0.PIN;
+    block_5_5.EXP  =  A13 & FULL_PAGING
+
+MACROCELL | 7 | 8 | block_6_0
+ATTRIBUTES | 8520560 | 0
+OUTPUTMC | 2 | 1 | 0 | 0 | 11
+INPUTS | 15 | BUF_block_7_0  | A7  | A5  | A3  | A2  | A1  | A6  | A4  | nWR  | A0  | nIORQ  | nRESET  | D2.PIN  | D1.PIN  | D0.PIN
+INPUTMC | 1 | 6 | 14
+INPUTP | 14 | 95 | 97 | 56 | 49 | 44 | 57 | 102 | 82 | 36 | 69 | 114 | 30 | 29 | 28
+EQ | 5 | 
+   block_6_0.D = BUF_block_7_0;
+   block_6_0.CLK = A7 & A5 & !A3 & A2 & A1 & A6 & !A4 & !nWR & 
+	A0 & !nIORQ;
+   block_6_0.AR = !nRESET;
+   block_6_0.CE = D2.PIN & D1.PIN & !D0.PIN;
+
+MACROCELL | 3 | 2 | block_6_1
+ATTRIBUTES | 8520672 | 0
+OUTPUTMC | 2 | 0 | 0 | 0 | 13
+INPUTS | 15 | BUF_block_7_1  | A7  | A5  | A3  | A2  | A1  | A6  | A4  | nWR  | A0  | nIORQ  | nRESET  | D2.PIN  | D1.PIN  | D0.PIN
+INPUTMC | 1 | 6 | 13
+INPUTP | 14 | 95 | 97 | 56 | 49 | 44 | 57 | 102 | 82 | 36 | 69 | 114 | 30 | 29 | 28
+EQ | 5 | 
+   block_6_1.D = BUF_block_7_1;
+   block_6_1.CLK = A7 & A5 & !A3 & A2 & A1 & A6 & !A4 & !nWR & 
+	A0 & !nIORQ;
+   block_6_1.AP = !nRESET;
+   block_6_1.CE = D2.PIN & D1.PIN & !D0.PIN;
+
+MACROCELL | 5 | 3 | block_6_2
+ATTRIBUTES | 8520560 | 0
+OUTPUTMC | 2 | 1 | 9 | 0 | 14
+INPUTS | 15 | BUF_block_7_2  | A7  | A5  | A3  | A2  | A1  | A6  | A4  | nWR  | A0  | nIORQ  | nRESET  | D2.PIN  | D1.PIN  | D0.PIN
+INPUTMC | 1 | 6 | 12
+INPUTP | 14 | 95 | 97 | 56 | 49 | 44 | 57 | 102 | 82 | 36 | 69 | 114 | 30 | 29 | 28
+EQ | 5 | 
+   block_6_2.D = BUF_block_7_2;
+   block_6_2.CLK = A7 & A5 & !A3 & A2 & A1 & A6 & !A4 & !nWR & 
+	A0 & !nIORQ;
+   block_6_2.AR = !nRESET;
+   block_6_2.CE = D2.PIN & D1.PIN & !D0.PIN;
+
+MACROCELL | 5 | 2 | block_6_3
+ATTRIBUTES | 8520560 | 0
+OUTPUTMC | 2 | 2 | 10 | 1 | 12
+INPUTS | 15 | BUF_block_7_3  | A7  | A5  | A3  | A2  | A1  | A6  | A4  | nWR  | A0  | nIORQ  | nRESET  | D2.PIN  | D1.PIN  | D0.PIN
+INPUTMC | 1 | 6 | 11
+INPUTP | 14 | 95 | 97 | 56 | 49 | 44 | 57 | 102 | 82 | 36 | 69 | 114 | 30 | 29 | 28
+EQ | 5 | 
+   block_6_3.D = BUF_block_7_3;
+   block_6_3.CLK = A7 & A5 & !A3 & A2 & A1 & A6 & !A4 & !nWR & 
+	A0 & !nIORQ;
+   block_6_3.AR = !nRESET;
+   block_6_3.CE = D2.PIN & D1.PIN & !D0.PIN;
+
+MACROCELL | 7 | 7 | block_6_4
+ATTRIBUTES | 8520560 | 0
+OUTPUTMC | 2 | 2 | 13 | 1 | 14
+INPUTS | 15 | BUF_block_7_4  | A7  | A5  | A3  | A2  | A1  | A6  | A4  | nWR  | A0  | nIORQ  | nRESET  | D2.PIN  | D1.PIN  | D0.PIN
+INPUTMC | 1 | 6 | 10
+INPUTP | 14 | 95 | 97 | 56 | 49 | 44 | 57 | 102 | 82 | 36 | 69 | 114 | 30 | 29 | 28
+EQ | 5 | 
+   block_6_4.D = BUF_block_7_4;
+   block_6_4.CLK = A7 & A5 & !A3 & A2 & A1 & A6 & !A4 & !nWR & 
+	A0 & !nIORQ;
+   block_6_4.AR = !nRESET;
+   block_6_4.CE = D2.PIN & D1.PIN & !D0.PIN;
+
+MACROCELL | 2 | 2 | block_6_5
+ATTRIBUTES | 8520560 | 0
+OUTPUTMC | 2 | 4 | 17 | 2 | 5
+INPUTS | 16 | A13  | FULL_PAGING  | A7  | A5  | A3  | A2  | A1  | A6  | A4  | nWR  | A0  | nIORQ  | nRESET  | D2.PIN  | D1.PIN  | D0.PIN
+INPUTP | 16 | 63 | 134 | 95 | 97 | 56 | 49 | 44 | 57 | 102 | 82 | 36 | 69 | 114 | 30 | 29 | 28
+EQ | 5 | 
+   block_6_5.D = A13 & FULL_PAGING;
+   block_6_5.CLK = A7 & A5 & !A3 & A2 & A1 & A6 & !A4 & !nWR & 
+	A0 & !nIORQ;
+   block_6_5.AR = !nRESET;
+   block_6_5.CE = D2.PIN & D1.PIN & !D0.PIN;
+
+MACROCELL | 7 | 6 | block_7_0
+ATTRIBUTES | 8520672 | 0
+OUTPUTMC | 2 | 1 | 1 | 0 | 10
+INPUTS | 15 | BUF_block_7_0  | A7  | A5  | A3  | A2  | A1  | A6  | A4  | nWR  | A0  | nIORQ  | nRESET  | D2.PIN  | D1.PIN  | D0.PIN
+INPUTMC | 1 | 6 | 14
+INPUTP | 14 | 95 | 97 | 56 | 49 | 44 | 57 | 102 | 82 | 36 | 69 | 114 | 30 | 29 | 28
+EQ | 5 | 
+   block_7_0.D = BUF_block_7_0;
+   block_7_0.CLK = A7 & A5 & !A3 & A2 & A1 & A6 & !A4 & !nWR & 
+	A0 & !nIORQ;
+   block_7_0.AP = !nRESET;
+   block_7_0.CE = D2.PIN & D1.PIN & D0.PIN;
+
+MACROCELL | 3 | 0 | block_7_1
+ATTRIBUTES | 8520672 | 0
+OUTPUTMC | 2 | 0 | 1 | 0 | 12
+INPUTS | 15 | BUF_block_7_1  | A7  | A5  | A3  | A2  | A1  | A6  | A4  | nWR  | A0  | nIORQ  | nRESET  | D2.PIN  | D1.PIN  | D0.PIN
+INPUTMC | 1 | 6 | 13
+INPUTP | 14 | 95 | 97 | 56 | 49 | 44 | 57 | 102 | 82 | 36 | 69 | 114 | 30 | 29 | 28
+EQ | 5 | 
+   block_7_1.D = BUF_block_7_1;
+   block_7_1.CLK = A7 & A5 & !A3 & A2 & A1 & A6 & !A4 & !nWR & 
+	A0 & !nIORQ;
+   block_7_1.AP = !nRESET;
+   block_7_1.CE = D2.PIN & D1.PIN & D0.PIN;
+
+MACROCELL | 5 | 1 | block_7_2
+ATTRIBUTES | 8520560 | 0
+OUTPUTMC | 2 | 1 | 10 | 0 | 15
+INPUTS | 15 | BUF_block_7_2  | A7  | A5  | A3  | A2  | A1  | A6  | A4  | nWR  | A0  | nIORQ  | nRESET  | D2.PIN  | D1.PIN  | D0.PIN
+INPUTMC | 1 | 6 | 12
+INPUTP | 14 | 95 | 97 | 56 | 49 | 44 | 57 | 102 | 82 | 36 | 69 | 114 | 30 | 29 | 28
+EQ | 5 | 
+   block_7_2.D = BUF_block_7_2;
+   block_7_2.CLK = A7 & A5 & !A3 & A2 & A1 & A6 & !A4 & !nWR & 
+	A0 & !nIORQ;
+   block_7_2.AR = !nRESET;
+   block_7_2.CE = D2.PIN & D1.PIN & D0.PIN;
+
+MACROCELL | 5 | 0 | block_7_3
+ATTRIBUTES | 8520560 | 0
+OUTPUTMC | 2 | 1 | 11 | 2 | 9
+INPUTS | 15 | BUF_block_7_3  | A7  | A5  | A3  | A2  | A1  | A6  | A4  | nWR  | A0  | nIORQ  | nRESET  | D2.PIN  | D1.PIN  | D0.PIN
+INPUTMC | 1 | 6 | 11
+INPUTP | 14 | 95 | 97 | 56 | 49 | 44 | 57 | 102 | 82 | 36 | 69 | 114 | 30 | 29 | 28
+EQ | 5 | 
+   block_7_3.D = BUF_block_7_3;
+   block_7_3.CLK = A7 & A5 & !A3 & A2 & A1 & A6 & !A4 & !nWR & 
+	A0 & !nIORQ;
+   block_7_3.AR = !nRESET;
+   block_7_3.CE = D2.PIN & D1.PIN & D0.PIN;
+
+MACROCELL | 7 | 5 | block_7_4
+ATTRIBUTES | 8520560 | 0
+OUTPUTMC | 2 | 1 | 13 | 2 | 14
+INPUTS | 15 | BUF_block_7_4  | A7  | A5  | A3  | A2  | A1  | A6  | A4  | nWR  | A0  | nIORQ  | nRESET  | D2.PIN  | D1.PIN  | D0.PIN
+INPUTMC | 1 | 6 | 10
+INPUTP | 14 | 95 | 97 | 56 | 49 | 44 | 57 | 102 | 82 | 36 | 69 | 114 | 30 | 29 | 28
+EQ | 5 | 
+   block_7_4.D = BUF_block_7_4;
+   block_7_4.CLK = A7 & A5 & !A3 & A2 & A1 & A6 & !A4 & !nWR & 
+	A0 & !nIORQ;
+   block_7_4.AR = !nRESET;
+   block_7_4.CE = D2.PIN & D1.PIN & D0.PIN;
+
+MACROCELL | 2 | 0 | block_7_5
+ATTRIBUTES | 8520560 | 0
+OUTPUTMC | 2 | 4 | 17 | 2 | 4
+INPUTS | 16 | A13  | FULL_PAGING  | A7  | A5  | A3  | A2  | A1  | A6  | A4  | nWR  | A0  | nIORQ  | nRESET  | D2.PIN  | D1.PIN  | D0.PIN
+INPUTP | 16 | 63 | 134 | 95 | 97 | 56 | 49 | 44 | 57 | 102 | 82 | 36 | 69 | 114 | 30 | 29 | 28
+EQ | 5 | 
+   block_7_5.D = A13 & FULL_PAGING;
+   block_7_5.CLK = A7 & A5 & !A3 & A2 & A1 & A6 & !A4 & !nWR & 
+	A0 & !nIORQ;
+   block_7_5.AR = !nRESET;
+   block_7_5.CE = D2.PIN & D1.PIN & D0.PIN;
+
+MACROCELL | 0 | 5 | nMEM_CE_and0000
+ATTRIBUTES | 265986 | 0
+INPUTS | 3 | nRFSH  | nMREQ  | nRESET
+INPUTP | 3 | 103 | 64 | 114
+EQ | 2 | 
+   nOE_ROMCS = nRFSH & nMREQ;
+   nOE_ROMCS.OE = nRESET;
+
+MACROCELL | 1 | 5 | A0x_OBUFE
+ATTRIBUTES | 265986 | 0
+INPUTS | 4 | A0  | $OpTx$FX_DC$6  | rowcnt<0>  | nRESET
+INPUTMC | 2 | 4 | 9 | 6 | 9
+INPUTP | 2 | 36 | 114
+EQ | 3 | 
+   A0x = rowcnt<0> & $OpTx$FX_DC$6
+	# A0 & !$OpTx$FX_DC$6;
+   A0x.OE = nRESET;
+
+MACROCELL | 1 | 1 | A13x_OBUFE
+ATTRIBUTES | 265986 | 0
+INPUTS | 10 | A15  | A14  | A13  | block_4_0  | block_3_0  | block_7_0  | block_2_0  | EXP13_.EXP  | EXP14_.EXP  | nRESET
+INPUTMC | 6 | 2 | 6 | 2 | 8 | 7 | 6 | 2 | 11 | 1 | 0 | 1 | 2
+INPUTP | 4 | 58 | 60 | 63 | 114
+IMPORTS | 2 | 1 | 0 | 1 | 2
+EQ | 11 | 
+   A13x = A15 & A14 & A13 & block_7_0
+	# A15 & !A14 & !A13 & block_4_0
+	# !A15 & A14 & A13 & block_3_0
+	# !A15 & A14 & !A13 & block_2_0
+;Imported pterms FB2_1
+	# A15 & A14 & !A13 & block_6_0
+	# !A15 & !A14 & A13 & block_1_0
+;Imported pterms FB2_3
+	# A15 & !A14 & A13 & block_5_0
+	# !A15 & !A14 & !A13 & block_0_0;
+   A13x.OE = nRESET;
+
+MACROCELL | 0 | 1 | A14x_OBUFE
+ATTRIBUTES | 265986 | 0
+INPUTS | 10 | A15  | A14  | A13  | block_4_1  | block_3_1  | block_7_1  | block_2_1  | EXP11_.EXP  | nMEM_OE_and0000.EXP  | nRESET
+INPUTMC | 6 | 3 | 6 | 3 | 9 | 3 | 0 | 3 | 12 | 0 | 0 | 0 | 2
+INPUTP | 4 | 58 | 60 | 63 | 114
+IMPORTS | 2 | 0 | 0 | 0 | 2
+EQ | 11 | 
+   A14x = A15 & A14 & A13 & block_7_1
+	# A15 & !A14 & !A13 & block_4_1
+	# !A15 & A14 & A13 & block_3_1
+	# !A15 & A14 & !A13 & block_2_1
+;Imported pterms FB1_1
+	# A15 & A14 & !A13 & block_6_1
+	# A15 & !A14 & A13 & block_5_1
+	# !A15 & !A14 & A13 & block_1_1
+;Imported pterms FB1_3
+	# !A15 & !A14 & !A13 & block_0_1;
+   A14x.OE = nRESET;
+
+MACROCELL | 1 | 10 | A15x_OBUFE
+ATTRIBUTES | 265986 | 0
+INPUTS | 9 | A15  | A14  | A13  | block_4_2  | block_3_2  | block_7_2  | block_2_2  | EXP15_.EXP  | nRESET
+INPUTMC | 5 | 5 | 7 | 5 | 9 | 5 | 1 | 5 | 11 | 1 | 9
+INPUTP | 4 | 58 | 60 | 63 | 114
+IMPORTS | 1 | 1 | 9
+EQ | 10 | 
+   A15x = A15 & A14 & A13 & block_7_2
+	# A15 & !A14 & !A13 & block_4_2
+	# !A15 & A14 & A13 & block_3_2
+	# !A15 & A14 & !A13 & block_2_2
+;Imported pterms FB2_10
+	# A15 & A14 & !A13 & block_6_2
+	# A15 & !A14 & A13 & block_5_2
+	# !A15 & !A14 & A13 & block_1_2
+	# !A15 & !A14 & !A13 & block_0_2;
+   A15x.OE = nRESET;
+
+MACROCELL | 1 | 11 | A16x_OBUFE
+ATTRIBUTES | 265986 | 0
+INPUTS | 9 | A15  | A14  | A13  | block_4_3  | block_3_3  | block_7_3  | block_2_3  | EXP16_.EXP  | nRESET
+INPUTMC | 5 | 5 | 6 | 5 | 8 | 5 | 0 | 5 | 10 | 1 | 12
+INPUTP | 4 | 58 | 60 | 63 | 114
+IMPORTS | 1 | 1 | 12
+EQ | 10 | 
+   A16x = A15 & A14 & A13 & block_7_3
+	# A15 & !A14 & !A13 & block_4_3
+	# !A15 & A14 & A13 & block_3_3
+	# !A15 & A14 & !A13 & block_2_3
+;Imported pterms FB2_13
+	# A15 & A14 & !A13 & block_6_3
+	# A15 & !A14 & A13 & block_5_3
+	# !A15 & !A14 & A13 & block_1_3
+	# !A15 & !A14 & !A13 & block_0_3;
+   A16x.OE = nRESET;
+
+MACROCELL | 1 | 13 | A17x_OBUFE
+ATTRIBUTES | 265986 | 0
+INPUTS | 9 | A15  | A14  | A13  | block_4_4  | block_3_4  | block_7_4  | block_2_4  | _10_.EXP  | nRESET
+INPUTMC | 5 | 7 | 11 | 7 | 12 | 7 | 5 | 7 | 13 | 1 | 14
+INPUTP | 4 | 58 | 60 | 63 | 114
+IMPORTS | 1 | 1 | 14
+EQ | 10 | 
+   A17x = A15 & A14 & A13 & block_7_4
+	# A15 & !A14 & !A13 & block_4_4
+	# !A15 & A14 & A13 & block_3_4
+	# !A15 & A14 & !A13 & block_2_4
+;Imported pterms FB2_15
+	# A15 & A14 & !A13 & block_6_4
+	# A15 & !A14 & A13 & block_5_4
+	# !A15 & !A14 & A13 & block_1_4
+	# !A15 & !A14 & !A13 & block_0_4;
+   A17x.OE = nRESET;
+
+MACROCELL | 4 | 17 | A18x_BUFR.MC
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 1 | 15
+INPUTS | 9 | A15  | A14  | A13  | block_4_5  | block_3_5  | block_7_5  | block_2_5  | block_6_5  | sync_counter_Madd__add0000__and0005/sync_counter_Madd__add0000__and0005_D2.EXP
+INPUTMC | 6 | 2 | 4 | 2 | 7 | 2 | 0 | 2 | 9 | 2 | 2 | 4 | 0
+INPUTP | 3 | 58 | 60 | 63
+IMPORTS | 1 | 4 | 0
+EQ | 9 | 
+   A18x_BUFR = A15 & A14 & A13 & block_7_5
+	# A15 & A14 & !A13 & block_6_5
+	# A15 & !A14 & !A13 & block_4_5
+	# !A15 & A14 & A13 & block_3_5
+	# !A15 & A14 & !A13 & block_2_5
+;Imported pterms FB5_1
+	# A15 & !A14 & A13 & block_5_5
+	# !A15 & !A14 & A13 & block_1_5
+	# !A15 & !A14 & !A13 & block_0_5;
+
+MACROCELL | 3 | 1 | A1x_OBUFE
+ATTRIBUTES | 265986 | 0
+INPUTS | 4 | A1  | $OpTx$FX_DC$6  | rowcnt<1>  | nRESET
+INPUTMC | 2 | 4 | 9 | 6 | 15
+INPUTP | 2 | 44 | 114
+EQ | 3 | 
+   A1x = A1 & !$OpTx$FX_DC$6
+	# rowcnt<1> & $OpTx$FX_DC$6;
+   A1x.OE = nRESET;
+
+MACROCELL | 3 | 4 | A2x_OBUFE
+ATTRIBUTES | 265986 | 0
+INPUTS | 4 | A2  | $OpTx$FX_DC$6  | rowcnt<2>  | nRESET
+INPUTMC | 2 | 4 | 9 | 4 | 13
+INPUTP | 2 | 49 | 114
+EQ | 3 | 
+   A2x = A2 & !$OpTx$FX_DC$6
+	# rowcnt<2> & $OpTx$FX_DC$6;
+   A2x.OE = nRESET;
+
+MACROCELL | 3 | 5 | A3x_OBUFE
+ATTRIBUTES | 265986 | 0
+INPUTS | 4 | A3  | $OpTx$FX_DC$6  | ram_data_latch<0>  | nRESET
+INPUTMC | 2 | 4 | 9 | 7 | 4
+INPUTP | 2 | 56 | 114
+EQ | 3 | 
+   A3x = A3 & !$OpTx$FX_DC$6
+	# ram_data_latch<0> & $OpTx$FX_DC$6;
+   A3x.OE = nRESET;
+
+MACROCELL | 3 | 7 | A4x_OBUFE
+ATTRIBUTES | 265986 | 0
+INPUTS | 4 | A4  | $OpTx$FX_DC$6  | ram_data_latch<1>  | nRESET
+INPUTMC | 2 | 4 | 9 | 7 | 3
+INPUTP | 2 | 102 | 114
+EQ | 3 | 
+   A4x = A4 & !$OpTx$FX_DC$6
+	# ram_data_latch<1> & $OpTx$FX_DC$6;
+   A4x.OE = nRESET;
+
+MACROCELL | 3 | 8 | A5x_OBUFE
+ATTRIBUTES | 265986 | 0
+INPUTS | 4 | A5  | $OpTx$FX_DC$6  | ram_data_latch<2>  | nRESET
+INPUTMC | 2 | 4 | 9 | 7 | 2
+INPUTP | 2 | 97 | 114
+EQ | 3 | 
+   A5x = A5 & !$OpTx$FX_DC$6
+	# ram_data_latch<2> & $OpTx$FX_DC$6;
+   A5x.OE = nRESET;
+
+MACROCELL | 3 | 10 | A6x_OBUFE
+ATTRIBUTES | 265986 | 0
+INPUTS | 4 | A6  | $OpTx$FX_DC$6  | ram_data_latch<3>  | nRESET
+INPUTMC | 2 | 4 | 9 | 7 | 1
+INPUTP | 2 | 57 | 114
+EQ | 3 | 
+   A6x = A6 & !$OpTx$FX_DC$6
+	# ram_data_latch<3> & $OpTx$FX_DC$6;
+   A6x.OE = nRESET;
+
+MACROCELL | 3 | 11 | A7x_OBUFE
+ATTRIBUTES | 265986 | 0
+INPUTS | 4 | A7  | $OpTx$FX_DC$6  | ram_data_latch<4>  | nRESET
+INPUTMC | 2 | 4 | 9 | 7 | 0
+INPUTP | 2 | 95 | 114
+EQ | 3 | 
+   A7x = A7 & !$OpTx$FX_DC$6
+	# ram_data_latch<4> & $OpTx$FX_DC$6;
+   A7x.OE = nRESET;
+
+MACROCELL | 3 | 13 | A8x_OBUFE
+ATTRIBUTES | 265986 | 0
+INPUTS | 4 | A8  | $OpTx$FX_DC$6  | ram_data_latch<5>  | nRESET
+INPUTMC | 2 | 4 | 9 | 6 | 17
+INPUTP | 2 | 90 | 114
+EQ | 3 | 
+   A8x = ram_data_latch<5> & $OpTx$FX_DC$6
+	# A8 & !$OpTx$FX_DC$6;
+   A8x.OE = nRESET;
+
+MACROCELL | 3 | 14 | A9x_OBUFE
+ATTRIBUTES | 265986 | 0
+INPUTS | 5 | nRFSH  | A9  | SEL_128CHARS  | ram_data_latch<6>  | nRESET
+INPUTMC | 1 | 6 | 16
+INPUTP | 4 | 103 | 86 | 127 | 114
+EQ | 4 | 
+   A9x = nRFSH & A9
+	# !SEL_128CHARS & A9
+	# !nRFSH & ram_data_latch<6> & SEL_128CHARS;
+   A9x.OE = nRESET;
+
+MACROCELL | 0 | 11 | D0_IOBUFE
+ATTRIBUTES | 265986 | 0
+INPUTS | 18 | block_4_0  | A8  | A10  | A9  | block_6_0  | block_0_0  | block_1_0  | nOE_RAMCS_OBUF.EXP  | A7  | A5  | A3  | A2  | A1  | nRD  | A6  | A4  | A0  | nIORQ
+INPUTMC | 5 | 2 | 6 | 7 | 8 | 2 | 17 | 2 | 15 | 0 | 10
+INPUTP | 13 | 90 | 79 | 86 | 95 | 97 | 56 | 49 | 44 | 77 | 57 | 102 | 36 | 69
+IMPORTS | 1 | 0 | 10
+EQ | 11 | 
+   D0 = block_0_0 & !A8 & !A10 & !A9
+	# block_1_0 & A8 & !A10 & !A9
+	# block_4_0 & !A8 & A10 & !A9
+	# block_6_0 & !A8 & A10 & A9
+;Imported pterms FB1_11
+	# block_2_0 & !A8 & !A10 & A9
+	# block_3_0 & A8 & !A10 & A9
+	# block_5_0 & A8 & A10 & !A9
+	# block_7_0 & A8 & A10 & A9;
+   D0.OE = A7 & A5 & !A3 & A2 & A1 & !nRD & A6 & !A4 & 
+	A0 & !nIORQ;
+
+MACROCELL | 0 | 13 | D1_IOBUFE
+ATTRIBUTES | 265986 | 0
+OUTPUTMC | 1 | 0 | 14
+INPUTS | 18 | block_4_1  | A8  | A10  | A9  | block_6_1  | block_0_1  | block_3_2  | EXP12_.EXP  | A7  | A5  | A3  | A2  | A1  | nRD  | A6  | A4  | A0  | nIORQ
+INPUTMC | 5 | 3 | 6 | 3 | 2 | 3 | 17 | 5 | 9 | 0 | 12
+INPUTP | 13 | 90 | 79 | 86 | 95 | 97 | 56 | 49 | 44 | 77 | 57 | 102 | 36 | 69
+EXPORTS | 1 | 0 | 14
+IMPORTS | 1 | 0 | 12
+EQ | 12 | 
+   D1 = block_0_1 & !A8 & !A10 & !A9
+	# block_4_1 & !A8 & A10 & !A9
+	# block_6_1 & !A8 & A10 & A9
+;Imported pterms FB1_13
+	# block_1_1 & A8 & !A10 & !A9
+	# block_2_1 & !A8 & !A10 & A9
+	# block_3_1 & A8 & !A10 & A9
+	# block_5_1 & A8 & A10 & !A9
+	# block_7_1 & A8 & A10 & A9;
+   D1.OE = A7 & A5 & !A3 & A2 & A1 & !nRD & A6 & !A4 & 
+	A0 & !nIORQ;
+    D1_IOBUFE.EXP  =  block_3_2 & A8 & !A10 & A9
+
+MACROCELL | 0 | 14 | D2_IOBUFE
+ATTRIBUTES | 265986 | 0
+INPUTS | 19 | block_4_2  | A8  | A10  | A9  | block_6_2  | block_0_2  | block_1_2  | D1_IOBUFE.EXP  | DATA_REG/DATA_REG_CLKF.EXP  | A7  | A5  | A3  | A2  | A1  | nRD  | A6  | A4  | A0  | nIORQ
+INPUTMC | 6 | 5 | 7 | 5 | 3 | 5 | 17 | 5 | 13 | 0 | 13 | 0 | 15
+INPUTP | 13 | 90 | 79 | 86 | 95 | 97 | 56 | 49 | 44 | 77 | 57 | 102 | 36 | 69
+IMPORTS | 2 | 0 | 13 | 0 | 15
+EQ | 12 | 
+   D2 = block_0_2 & !A8 & !A10 & !A9
+	# block_1_2 & A8 & !A10 & !A9
+	# block_4_2 & !A8 & A10 & !A9
+	# block_6_2 & !A8 & A10 & A9
+;Imported pterms FB1_14
+	# block_3_2 & A8 & !A10 & A9
+;Imported pterms FB1_16
+	# block_2_2 & !A8 & !A10 & A9
+	# block_5_2 & A8 & A10 & !A9
+	# block_7_2 & A8 & A10 & A9;
+   D2.OE = A7 & A5 & !A3 & A2 & A1 & !nRD & A6 & !A4 & 
+	A0 & !nIORQ;
+
+MACROCELL | 2 | 10 | D3_IOBUFE
+ATTRIBUTES | 265986 | 0
+INPUTS | 19 | block_4_3  | A8  | A10  | A9  | block_6_3  | block_0_3  | block_1_3  | block_2_5.EXP  | block_2_0.EXP  | A7  | A5  | A3  | A2  | A1  | nRD  | A6  | A4  | A0  | nIORQ
+INPUTMC | 6 | 5 | 6 | 5 | 2 | 5 | 15 | 5 | 12 | 2 | 9 | 2 | 11
+INPUTP | 13 | 90 | 79 | 86 | 95 | 97 | 56 | 49 | 44 | 77 | 57 | 102 | 36 | 69
+IMPORTS | 2 | 2 | 9 | 2 | 11
+EQ | 12 | 
+   D3 = block_0_3 & !A8 & !A10 & !A9
+	# block_1_3 & A8 & !A10 & !A9
+	# block_4_3 & !A8 & A10 & !A9
+	# block_6_3 & !A8 & A10 & A9
+;Imported pterms FB3_10
+	# block_3_3 & A8 & !A10 & A9
+	# block_7_3 & A8 & A10 & A9
+;Imported pterms FB3_12
+	# block_2_3 & !A8 & !A10 & A9
+	# block_5_3 & A8 & A10 & !A9;
+   D3.OE = A7 & A5 & !A3 & A2 & A1 & !nRD & A6 & !A4 & 
+	A0 & !nIORQ;
+
+MACROCELL | 2 | 13 | D4_IOBUFE
+ATTRIBUTES | 265986 | 0
+INPUTS | 18 | block_4_4  | A8  | A10  | A9  | block_6_4  | block_0_4  | block_1_4  | EXP18_.EXP  | A7  | A5  | A3  | A2  | A1  | nRD  | A6  | A4  | A0  | nIORQ
+INPUTMC | 5 | 7 | 11 | 7 | 7 | 7 | 16 | 7 | 15 | 2 | 14
+INPUTP | 13 | 90 | 79 | 86 | 95 | 97 | 56 | 49 | 44 | 77 | 57 | 102 | 36 | 69
+IMPORTS | 1 | 2 | 14
+EQ | 11 | 
+   D4 = block_0_4 & !A8 & !A10 & !A9
+	# block_1_4 & A8 & !A10 & !A9
+	# block_4_4 & !A8 & A10 & !A9
+	# block_6_4 & !A8 & A10 & A9
+;Imported pterms FB3_15
+	# block_2_4 & !A8 & !A10 & A9
+	# block_3_4 & A8 & !A10 & A9
+	# block_5_4 & A8 & A10 & !A9
+	# block_7_4 & A8 & A10 & A9;
+   D4.OE = A7 & A5 & !A3 & A2 & A1 & !nRD & A6 & !A4 & 
+	A0 & !nIORQ;
+
+MACROCELL | 2 | 5 | D5_IOBUFE
+ATTRIBUTES | 265986 | 0
+INPUTS | 19 | block_4_5  | A8  | A10  | A9  | block_6_5  | block_0_5  | block_1_5  | block_4_5.EXP  | block_4_0.EXP  | A7  | A5  | A3  | A2  | A1  | nRD  | A6  | A4  | A0  | nIORQ
+INPUTMC | 6 | 2 | 4 | 2 | 2 | 2 | 16 | 2 | 12 | 2 | 4 | 2 | 6
+INPUTP | 13 | 90 | 79 | 86 | 95 | 97 | 56 | 49 | 44 | 77 | 57 | 102 | 36 | 69
+IMPORTS | 2 | 2 | 4 | 2 | 6
+EQ | 12 | 
+   D5 = block_0_5 & !A8 & !A10 & !A9
+	# block_1_5 & A8 & !A10 & !A9
+	# block_4_5 & !A8 & A10 & !A9
+	# block_6_5 & !A8 & A10 & A9
+;Imported pterms FB3_5
+	# block_3_5 & A8 & !A10 & A9
+	# block_7_5 & A8 & A10 & A9
+;Imported pterms FB3_7
+	# block_2_5 & !A8 & !A10 & A9
+	# block_5_5 & A8 & A10 & !A9;
+   D5.OE = A7 & A5 & !A3 & A2 & A1 & !nRD & A6 & !A4 & 
+	A0 & !nIORQ;
+
+MACROCELL | 0 | 4 | nWRx_mux0000
+ATTRIBUTES | 265986 | 0
+INPUTS | 7 | nWR  | nMREQ  | A15  | A14  | A13  | ROM_WR_EN  | nRESET
+INPUTP | 7 | 82 | 64 | 58 | 60 | 63 | 130 | 114
+EQ | 4 | 
+   nWRx = nWR
+	# nMREQ
+	# !A15 & !A14 & !A13 & !ROM_WR_EN;
+   nWRx.OE = nRESET;
+
+MACROCELL | 0 | 2 | nMEM_OE_and0000
+ATTRIBUTES | 265986 | 0
+OUTPUTMC | 1 | 0 | 1
+INPUTS | 7 | nRFSH  | nRD  | nRESET  | A15  | A14  | A13  | block_0_1
+INPUTMC | 1 | 3 | 17
+INPUTP | 6 | 103 | 77 | 114 | 58 | 60 | 63
+EXPORTS | 1 | 0 | 1
+EQ | 3 | 
+   nMEM_OE = nRFSH & nRD;
+   nMEM_OE.OE = nRESET;
+    nMEM_OE_and0000.EXP  =  !A15 & !A14 & !A13 & block_0_1
+
+MACROCELL | 4 | 5 | sync_counter<0>
+ATTRIBUTES | 8553232 | 0
+OUTPUTMC | 9 | 4 | 0 | 4 | 12 | 4 | 11 | 4 | 10 | 4 | 4 | 4 | 15 | 4 | 8 | 4 | 6 | 4 | 14
+INPUTS | 3 | $OpTx$INV$1  | nIORQ  | nM1
+INPUTMC | 1 | 4 | 8
+INPUTP | 2 | 69 | 98
+EQ | 3 | 
+   !sync_counter<0>.D = $OpTx$INV$1;
+   sync_counter<0>.CLK = nCLOCK;	// GCK
+   sync_counter<0>.AR = !nIORQ & !nM1;
+GLOBALS | 1 | 2 | nCLOCK
+
+MACROCELL | 6 | 9 | rowcnt<0>
+ATTRIBUTES | 4326304 | 0
+OUTPUTMC | 3 | 1 | 5 | 6 | 15 | 4 | 13
+INPUTS | 2 | hsync  | vs
+INPUTMC | 2 | 4 | 16 | 7 | 17
+EQ | 3 | 
+   rowcnt<0>.T = Vcc;
+   rowcnt<0>.CLK = !hsync;
+   rowcnt<0>.AP = vs;
+
+MACROCELL | 4 | 16 | hsync
+ATTRIBUTES | 8553216 | 0
+OUTPUTMC | 4 | 6 | 9 | 4 | 16 | 6 | 15 | 4 | 13
+INPUTS | 8 | hsync  | sync_counter<5>  | sync_counter<6>  | sync_counter<7>  | BUF_sync_counter<5>  | nIORQ  | nM1  | sync_counter<6>.EXP
+INPUTMC | 6 | 4 | 16 | 4 | 3 | 4 | 15 | 4 | 2 | 4 | 6 | 4 | 15
+INPUTP | 2 | 69 | 98
+IMPORTS | 1 | 4 | 15
+EQ | 11 | 
+   hsync.D = hsync & sync_counter<5>
+	# hsync & sync_counter<6>
+	# hsync & sync_counter<7>
+	# hsync & !BUF_sync_counter<5>
+	# hsync & !nIORQ & !nM1
+;Imported pterms FB5_16
+	# sync_counter<0> & sync_counter<1> & 
+	sync_counter<2> & sync_counter<3> & !sync_counter<4> & 
+	!sync_counter<5> & !sync_counter<6> & !sync_counter<7> & 
+	!sync_counter<5>/sync_counter<5>_RSTF;
+   hsync.CLK = nCLOCK;	// GCK
+GLOBALS | 1 | 2 | nCLOCK
+
+MACROCELL | 4 | 12 | sync_counter<1>
+ATTRIBUTES | 8553232 | 0
+OUTPUTMC | 9 | 4 | 0 | 4 | 12 | 4 | 11 | 4 | 10 | 4 | 4 | 4 | 15 | 4 | 8 | 4 | 6 | 4 | 14
+INPUTS | 5 | sync_counter<0>  | sync_counter<1>  | $OpTx$INV$1  | nIORQ  | nM1
+INPUTMC | 3 | 4 | 5 | 4 | 12 | 4 | 8
+INPUTP | 2 | 69 | 98
+EQ | 4 | 
+   sync_counter<1>.D = sync_counter<0> & !sync_counter<1>
+	# sync_counter<1> & !$OpTx$INV$1;
+   sync_counter<1>.CLK = nCLOCK;	// GCK
+   sync_counter<1>.AR = !nIORQ & !nM1;
+GLOBALS | 1 | 2 | nCLOCK
+
+MACROCELL | 4 | 11 | sync_counter<2>
+ATTRIBUTES | 4358928 | 0
+OUTPUTMC | 8 | 4 | 0 | 4 | 11 | 4 | 10 | 4 | 4 | 4 | 15 | 4 | 8 | 4 | 6 | 4 | 14
+INPUTS | 6 | sync_counter<0>  | sync_counter<1>  | sync_counter<2>  | $OpTx$INV$1  | nIORQ  | nM1
+INPUTMC | 4 | 4 | 5 | 4 | 12 | 4 | 11 | 4 | 8
+INPUTP | 2 | 69 | 98
+EQ | 5 | 
+   sync_counter<2>.T = sync_counter<0> & sync_counter<1> & 
+	!sync_counter<2>
+	# sync_counter<1> & sync_counter<2> & $OpTx$INV$1;
+   sync_counter<2>.CLK = nCLOCK;	// GCK
+   sync_counter<2>.AR = !nIORQ & !nM1;
+GLOBALS | 1 | 2 | nCLOCK
+
+MACROCELL | 4 | 10 | sync_counter<3>
+ATTRIBUTES | 4358928 | 0
+OUTPUTMC | 7 | 4 | 0 | 4 | 10 | 4 | 4 | 4 | 15 | 4 | 8 | 4 | 6 | 4 | 14
+INPUTS | 7 | sync_counter<0>  | sync_counter<1>  | sync_counter<2>  | sync_counter<3>  | $OpTx$INV$1  | nIORQ  | nM1
+INPUTMC | 5 | 4 | 5 | 4 | 12 | 4 | 11 | 4 | 10 | 4 | 8
+INPUTP | 2 | 69 | 98
+EQ | 6 | 
+   sync_counter<3>.T = sync_counter<0> & sync_counter<1> & 
+	sync_counter<2> & !sync_counter<3>
+	# sync_counter<1> & sync_counter<2> & 
+	sync_counter<3> & $OpTx$INV$1;
+   sync_counter<3>.CLK = nCLOCK;	// GCK
+   sync_counter<3>.AR = !nIORQ & !nM1;
+GLOBALS | 1 | 2 | nCLOCK
+
+MACROCELL | 4 | 4 | sync_counter<4>
+ATTRIBUTES | 4358928 | 0
+OUTPUTMC | 5 | 4 | 0 | 4 | 15 | 4 | 8 | 4 | 6 | 4 | 14
+INPUTS | 6 | sync_counter<0>  | sync_counter<1>  | sync_counter<2>  | sync_counter<3>  | nIORQ  | nM1
+INPUTMC | 4 | 4 | 5 | 4 | 12 | 4 | 11 | 4 | 10
+INPUTP | 2 | 69 | 98
+EQ | 4 | 
+   sync_counter<4>.T = sync_counter<0> & sync_counter<1> & 
+	sync_counter<2> & sync_counter<3>;
+   sync_counter<4>.CLK = nCLOCK;	// GCK
+   sync_counter<4>.AR = !nIORQ & !nM1;
+GLOBALS | 1 | 2 | nCLOCK
+
+MACROCELL | 4 | 3 | sync_counter<5>
+ATTRIBUTES | 8553232 | 0
+OUTPUTMC | 6 | 4 | 16 | 4 | 15 | 4 | 8 | 4 | 6 | 4 | 14 | 4 | 0
+INPUTS | 3 | BUF_sync_counter<5>  | nIORQ  | nM1
+INPUTMC | 1 | 4 | 6
+INPUTP | 2 | 69 | 98
+EQ | 3 | 
+   sync_counter<5>.D = BUF_sync_counter<5>;
+   sync_counter<5>.CLK = nCLOCK;	// GCK
+   sync_counter<5>.AR = !nIORQ & !nM1;
+GLOBALS | 1 | 2 | nCLOCK
+
+MACROCELL | 4 | 15 | sync_counter<6>
+ATTRIBUTES | 8553232 | 0
+OUTPUTMC | 5 | 4 | 16 | 4 | 15 | 4 | 8 | 4 | 14 | 4 | 0
+INPUTS | 12 | sync_counter<6>  | sync_counter<7>  | BUF_sync_counter<7>  | sync_counter<0>  | sync_counter<1>  | sync_counter<2>  | sync_counter<3>  | sync_counter<4>  | sync_counter<5>  | nIORQ  | nM1  | sync_counter<5>/sync_counter<5>_RSTF
+INPUTMC | 10 | 4 | 15 | 4 | 2 | 4 | 14 | 4 | 5 | 4 | 12 | 4 | 11 | 4 | 10 | 4 | 4 | 4 | 3 | 4 | 1
+INPUTP | 2 | 69 | 98
+EXPORTS | 1 | 4 | 16
+EQ | 13 | 
+   sync_counter<6>.D = sync_counter<6> & sync_counter<7> & 
+	!BUF_sync_counter<7>
+	# sync_counter<6> & !sync_counter<7> & 
+	BUF_sync_counter<7>
+	# sync_counter<0> & sync_counter<1> & 
+	sync_counter<2> & sync_counter<3> & sync_counter<4> & 
+	sync_counter<5> & !sync_counter<6>;
+   sync_counter<6>.CLK = nCLOCK;	// GCK
+   sync_counter<6>.AR = !nIORQ & !nM1;
+    sync_counter<6>.EXP  =  sync_counter<0> & sync_counter<1> & 
+	sync_counter<2> & sync_counter<3> & !sync_counter<4> & 
+	!sync_counter<5> & !sync_counter<6> & !sync_counter<7> & 
+	!sync_counter<5>/sync_counter<5>_RSTF
+GLOBALS | 1 | 2 | nCLOCK
+
+MACROCELL | 6 | 15 | rowcnt<1>
+ATTRIBUTES | 4326304 | 0
+OUTPUTMC | 2 | 3 | 1 | 4 | 13
+INPUTS | 3 | rowcnt<0>  | hsync  | vs
+INPUTMC | 3 | 6 | 9 | 4 | 16 | 7 | 17
+EQ | 3 | 
+   rowcnt<1>.T = rowcnt<0>;
+   rowcnt<1>.CLK = !hsync;
+   rowcnt<1>.AP = vs;
+
+MACROCELL | 4 | 2 | sync_counter<7>
+ATTRIBUTES | 8553232 | 0
+OUTPUTMC | 4 | 4 | 16 | 4 | 15 | 4 | 8 | 4 | 14
+INPUTS | 3 | BUF_sync_counter<7>  | nIORQ  | nM1
+INPUTMC | 1 | 4 | 14
+INPUTP | 2 | 69 | 98
+EQ | 3 | 
+   !sync_counter<7>.D = BUF_sync_counter<7>;
+   sync_counter<7>.CLK = nCLOCK;	// GCK
+   sync_counter<7>.AR = !nIORQ & !nM1;
+GLOBALS | 1 | 2 | nCLOCK
+
+MACROCELL | 4 | 13 | rowcnt<2>
+ATTRIBUTES | 4326304 | 0
+OUTPUTMC | 1 | 3 | 4
+INPUTS | 4 | rowcnt<0>  | rowcnt<1>  | hsync  | vs
+INPUTMC | 4 | 6 | 9 | 6 | 15 | 4 | 16 | 7 | 17
+EQ | 3 | 
+   rowcnt<2>.T = rowcnt<0> & rowcnt<1>;
+   rowcnt<2>.CLK = !hsync;
+   rowcnt<2>.AP = vs;
+
+MACROCELL | 7 | 4 | ram_data_latch<0>
+ATTRIBUTES | 8520496 | 0
+OUTPUTMC | 1 | 3 | 5
+INPUTS | 3 | D0.PIN  | nRD  | nRESET
+INPUTP | 3 | 28 | 77 | 114
+EQ | 3 | 
+   ram_data_latch<0>.D = D0.PIN;
+   ram_data_latch<0>.CLK = nRD;
+   ram_data_latch<0>.AR = !nRESET;
+
+MACROCELL | 7 | 3 | ram_data_latch<1>
+ATTRIBUTES | 8520496 | 0
+OUTPUTMC | 1 | 3 | 7
+INPUTS | 3 | D1.PIN  | nRD  | nRESET
+INPUTP | 3 | 29 | 77 | 114
+EQ | 3 | 
+   ram_data_latch<1>.D = D1.PIN;
+   ram_data_latch<1>.CLK = nRD;
+   ram_data_latch<1>.AR = !nRESET;
+
+MACROCELL | 7 | 2 | ram_data_latch<2>
+ATTRIBUTES | 8520496 | 0
+OUTPUTMC | 1 | 3 | 8
+INPUTS | 3 | D2.PIN  | nRD  | nRESET
+INPUTP | 3 | 30 | 77 | 114
+EQ | 3 | 
+   ram_data_latch<2>.D = D2.PIN;
+   ram_data_latch<2>.CLK = nRD;
+   ram_data_latch<2>.AR = !nRESET;
+
+MACROCELL | 7 | 1 | ram_data_latch<3>
+ATTRIBUTES | 8520496 | 0
+OUTPUTMC | 1 | 3 | 10
+INPUTS | 3 | D3.PIN  | nRD  | nRESET
+INPUTP | 3 | 47 | 77 | 114
+EQ | 3 | 
+   ram_data_latch<3>.D = D3.PIN;
+   ram_data_latch<3>.CLK = nRD;
+   ram_data_latch<3>.AR = !nRESET;
+
+MACROCELL | 7 | 0 | ram_data_latch<4>
+ATTRIBUTES | 8520496 | 0
+OUTPUTMC | 1 | 3 | 11
+INPUTS | 3 | D4.PIN  | nRD  | nRESET
+INPUTP | 3 | 54 | 77 | 114
+EQ | 3 | 
+   ram_data_latch<4>.D = D4.PIN;
+   ram_data_latch<4>.CLK = nRD;
+   ram_data_latch<4>.AR = !nRESET;
+
+MACROCELL | 6 | 17 | ram_data_latch<5>
+ATTRIBUTES | 8520496 | 0
+OUTPUTMC | 1 | 3 | 13
+INPUTS | 3 | D5.PIN  | nRD  | nRESET
+INPUTP | 3 | 37 | 77 | 114
+EQ | 3 | 
+   ram_data_latch<5>.D = D5.PIN;
+   ram_data_latch<5>.CLK = nRD;
+   ram_data_latch<5>.AR = !nRESET;
+
+MACROCELL | 6 | 16 | ram_data_latch<6>
+ATTRIBUTES | 8520496 | 0
+OUTPUTMC | 1 | 3 | 14
+INPUTS | 3 | D7.PIN  | nRD  | nRESET
+INPUTP | 3 | 24 | 77 | 114
+EQ | 3 | 
+   ram_data_latch<6>.D = D7.PIN;
+   ram_data_latch<6>.CLK = nRD;
+   ram_data_latch<6>.AR = !nRESET;
+
+MACROCELL | 7 | 14 | LE_OL_OBUF
+ATTRIBUTES | 264962 | 0
+INPUTS | 9 | A7  | A5  | A3  | A2  | A1  | A6  | A4  | nWR  | nIORQ
+INPUTP | 9 | 95 | 97 | 56 | 49 | 44 | 57 | 102 | 82 | 69
+EQ | 2 | 
+   LE_OL = A7 & A5 & !A3 & A2 & A1 & !A6 & !A4 & !nWR & 
+	!nIORQ;
+
+MACROCELL | 1 | 7 | A10_IBUF$BUF0
+ATTRIBUTES | 265986 | 0
+INPUTS | 2 | A10  | nRESET
+INPUTP | 2 | 79 | 114
+EQ | 2 | 
+   A10x = A10;
+   A10x.OE = nRESET;
+
+MACROCELL | 1 | 8 | A11_IBUF$BUF0
+ATTRIBUTES | 265986 | 0
+INPUTS | 2 | A11  | nRESET
+INPUTP | 2 | 72 | 114
+EQ | 2 | 
+   A11x = A11;
+   A11x.OE = nRESET;
+
+MACROCELL | 1 | 4 | A12_IBUF$BUF0
+ATTRIBUTES | 265986 | 0
+INPUTS | 2 | A12  | nRESET
+INPUTP | 2 | 68 | 114
+EQ | 2 | 
+   A12x = A12;
+   A12x.OE = nRESET;
+
+MACROCELL | 3 | 16 | nMEM_CE_and0000$BUF0
+ATTRIBUTES | 265986 | 0
+INPUTS | 3 | nRFSH  | nMREQ  | nRESET
+INPUTP | 3 | 103 | 64 | 114
+EQ | 2 | 
+   nMEM_CE = nRFSH & nMREQ;
+   nMEM_CE.OE = nRESET;
+
+MACROCELL | 7 | 17 | vs
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 4 | 6 | 9 | 6 | 15 | 4 | 13 | 7 | 17
+INPUTS | 6 | nIORQ  | vs  | nWR  | A1  | A0  | nRD
+INPUTMC | 1 | 7 | 17
+INPUTP | 5 | 69 | 82 | 44 | 36 | 77
+EQ | 5 | 
+   vs = nWR & vs
+	# nIORQ & vs
+	# A1 & !A0 & vs
+	# !A1 & !nRD & !A0 & !nIORQ
+	# !nRD & nWR & !A0 & !nIORQ;
+
+MACROCELL | 5 | 16 | CTRL_REG
+ATTRIBUTES | 8651570 | 0
+INPUTS | 10 | A7  | A5  | A3  | A2  | A1  | A6  | A4  | nWR  | nIORQ  | nRST_CTRL_REG
+INPUTP | 10 | 95 | 97 | 56 | 49 | 44 | 57 | 102 | 82 | 69 | 136
+EQ | 4 | 
+   GET_CTRL_REG.D = Vcc;
+   GET_CTRL_REG.CLK = A7 & A5 & A3 & A2 & A1 & !A6 & !A4 & !nWR & 
+	!nIORQ;
+   GET_CTRL_REG.AR = !nRST_CTRL_REG;
+
+MACROCELL | 5 | 14 | DATA_REG
+ATTRIBUTES | 8651570 | 0
+INPUTS | 2 | DATA_REG/DATA_REG_CLKF  | nRST_DATA_REG
+INPUTMC | 1 | 0 | 15
+INPUTP | 1 | 135
+EQ | 3 | 
+   GET_DATA_REG.D = Vcc;
+   GET_DATA_REG.CLK = DATA_REG/DATA_REG_CLKF;
+   GET_DATA_REG.AR = !nRST_DATA_REG;
+
+MACROCELL | 4 | 7 | nOE_RAMCS_OBUF$BUF0
+ATTRIBUTES | 265986 | 0
+INPUTS | 6 | A15  | A14  | nRD  | nMREQ  | nM1  | EN_M1_NOT
+INPUTP | 6 | 58 | 60 | 77 | 64 | 98 | 123
+EQ | 2 | 
+   nHALT = Gnd;
+   nHALT.OE = A15 & !A14 & !nRD & !nMREQ & !nM1 & EN_M1_NOT;
+
+MACROCELL | 0 | 8 | nOE_RAMCS_OBUF$BUF1
+ATTRIBUTES | 265986 | 0
+INPUTS | 10 | A7  | A5  | A3  | A2  | A1  | nRD  | A6  | A4  | A0  | nIORQ
+INPUTP | 10 | 95 | 97 | 56 | 49 | 44 | 77 | 57 | 102 | 36 | 69
+EQ | 3 | 
+   D7 = Gnd;
+   D7.OE = A7 & A5 & !A3 & A2 & A1 & !nRD & A6 & !A4 & 
+	A0 & !nIORQ;
+
+MACROCELL | 2 | 1 | nOE_RAMCS_OBUF$BUF2
+ATTRIBUTES | 265986 | 0
+INPUTS | 10 | A7  | A5  | A3  | A2  | A1  | nRD  | A6  | A4  | A0  | nIORQ
+INPUTP | 10 | 95 | 97 | 56 | 49 | 44 | 77 | 57 | 102 | 36 | 69
+EQ | 3 | 
+   D6 = Gnd;
+   D6.OE = A7 & A5 & !A3 & A2 & A1 & !nRD & A6 & !A4 & 
+	A0 & !nIORQ;
+
+MACROCELL | 1 | 16 | nOE_CTRL_CLOCK_OBUF
+ATTRIBUTES | 264962 | 0
+INPUTS | 9 | A7  | A5  | A3  | A2  | A1  | nRD  | A6  | A4  | nIORQ
+INPUTP | 9 | 95 | 97 | 56 | 49 | 44 | 77 | 57 | 102 | 69
+EQ | 2 | 
+   !nOE_CTRL_CLOCK = A7 & A5 & A3 & A2 & A1 & !nRD & !A6 & !A4 & 
+	!nIORQ;
+
+MACROCELL | 0 | 7 | nOE_IL_OBUF
+ATTRIBUTES | 264962 | 0
+INPUTS | 9 | A7  | A5  | A3  | A2  | A1  | nRD  | A6  | A4  | nIORQ
+INPUTP | 9 | 95 | 97 | 56 | 49 | 44 | 77 | 57 | 102 | 69
+EQ | 2 | 
+   !nOE_IL = A7 & A5 & !A3 & A2 & A1 & !nRD & !A6 & !A4 & 
+	!nIORQ;
+
+MACROCELL | 0 | 10 | nOE_RAMCS_OBUF
+ATTRIBUTES | 264962 | 0
+OUTPUTMC | 1 | 0 | 11
+INPUTS | 7 | block_2_0  | A8  | A10  | A9  | block_3_0  | block_5_0  | block_7_0
+INPUTMC | 4 | 2 | 11 | 2 | 8 | 7 | 10 | 7 | 6
+INPUTP | 3 | 90 | 79 | 86
+EXPORTS | 1 | 0 | 11
+EQ | 5 | 
+   nOE_RAMCS = Gnd;
+    nOE_RAMCS_OBUF.EXP  =  block_2_0 & !A8 & !A10 & A9
+	# block_3_0 & A8 & !A10 & A9
+	# block_5_0 & A8 & A10 & !A9
+	# block_7_0 & A8 & A10 & A9
+
+MACROCELL | 6 | 14 | BUF_block_7_0
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 8 | 2 | 17 | 2 | 15 | 2 | 7 | 2 | 8 | 7 | 6 | 7 | 10 | 7 | 8 | 2 | 12
+INPUTS | 3 | FULL_PAGING  | A8  | D3.PIN
+INPUTP | 3 | 134 | 90 | 47
+EQ | 2 | 
+   BUF_block_7_0 = FULL_PAGING & A8
+	# !FULL_PAGING & D3.PIN;
+
+MACROCELL | 6 | 13 | BUF_block_7_1
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 8 | 3 | 17 | 3 | 15 | 3 | 12 | 3 | 9 | 3 | 6 | 3 | 3 | 3 | 2 | 3 | 0
+INPUTS | 3 | FULL_PAGING  | A9  | D4.PIN
+INPUTP | 3 | 134 | 86 | 54
+EQ | 2 | 
+   BUF_block_7_1 = FULL_PAGING & A9
+	# !FULL_PAGING & D4.PIN;
+
+MACROCELL | 6 | 12 | BUF_block_7_2
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 8 | 5 | 17 | 5 | 13 | 5 | 11 | 5 | 9 | 5 | 7 | 5 | 5 | 5 | 3 | 5 | 1
+INPUTS | 3 | FULL_PAGING  | A10  | D5.PIN
+INPUTP | 3 | 134 | 79 | 37
+EQ | 2 | 
+   BUF_block_7_2 = FULL_PAGING & A10
+	# !FULL_PAGING & D5.PIN;
+
+MACROCELL | 6 | 11 | BUF_block_7_3
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 8 | 5 | 15 | 5 | 12 | 5 | 10 | 5 | 8 | 5 | 6 | 5 | 4 | 5 | 2 | 5 | 0
+INPUTS | 3 | FULL_PAGING  | A11  | D6.PIN
+INPUTP | 3 | 134 | 72 | 35
+EQ | 2 | 
+   BUF_block_7_3 = FULL_PAGING & A11
+	# !FULL_PAGING & D6.PIN;
+
+MACROCELL | 6 | 10 | BUF_block_7_4
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 8 | 7 | 16 | 7 | 15 | 7 | 13 | 7 | 12 | 7 | 11 | 7 | 9 | 7 | 7 | 7 | 5
+INPUTS | 3 | FULL_PAGING  | A12  | D7.PIN
+INPUTP | 3 | 134 | 68 | 24
+EQ | 2 | 
+   BUF_block_7_4 = FULL_PAGING & A12
+	# !FULL_PAGING & D7.PIN;
+
+MACROCELL | 4 | 9 | $OpTx$FX_DC$6
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 9 | 1 | 5 | 3 | 1 | 3 | 4 | 3 | 5 | 3 | 7 | 3 | 8 | 3 | 10 | 3 | 11 | 3 | 13
+INPUTS | 5 | nRFSH  | SEL_128CHARS  | A15  | A14  | A13
+INPUTP | 5 | 103 | 127 | 58 | 60 | 63
+EQ | 2 | 
+   $OpTx$FX_DC$6 = !nRFSH & SEL_128CHARS
+	# !nRFSH & !A15 & !A14 & !A13;
+
+MACROCELL | 4 | 8 | $OpTx$INV$1
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 4 | 4 | 5 | 4 | 12 | 4 | 11 | 4 | 10
+INPUTS | 8 | sync_counter<1>  | sync_counter<2>  | sync_counter<3>  | sync_counter<4>  | sync_counter<5>  | sync_counter<6>  | sync_counter<7>  | sync_counter<0>
+INPUTMC | 8 | 4 | 12 | 4 | 11 | 4 | 10 | 4 | 4 | 4 | 3 | 4 | 15 | 4 | 2 | 4 | 5
+EQ | 4 | 
+   $OpTx$INV$1 = sync_counter<0>
+	# sync_counter<1> & sync_counter<2> & 
+	sync_counter<3> & !sync_counter<4> & !sync_counter<5> & 
+	sync_counter<6> & sync_counter<7>;
+
+MACROCELL | 4 | 1 | sync_counter<5>/sync_counter<5>_RSTF
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 4 | 15
+INPUTS | 2 | nIORQ  | nM1
+INPUTP | 2 | 69 | 98
+EQ | 1 | 
+   sync_counter<5>/sync_counter<5>_RSTF = !nIORQ & !nM1;
+
+MACROCELL | 4 | 6 | BUF_sync_counter<5>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 2 | 4 | 16 | 4 | 3
+INPUTS | 6 | sync_counter<5>  | sync_counter<0>  | sync_counter<1>  | sync_counter<2>  | sync_counter<3>  | sync_counter<4>
+INPUTMC | 6 | 4 | 3 | 4 | 5 | 4 | 12 | 4 | 11 | 4 | 10 | 4 | 4
+EQ | 3 | 
+   BUF_sync_counter<5> = sync_counter<5>
+	$ sync_counter<0> & sync_counter<1> & 
+	sync_counter<2> & sync_counter<3> & sync_counter<4>;
+
+MACROCELL | 4 | 14 | BUF_sync_counter<7>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 2 | 4 | 15 | 4 | 2
+INPUTS | 9 | sync_counter<7>  | sync_counter_Madd__add0000__and0005/sync_counter_Madd__add0000__and0005_D2  | sync_counter<0>  | sync_counter<1>  | sync_counter<2>  | sync_counter<3>  | sync_counter<4>  | sync_counter<5>  | sync_counter<6>
+INPUTMC | 9 | 4 | 2 | 4 | 0 | 4 | 5 | 4 | 12 | 4 | 11 | 4 | 10 | 4 | 4 | 4 | 3 | 4 | 15
+EQ | 8 | 
+   BUF_sync_counter<7> = !sync_counter<7> & 
+	!sync_counter_Madd__add0000__and0005/sync_counter_Madd__add0000__and0005_D2
+	# sync_counter<0> & sync_counter<1> & 
+	sync_counter<2> & sync_counter<3> & sync_counter<4> & 
+	sync_counter<5> & sync_counter<6> & sync_counter<7>
+	# !sync_counter<0> & sync_counter<1> & 
+	sync_counter<2> & sync_counter<3> & !sync_counter<4> & 
+	!sync_counter<5> & sync_counter<6> & sync_counter<7>;
+
+MACROCELL | 4 | 0 | sync_counter_Madd__add0000__and0005/sync_counter_Madd__add0000__and0005_D2
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 2 | 4 | 14 | 4 | 17
+INPUTS | 13 | sync_counter<0>  | sync_counter<1>  | sync_counter<2>  | sync_counter<3>  | sync_counter<4>  | sync_counter<5>  | sync_counter<6>  | A15  | A14  | A13  | block_5_5  | block_1_5  | block_0_5
+INPUTMC | 10 | 4 | 5 | 4 | 12 | 4 | 11 | 4 | 10 | 4 | 4 | 4 | 3 | 4 | 15 | 2 | 3 | 2 | 12 | 2 | 16
+INPUTP | 3 | 58 | 60 | 63
+EXPORTS | 1 | 4 | 17
+EQ | 6 | 
+   sync_counter_Madd__add0000__and0005/sync_counter_Madd__add0000__and0005_D2 = sync_counter<0> & sync_counter<1> & 
+	sync_counter<2> & sync_counter<3> & sync_counter<4> & 
+	sync_counter<5> & sync_counter<6>;
+    sync_counter_Madd__add0000__and0005/sync_counter_Madd__add0000__and0005_D2.EXP  =  A15 & !A14 & A13 & block_5_5
+	# !A15 & !A14 & A13 & block_1_5
+	# !A15 & !A14 & !A13 & block_0_5
+
+MACROCELL | 0 | 15 | DATA_REG/DATA_REG_CLKF
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 2 | 5 | 14 | 0 | 14
+INPUTS | 16 | A7  | A5  | A3  | A2  | A1  | nRD  | A6  | A4  | nIORQ  | nWR  | block_2_2  | A8  | A10  | A9  | block_5_2  | block_7_2
+INPUTMC | 3 | 5 | 11 | 5 | 5 | 5 | 1
+INPUTP | 13 | 95 | 97 | 56 | 49 | 44 | 77 | 57 | 102 | 69 | 82 | 90 | 79 | 86
+EXPORTS | 1 | 0 | 14
+EQ | 7 | 
+   DATA_REG/DATA_REG_CLKF = A7 & A5 & !A3 & A2 & A1 & !nRD & !A6 & !A4 & 
+	!nIORQ
+	# A7 & A5 & !A3 & A2 & A1 & !A6 & !A4 & !nWR & 
+	!nIORQ;
+    DATA_REG/DATA_REG_CLKF.EXP  =  block_2_2 & !A8 & !A10 & A9
+	# block_5_2 & A8 & A10 & !A9
+	# block_7_2 & A8 & A10 & A9
+
+MACROCELL | 1 | 14 | _10_
+ATTRIBUTES | 265986 | 0
+OUTPUTMC | 1 | 1 | 13
+INPUTS | 9 | nRESET  | A15  | A14  | A13  | block_6_4  | block_5_4  | block_1_4  | block_0_4  | EXP17_.EXP
+INPUTMC | 5 | 7 | 7 | 7 | 9 | 7 | 15 | 7 | 16 | 1 | 15
+INPUTP | 4 | 114 | 58 | 60 | 63
+EXPORTS | 1 | 1 | 13
+IMPORTS | 1 | 1 | 15
+EQ | 7 | 
+   A18x = ;Imported pterms FB2_16
+	  A18x_BUFR;
+   A18x.OE = nRESET;
+    _10_.EXP  =  A15 & A14 & !A13 & block_6_4
+	# A15 & !A14 & A13 & block_5_4
+	# !A15 & !A14 & A13 & block_1_4
+	# !A15 & !A14 & !A13 & block_0_4
+
+MACROCELL | 0 | 0 | EXP11_
+ATTRIBUTES | 2048 | 0
+OUTPUTMC | 1 | 0 | 1
+INPUTS | 6 | A15  | A14  | A13  | block_6_1  | block_5_1  | block_1_1
+INPUTMC | 3 | 3 | 2 | 3 | 3 | 3 | 15
+INPUTP | 3 | 58 | 60 | 63
+EXPORTS | 1 | 0 | 1
+EQ | 3 | 
+       EXP11_.EXP  =  A15 & A14 & !A13 & block_6_1
+	# A15 & !A14 & A13 & block_5_1
+	# !A15 & !A14 & A13 & block_1_1
+
+MACROCELL | 0 | 12 | EXP12_
+ATTRIBUTES | 2048 | 0
+OUTPUTMC | 1 | 0 | 13
+INPUTS | 8 | block_1_1  | A8  | A10  | A9  | block_2_1  | block_3_1  | block_5_1  | block_7_1
+INPUTMC | 5 | 3 | 15 | 3 | 12 | 3 | 9 | 3 | 3 | 3 | 0
+INPUTP | 3 | 90 | 79 | 86
+EXPORTS | 1 | 0 | 13
+EQ | 5 | 
+       EXP12_.EXP  =  block_1_1 & A8 & !A10 & !A9
+	# block_2_1 & !A8 & !A10 & A9
+	# block_3_1 & A8 & !A10 & A9
+	# block_5_1 & A8 & A10 & !A9
+	# block_7_1 & A8 & A10 & A9
+
+MACROCELL | 1 | 0 | EXP13_
+ATTRIBUTES | 2048 | 0
+OUTPUTMC | 1 | 1 | 1
+INPUTS | 5 | A15  | A14  | A13  | block_6_0  | block_1_0
+INPUTMC | 2 | 7 | 8 | 2 | 15
+INPUTP | 3 | 58 | 60 | 63
+EXPORTS | 1 | 1 | 1
+EQ | 2 | 
+       EXP13_.EXP  =  A15 & A14 & !A13 & block_6_0
+	# !A15 & !A14 & A13 & block_1_0
+
+MACROCELL | 1 | 2 | EXP14_
+ATTRIBUTES | 2048 | 0
+OUTPUTMC | 1 | 1 | 1
+INPUTS | 5 | A15  | A14  | A13  | block_5_0  | block_0_0
+INPUTMC | 2 | 7 | 10 | 2 | 17
+INPUTP | 3 | 58 | 60 | 63
+EXPORTS | 1 | 1 | 1
+EQ | 2 | 
+       EXP14_.EXP  =  A15 & !A14 & A13 & block_5_0
+	# !A15 & !A14 & !A13 & block_0_0
+
+MACROCELL | 1 | 9 | EXP15_
+ATTRIBUTES | 2048 | 0
+OUTPUTMC | 1 | 1 | 10
+INPUTS | 7 | A15  | A14  | A13  | block_6_2  | block_5_2  | block_1_2  | block_0_2
+INPUTMC | 4 | 5 | 3 | 5 | 5 | 5 | 13 | 5 | 17
+INPUTP | 3 | 58 | 60 | 63
+EXPORTS | 1 | 1 | 10
+EQ | 4 | 
+       EXP15_.EXP  =  A15 & A14 & !A13 & block_6_2
+	# A15 & !A14 & A13 & block_5_2
+	# !A15 & !A14 & A13 & block_1_2
+	# !A15 & !A14 & !A13 & block_0_2
+
+MACROCELL | 1 | 12 | EXP16_
+ATTRIBUTES | 2048 | 0
+OUTPUTMC | 1 | 1 | 11
+INPUTS | 7 | A15  | A14  | A13  | block_6_3  | block_5_3  | block_1_3  | block_0_3
+INPUTMC | 4 | 5 | 2 | 5 | 4 | 5 | 12 | 5 | 15
+INPUTP | 3 | 58 | 60 | 63
+EXPORTS | 1 | 1 | 11
+EQ | 4 | 
+       EXP16_.EXP  =  A15 & A14 & !A13 & block_6_3
+	# A15 & !A14 & A13 & block_5_3
+	# !A15 & !A14 & A13 & block_1_3
+	# !A15 & !A14 & !A13 & block_0_3
+
+MACROCELL | 1 | 15 | EXP17_
+ATTRIBUTES | 2048 | 0
+OUTPUTMC | 1 | 1 | 14
+INPUTS | 1 | A18x_BUFR
+INPUTMC | 1 | 4 | 17
+EXPORTS | 1 | 1 | 14
+EQ | 1 | 
+       EXP17_.EXP  =  A18x_BUFR
+
+MACROCELL | 2 | 14 | EXP18_
+ATTRIBUTES | 2048 | 0
+OUTPUTMC | 1 | 2 | 13
+INPUTS | 7 | block_2_4  | A8  | A10  | A9  | block_3_4  | block_5_4  | block_7_4
+INPUTMC | 4 | 7 | 13 | 7 | 12 | 7 | 9 | 7 | 5
+INPUTP | 3 | 90 | 79 | 86
+EXPORTS | 1 | 2 | 13
+EQ | 4 | 
+       EXP18_.EXP  =  block_2_4 & !A8 & !A10 & A9
+	# block_3_4 & A8 & !A10 & A9
+	# block_5_4 & A8 & A10 & !A9
+	# block_7_4 & A8 & A10 & A9
+
+PIN | nRFSH | 64 | 0 | N/A | 103 | 5 | 0 | 5 | 3 | 14 | 0 | 2 | 3 | 16 | 4 | 9
+PIN | A15 | 64 | 0 | N/A | 58 | 17 | 1 | 1 | 0 | 1 | 1 | 10 | 1 | 11 | 1 | 13 | 4 | 17 | 0 | 4 | 4 | 7 | 4 | 9 | 0 | 0 | 0 | 2 | 1 | 0 | 1 | 2 | 1 | 9 | 1 | 12 | 1 | 14 | 4 | 0
+PIN | A14 | 64 | 0 | N/A | 60 | 17 | 1 | 1 | 0 | 1 | 1 | 10 | 1 | 11 | 1 | 13 | 4 | 17 | 0 | 4 | 4 | 7 | 4 | 9 | 0 | 0 | 0 | 2 | 1 | 0 | 1 | 2 | 1 | 9 | 1 | 12 | 1 | 14 | 4 | 0
+PIN | A13 | 64 | 0 | N/A | 63 | 23 | 2 | 16 | 2 | 12 | 2 | 8 | 2 | 7 | 1 | 14 | 2 | 3 | 2 | 2 | 2 | 0 | 1 | 1 | 0 | 1 | 1 | 10 | 1 | 11 | 1 | 13 | 4 | 17 | 0 | 4 | 4 | 9 | 0 | 0 | 0 | 2 | 1 | 0 | 1 | 2 | 1 | 9 | 1 | 12 | 4 | 0
+PIN | nRESET | 64 | 0 | N/A | 114 | 78 | 2 | 17 | 3 | 17 | 5 | 17 | 5 | 15 | 7 | 16 | 2 | 16 | 2 | 15 | 3 | 15 | 5 | 13 | 5 | 12 | 7 | 15 | 2 | 12 | 2 | 11 | 3 | 12 | 5 | 11 | 5 | 10 | 7 | 13 | 2 | 9 | 2 | 8 | 3 | 9 | 5 | 9 | 5 | 8 | 7 | 12 | 2 | 7 | 2 | 6 | 3 | 6 | 5 | 7 | 5 | 6 | 7 | 11 | 2 | 4 | 7 | 10 | 3 | 3 | 5 | 5 | 5 | 4 | 7 | 9 | 2 | 3 | 7 | 8 | 3 | 2 | 5 | 3 | 5 | 2 | 7 | 7 | 2 | 2 | 7 | 6 | 3 | 0 | 5 | 1 | 5 | 0 | 7 | 5 | 2 | 0 | 0 | 5 | 1 | 5 | 1 | 1 | 0 | 1 | 1 | 10 | 1 | 11 | 1 | 13 | 1 | 14 | 3 | 1 | 3 | 4 | 3 | 5 | 3 | 7 | 3 | 8 | 3 | 10 | 3 | 11 | 3 | 13 | 3 | 14 | 0 | 4 | 0 | 2 | 7 | 4 | 7 | 3 | 7 | 2 | 7 | 1 | 7 | 0 | 6 | 17 | 6 | 16 | 1 | 7 | 1 | 8 | 1 | 4 | 3 | 16
+PIN | A1 | 64 | 0 | N/A | 44 | 63 | 2 | 17 | 3 | 17 | 5 | 17 | 5 | 15 | 7 | 16 | 2 | 16 | 2 | 15 | 3 | 15 | 5 | 13 | 5 | 12 | 7 | 15 | 2 | 12 | 2 | 11 | 3 | 12 | 5 | 11 | 5 | 10 | 7 | 13 | 2 | 9 | 2 | 8 | 3 | 9 | 5 | 9 | 5 | 8 | 7 | 12 | 2 | 7 | 2 | 6 | 3 | 6 | 5 | 7 | 5 | 6 | 7 | 11 | 2 | 4 | 7 | 10 | 3 | 3 | 5 | 5 | 5 | 4 | 7 | 9 | 2 | 3 | 7 | 8 | 3 | 2 | 5 | 3 | 5 | 2 | 7 | 7 | 2 | 2 | 7 | 6 | 3 | 0 | 5 | 1 | 5 | 0 | 7 | 5 | 2 | 0 | 3 | 1 | 0 | 11 | 0 | 13 | 0 | 14 | 2 | 10 | 2 | 13 | 2 | 5 | 7 | 14 | 7 | 17 | 5 | 16 | 0 | 8 | 2 | 1 | 1 | 16 | 0 | 7 | 0 | 15
+PIN | nIORQ | 64 | 0 | N/A | 69 | 72 | 2 | 17 | 3 | 17 | 5 | 17 | 5 | 15 | 7 | 16 | 2 | 16 | 2 | 15 | 3 | 15 | 5 | 13 | 5 | 12 | 7 | 15 | 2 | 12 | 2 | 11 | 3 | 12 | 5 | 11 | 5 | 10 | 7 | 13 | 2 | 9 | 2 | 8 | 3 | 9 | 5 | 9 | 5 | 8 | 7 | 12 | 2 | 7 | 2 | 6 | 3 | 6 | 5 | 7 | 5 | 6 | 7 | 11 | 2 | 4 | 7 | 10 | 3 | 3 | 5 | 5 | 5 | 4 | 7 | 9 | 2 | 3 | 7 | 8 | 3 | 2 | 5 | 3 | 5 | 2 | 7 | 7 | 2 | 2 | 7 | 6 | 3 | 0 | 5 | 1 | 5 | 0 | 7 | 5 | 2 | 0 | 0 | 11 | 0 | 13 | 0 | 14 | 2 | 10 | 2 | 13 | 2 | 5 | 4 | 5 | 4 | 16 | 4 | 12 | 4 | 11 | 4 | 10 | 4 | 4 | 4 | 3 | 4 | 15 | 4 | 2 | 7 | 14 | 7 | 17 | 5 | 16 | 0 | 8 | 2 | 1 | 1 | 16 | 0 | 7 | 4 | 1 | 0 | 15
+PIN | A2 | 64 | 0 | N/A | 49 | 62 | 2 | 17 | 3 | 17 | 5 | 17 | 5 | 15 | 7 | 16 | 2 | 16 | 2 | 15 | 3 | 15 | 5 | 13 | 5 | 12 | 7 | 15 | 2 | 12 | 2 | 11 | 3 | 12 | 5 | 11 | 5 | 10 | 7 | 13 | 2 | 9 | 2 | 8 | 3 | 9 | 5 | 9 | 5 | 8 | 7 | 12 | 2 | 7 | 2 | 6 | 3 | 6 | 5 | 7 | 5 | 6 | 7 | 11 | 2 | 4 | 7 | 10 | 3 | 3 | 5 | 5 | 5 | 4 | 7 | 9 | 2 | 3 | 7 | 8 | 3 | 2 | 5 | 3 | 5 | 2 | 7 | 7 | 2 | 2 | 7 | 6 | 3 | 0 | 5 | 1 | 5 | 0 | 7 | 5 | 2 | 0 | 3 | 4 | 0 | 11 | 0 | 13 | 0 | 14 | 2 | 10 | 2 | 13 | 2 | 5 | 7 | 14 | 5 | 16 | 0 | 8 | 2 | 1 | 1 | 16 | 0 | 7 | 0 | 15
+PIN | A3 | 64 | 0 | N/A | 56 | 62 | 2 | 17 | 3 | 17 | 5 | 17 | 5 | 15 | 7 | 16 | 2 | 16 | 2 | 15 | 3 | 15 | 5 | 13 | 5 | 12 | 7 | 15 | 2 | 12 | 2 | 11 | 3 | 12 | 5 | 11 | 5 | 10 | 7 | 13 | 2 | 9 | 2 | 8 | 3 | 9 | 5 | 9 | 5 | 8 | 7 | 12 | 2 | 7 | 2 | 6 | 3 | 6 | 5 | 7 | 5 | 6 | 7 | 11 | 2 | 4 | 7 | 10 | 3 | 3 | 5 | 5 | 5 | 4 | 7 | 9 | 2 | 3 | 7 | 8 | 3 | 2 | 5 | 3 | 5 | 2 | 7 | 7 | 2 | 2 | 7 | 6 | 3 | 0 | 5 | 1 | 5 | 0 | 7 | 5 | 2 | 0 | 3 | 5 | 0 | 11 | 0 | 13 | 0 | 14 | 2 | 10 | 2 | 13 | 2 | 5 | 7 | 14 | 5 | 16 | 0 | 8 | 2 | 1 | 1 | 16 | 0 | 7 | 0 | 15
+PIN | A4 | 64 | 0 | N/A | 102 | 62 | 2 | 17 | 3 | 17 | 5 | 17 | 5 | 15 | 7 | 16 | 2 | 16 | 2 | 15 | 3 | 15 | 5 | 13 | 5 | 12 | 7 | 15 | 2 | 12 | 2 | 11 | 3 | 12 | 5 | 11 | 5 | 10 | 7 | 13 | 2 | 9 | 2 | 8 | 3 | 9 | 5 | 9 | 5 | 8 | 7 | 12 | 2 | 7 | 2 | 6 | 3 | 6 | 5 | 7 | 5 | 6 | 7 | 11 | 2 | 4 | 7 | 10 | 3 | 3 | 5 | 5 | 5 | 4 | 7 | 9 | 2 | 3 | 7 | 8 | 3 | 2 | 5 | 3 | 5 | 2 | 7 | 7 | 2 | 2 | 7 | 6 | 3 | 0 | 5 | 1 | 5 | 0 | 7 | 5 | 2 | 0 | 3 | 7 | 0 | 11 | 0 | 13 | 0 | 14 | 2 | 10 | 2 | 13 | 2 | 5 | 7 | 14 | 5 | 16 | 0 | 8 | 2 | 1 | 1 | 16 | 0 | 7 | 0 | 15
+PIN | A5 | 64 | 0 | N/A | 97 | 62 | 2 | 17 | 3 | 17 | 5 | 17 | 5 | 15 | 7 | 16 | 2 | 16 | 2 | 15 | 3 | 15 | 5 | 13 | 5 | 12 | 7 | 15 | 2 | 12 | 2 | 11 | 3 | 12 | 5 | 11 | 5 | 10 | 7 | 13 | 2 | 9 | 2 | 8 | 3 | 9 | 5 | 9 | 5 | 8 | 7 | 12 | 2 | 7 | 2 | 6 | 3 | 6 | 5 | 7 | 5 | 6 | 7 | 11 | 2 | 4 | 7 | 10 | 3 | 3 | 5 | 5 | 5 | 4 | 7 | 9 | 2 | 3 | 7 | 8 | 3 | 2 | 5 | 3 | 5 | 2 | 7 | 7 | 2 | 2 | 7 | 6 | 3 | 0 | 5 | 1 | 5 | 0 | 7 | 5 | 2 | 0 | 3 | 8 | 0 | 11 | 0 | 13 | 0 | 14 | 2 | 10 | 2 | 13 | 2 | 5 | 7 | 14 | 5 | 16 | 0 | 8 | 2 | 1 | 1 | 16 | 0 | 7 | 0 | 15
+PIN | A6 | 64 | 0 | N/A | 57 | 62 | 2 | 17 | 3 | 17 | 5 | 17 | 5 | 15 | 7 | 16 | 2 | 16 | 2 | 15 | 3 | 15 | 5 | 13 | 5 | 12 | 7 | 15 | 2 | 12 | 2 | 11 | 3 | 12 | 5 | 11 | 5 | 10 | 7 | 13 | 2 | 9 | 2 | 8 | 3 | 9 | 5 | 9 | 5 | 8 | 7 | 12 | 2 | 7 | 2 | 6 | 3 | 6 | 5 | 7 | 5 | 6 | 7 | 11 | 2 | 4 | 7 | 10 | 3 | 3 | 5 | 5 | 5 | 4 | 7 | 9 | 2 | 3 | 7 | 8 | 3 | 2 | 5 | 3 | 5 | 2 | 7 | 7 | 2 | 2 | 7 | 6 | 3 | 0 | 5 | 1 | 5 | 0 | 7 | 5 | 2 | 0 | 3 | 10 | 0 | 11 | 0 | 13 | 0 | 14 | 2 | 10 | 2 | 13 | 2 | 5 | 7 | 14 | 5 | 16 | 0 | 8 | 2 | 1 | 1 | 16 | 0 | 7 | 0 | 15
+PIN | A7 | 64 | 0 | N/A | 95 | 62 | 2 | 17 | 3 | 17 | 5 | 17 | 5 | 15 | 7 | 16 | 2 | 16 | 2 | 15 | 3 | 15 | 5 | 13 | 5 | 12 | 7 | 15 | 2 | 12 | 2 | 11 | 3 | 12 | 5 | 11 | 5 | 10 | 7 | 13 | 2 | 9 | 2 | 8 | 3 | 9 | 5 | 9 | 5 | 8 | 7 | 12 | 2 | 7 | 2 | 6 | 3 | 6 | 5 | 7 | 5 | 6 | 7 | 11 | 2 | 4 | 7 | 10 | 3 | 3 | 5 | 5 | 5 | 4 | 7 | 9 | 2 | 3 | 7 | 8 | 3 | 2 | 5 | 3 | 5 | 2 | 7 | 7 | 2 | 2 | 7 | 6 | 3 | 0 | 5 | 1 | 5 | 0 | 7 | 5 | 2 | 0 | 3 | 11 | 0 | 11 | 0 | 13 | 0 | 14 | 2 | 10 | 2 | 13 | 2 | 5 | 7 | 14 | 5 | 16 | 0 | 8 | 2 | 1 | 1 | 16 | 0 | 7 | 0 | 15
+PIN | nWR | 64 | 0 | N/A | 82 | 53 | 2 | 17 | 3 | 17 | 5 | 17 | 5 | 15 | 7 | 16 | 2 | 16 | 2 | 15 | 3 | 15 | 5 | 13 | 5 | 12 | 7 | 15 | 2 | 12 | 2 | 11 | 3 | 12 | 5 | 11 | 5 | 10 | 7 | 13 | 2 | 9 | 2 | 8 | 3 | 9 | 5 | 9 | 5 | 8 | 7 | 12 | 2 | 7 | 2 | 6 | 3 | 6 | 5 | 7 | 5 | 6 | 7 | 11 | 2 | 4 | 7 | 10 | 3 | 3 | 5 | 5 | 5 | 4 | 7 | 9 | 2 | 3 | 7 | 8 | 3 | 2 | 5 | 3 | 5 | 2 | 7 | 7 | 2 | 2 | 7 | 6 | 3 | 0 | 5 | 1 | 5 | 0 | 7 | 5 | 2 | 0 | 0 | 4 | 7 | 14 | 7 | 17 | 5 | 16 | 0 | 15
+PIN | A0 | 64 | 0 | N/A | 36 | 58 | 2 | 17 | 3 | 17 | 5 | 17 | 5 | 15 | 7 | 16 | 2 | 16 | 2 | 15 | 3 | 15 | 5 | 13 | 5 | 12 | 7 | 15 | 2 | 12 | 2 | 11 | 3 | 12 | 5 | 11 | 5 | 10 | 7 | 13 | 2 | 9 | 2 | 8 | 3 | 9 | 5 | 9 | 5 | 8 | 7 | 12 | 2 | 7 | 2 | 6 | 3 | 6 | 5 | 7 | 5 | 6 | 7 | 11 | 2 | 4 | 7 | 10 | 3 | 3 | 5 | 5 | 5 | 4 | 7 | 9 | 2 | 3 | 7 | 8 | 3 | 2 | 5 | 3 | 5 | 2 | 7 | 7 | 2 | 2 | 7 | 6 | 3 | 0 | 5 | 1 | 5 | 0 | 7 | 5 | 2 | 0 | 1 | 5 | 0 | 11 | 0 | 13 | 0 | 14 | 2 | 10 | 2 | 13 | 2 | 5 | 7 | 17 | 0 | 8 | 2 | 1
+PIN | FULL_PAGING | 64 | 0 | N/A | 134 | 12 | 2 | 16 | 2 | 12 | 2 | 8 | 2 | 7 | 6 | 10 | 2 | 3 | 2 | 2 | 2 | 0 | 6 | 14 | 6 | 13 | 6 | 12 | 6 | 11
+PIN | nRD | 64 | 0 | N/A | 77 | 21 | 0 | 11 | 0 | 13 | 0 | 14 | 2 | 10 | 2 | 13 | 2 | 5 | 0 | 2 | 7 | 4 | 7 | 3 | 7 | 2 | 7 | 1 | 7 | 0 | 6 | 17 | 6 | 16 | 7 | 17 | 4 | 7 | 0 | 8 | 2 | 1 | 1 | 16 | 0 | 7 | 0 | 15
+PIN | ROM_WR_EN | 64 | 0 | N/A | 130 | 1 | 0 | 4
+PIN | nMREQ | 64 | 0 | N/A | 64 | 4 | 0 | 5 | 0 | 4 | 3 | 16 | 4 | 7
+PIN | A8 | 64 | 0 | N/A | 90 | 16 | 3 | 13 | 0 | 11 | 0 | 13 | 0 | 14 | 2 | 10 | 2 | 13 | 2 | 5 | 6 | 14 | 0 | 10 | 0 | 12 | 0 | 15 | 2 | 4 | 2 | 6 | 2 | 9 | 2 | 11 | 2 | 14
+PIN | A9 | 64 | 0 | N/A | 86 | 16 | 3 | 14 | 0 | 11 | 0 | 13 | 0 | 14 | 2 | 10 | 2 | 13 | 2 | 5 | 6 | 13 | 0 | 10 | 0 | 12 | 0 | 15 | 2 | 4 | 2 | 6 | 2 | 9 | 2 | 11 | 2 | 14
+PIN | SEL_128CHARS | 64 | 0 | N/A | 127 | 2 | 3 | 14 | 4 | 9
+PIN | A10 | 64 | 0 | N/A | 79 | 16 | 0 | 11 | 0 | 13 | 0 | 14 | 2 | 10 | 2 | 13 | 2 | 5 | 1 | 7 | 6 | 12 | 0 | 10 | 0 | 12 | 0 | 15 | 2 | 4 | 2 | 6 | 2 | 9 | 2 | 11 | 2 | 14
+PIN | nCLOCK | 4096 | 0 | N/A | 33 | 9 | 4 | 5 | 4 | 16 | 4 | 12 | 4 | 11 | 4 | 10 | 4 | 4 | 4 | 3 | 4 | 15 | 4 | 2
+PIN | nM1 | 64 | 0 | N/A | 98 | 11 | 4 | 5 | 4 | 16 | 4 | 12 | 4 | 11 | 4 | 10 | 4 | 4 | 4 | 3 | 4 | 15 | 4 | 2 | 4 | 7 | 4 | 1
+PIN | A11 | 64 | 0 | N/A | 72 | 2 | 1 | 8 | 6 | 11
+PIN | A12 | 64 | 0 | N/A | 68 | 2 | 1 | 4 | 6 | 10
+PIN | EN_M1_NOT | 64 | 0 | N/A | 123 | 1 | 4 | 7
+PIN | nRST_CTRL_REG | 64 | 0 | N/A | 136 | 1 | 5 | 16
+PIN | nRST_DATA_REG | 64 | 0 | N/A | 135 | 1 | 5 | 14
+PIN | nOE_ROMCS | 536871040 | 0 | N/A | 22
+PIN | A0x | 536871040 | 0 | N/A | 4
+PIN | A13x | 536871040 | 0 | N/A | 160
+PIN | A14x | 536871040 | 0 | N/A | 18
+PIN | A15x | 536871040 | 0 | N/A | 11
+PIN | A16x | 536871040 | 0 | N/A | 12
+PIN | A17x | 536871040 | 0 | N/A | 13
+PIN | A18x | 536871040 | 0 | N/A | 15
+PIN | A1x | 536871040 | 0 | N/A | 141
+PIN | A2x | 536871040 | 0 | N/A | 143
+PIN | A3x | 536871040 | 0 | N/A | 144
+PIN | A4x | 536871040 | 0 | N/A | 145
+PIN | A5x | 536871040 | 0 | N/A | 146
+PIN | A6x | 536871040 | 0 | N/A | 147
+PIN | A7x | 536871040 | 0 | N/A | 149
+PIN | A8x | 536871040 | 0 | N/A | 153
+PIN | A9x | 536871040 | 0 | N/A | 155
+PIN | nWRx | 536871040 | 0 | N/A | 21
+PIN | nMEM_OE | 536871040 | 0 | N/A | 19
+PIN | LE_OL | 536871040 | 0 | N/A | 116
+PIN | A10x | 536871040 | 0 | N/A | 6
+PIN | A11x | 536871040 | 0 | N/A | 8
+PIN | A12x | 536871040 | 0 | N/A | 2
+PIN | nMEM_CE | 536871040 | 0 | N/A | 157
+PIN | GET_CTRL_REG | 536871040 | 0 | N/A | 140
+PIN | GET_DATA_REG | 536871040 | 0 | N/A | 139
+PIN | nHALT | 536871040 | 0 | N/A | 62
+PIN | nOE_CTRL_CLOCK | 536871040 | 0 | N/A | 17
+PIN | nOE_IL | 536871040 | 0 | N/A | 23
+PIN | nOE_RAMCS | 536871040 | 0 | N/A | 26
+PIN | D0 | 536870976 | 0 | N/A | 28 | 49 | 2 | 17 | 3 | 17 | 5 | 17 | 5 | 15 | 7 | 16 | 2 | 16 | 2 | 15 | 3 | 15 | 5 | 13 | 5 | 12 | 7 | 15 | 2 | 12 | 2 | 11 | 3 | 12 | 5 | 11 | 5 | 10 | 7 | 13 | 2 | 9 | 2 | 8 | 3 | 9 | 5 | 9 | 5 | 8 | 7 | 12 | 2 | 7 | 2 | 6 | 3 | 6 | 5 | 7 | 5 | 6 | 7 | 11 | 2 | 4 | 7 | 10 | 3 | 3 | 5 | 5 | 5 | 4 | 7 | 9 | 2 | 3 | 7 | 8 | 3 | 2 | 5 | 3 | 5 | 2 | 7 | 7 | 2 | 2 | 7 | 6 | 3 | 0 | 5 | 1 | 5 | 0 | 7 | 5 | 2 | 0 | 7 | 4
+PIN | D1 | 536870976 | 0 | N/A | 29 | 49 | 2 | 17 | 3 | 17 | 5 | 17 | 5 | 15 | 7 | 16 | 2 | 16 | 2 | 15 | 3 | 15 | 5 | 13 | 5 | 12 | 7 | 15 | 2 | 12 | 2 | 11 | 3 | 12 | 5 | 11 | 5 | 10 | 7 | 13 | 2 | 9 | 2 | 8 | 3 | 9 | 5 | 9 | 5 | 8 | 7 | 12 | 2 | 7 | 2 | 6 | 3 | 6 | 5 | 7 | 5 | 6 | 7 | 11 | 2 | 4 | 7 | 10 | 3 | 3 | 5 | 5 | 5 | 4 | 7 | 9 | 2 | 3 | 7 | 8 | 3 | 2 | 5 | 3 | 5 | 2 | 7 | 7 | 2 | 2 | 7 | 6 | 3 | 0 | 5 | 1 | 5 | 0 | 7 | 5 | 2 | 0 | 7 | 3
+PIN | D2 | 536870976 | 0 | N/A | 30 | 49 | 2 | 17 | 3 | 17 | 5 | 17 | 5 | 15 | 7 | 16 | 2 | 16 | 2 | 15 | 3 | 15 | 5 | 13 | 5 | 12 | 7 | 15 | 2 | 12 | 2 | 11 | 3 | 12 | 5 | 11 | 5 | 10 | 7 | 13 | 2 | 9 | 2 | 8 | 3 | 9 | 5 | 9 | 5 | 8 | 7 | 12 | 2 | 7 | 2 | 6 | 3 | 6 | 5 | 7 | 5 | 6 | 7 | 11 | 2 | 4 | 7 | 10 | 3 | 3 | 5 | 5 | 5 | 4 | 7 | 9 | 2 | 3 | 7 | 8 | 3 | 2 | 5 | 3 | 5 | 2 | 7 | 7 | 2 | 2 | 7 | 6 | 3 | 0 | 5 | 1 | 5 | 0 | 7 | 5 | 2 | 0 | 7 | 2
+PIN | D3 | 536870976 | 0 | N/A | 47 | 2 | 7 | 1 | 6 | 14
+PIN | D4 | 536870976 | 0 | N/A | 54 | 2 | 7 | 0 | 6 | 13
+PIN | D5 | 536870976 | 0 | N/A | 37 | 2 | 6 | 17 | 6 | 12
+PIN | D7 | 536870976 | 0 | N/A | 24 | 2 | 6 | 16 | 6 | 10
+PIN | D6 | 536870976 | 0 | N/A | 35 | 1 | 6 | 11

@@ -1,0 +1,117 @@
+Pin Freeze File:  version P.20131013
+
+95144XL100 XC95144XL-10-TQ100
+A0 S:PIN24
+A10 S:PIN50
+A11 S:PIN46
+A12 S:PIN42
+A13 S:PIN40
+A14 S:PIN37
+A15 S:PIN35
+A1 S:PIN28
+A2 S:PIN30
+A3 S:PIN33
+A4 S:PIN63
+A5 S:PIN60
+A6 S:PIN34
+A7 S:PIN58
+A8 S:PIN55
+A9 S:PIN53
+EN_M1_NOT S:PIN76
+FULL_PAGING S:PIN80
+ROM_WR_EN S:PIN79
+SEL_128CHARS S:PIN78
+nCLOCK S:PIN22
+nIORQ S:PIN43
+nM1 S:PIN61
+nMREQ S:PIN41
+nRD S:PIN49
+nRESET S:PIN71
+nRFSH S:PIN64
+nRST_CTRL_REG S:PIN82
+nRST_DATA_REG S:PIN81
+nWR S:PIN52
+A0x S:PIN2
+A10x S:PIN3
+A11x S:PIN4
+A12x S:PIN1
+A13x S:PIN99
+A14x S:PIN11
+A15x S:PIN6
+A16x S:PIN7
+A17x S:PIN8
+A1x S:PIN87
+A2x S:PIN89
+A3x S:PIN90
+A4x S:PIN91
+A5x S:PIN92
+A6x S:PIN93
+A7x S:PIN94
+A8x S:PIN95
+A9x S:PIN96
+GET_CTRL_REG S:PIN86
+D0 S:PIN18
+D1 S:PIN19
+D2 S:PIN20
+D3 S:PIN29
+D4 S:PIN32
+D5 S:PIN25
+GET_DATA_REG S:PIN85
+LE_OL S:PIN72
+A18x S:PIN9
+nOE_ROMCS S:PIN14
+nMEM_CE S:PIN97
+nMEM_OE S:PIN12
+nOE_CTRL_CLOCK S:PIN10
+nOE_IL S:PIN15
+nOE_RAMCS S:PIN17
+nHALT S:PIN39
+D7 S:PIN16
+D6 S:PIN23
+nWRx S:PIN13
+
+
+;The remaining section of the .gyd file is for documentation purposes only.
+;It shows where your internal equations were placed in the last successful fit.
+
+PARTITION FB1_1 EXP11_ A14x_OBUFE nMEM_OE_and0000
+PARTITION FB1_5 nWRx_mux0000 nMEM_CE_mux0000
+PARTITION FB1_8 nOE_IL_OBUF nOE_RAMCS_OBUF$BUF1
+PARTITION FB1_11 nOE_RAMCS_OBUF D0_IOBUFE EXP12_ D1_IOBUFE
+		 D2_IOBUFE EXP13_ EXP14_
+
+PARTITION FB2_1 EXP15_ A13x_OBUFE EXP16_
+PARTITION FB2_5 A12_IBUF$BUF0 A0x_OBUFE
+PARTITION FB2_8 A10_IBUF$BUF0 A11_IBUF$BUF0 EXP17_ A15x_OBUFE
+		 A16x_OBUFE EXP18_ A17x_OBUFE _10_
+		 EXP19_ nOE_CTRL_CLOCK_OBUF
+
+PARTITION FB3_1 block_7_5 nOE_RAMCS_OBUF$BUF2 block_6_5 block_5_5
+		 block_4_5 D5_IOBUFE block_4_0 block_3_5
+		 block_3_0 block_2_5 D3_IOBUFE block_2_0
+		 block_1_5 D4_IOBUFE EXP20_ block_1_0
+		 block_0_5 block_0_0
+PARTITION FB4_1 block_7_1 A1x_OBUFE block_6_1 block_5_1
+		 A2x_OBUFE A3x_OBUFE block_4_1 A4x_OBUFE
+		 A5x_OBUFE block_3_1 A6x_OBUFE A7x_OBUFE
+		 block_2_1 A8x_OBUFE A9x_OBUFE block_1_1
+		 nMEM_CE_mux0000$BUF0 block_0_1
+PARTITION FB5_1 sync_counter_Madd__add0000__and0005/sync_counter_Madd__add0000__and0005_D2 sync_counter<7>/sync_counter<7>_RSTF sync_counter<7> sync_counter<5>
+		 sync_counter<4> sync_counter<0> BUF_sync_counter<5> nOE_RAMCS_OBUF$BUF0
+		 $OpTx$INV$1 $OpTx$FX_DC$7 sync_counter<3> sync_counter<2>
+		 sync_counter<1> rowcnt<2> BUF_sync_counter<7> sync_counter<6>
+		 hsync A18x_BUFR.MC
+PARTITION FB6_1 block_7_3 block_7_2 block_6_3 block_6_2
+		 block_5_3 block_5_2 block_4_3 block_4_2
+		 block_3_3 block_3_2 block_2_3 block_2_2
+		 block_1_3 block_1_2 DATA_REG block_0_3
+		 CTRL_REG block_0_2
+PARTITION FB7_8 rowcnt<0> BUF_block_7_4 BUF_block_7_3 BUF_block_7_2
+		 BUF_block_7_1 BUF_block_7_0 rowcnt<1> ram_data_latch<6>
+		 ram_data_latch<5> ram_data_latch<4> ram_data_latch<3>
+PARTITION FB8_1 internal_ROM_mode DATA_REG/DATA_REG_CLKF ram_data_latch<2> ram_data_latch<1>
+		 ram_data_latch<0> block_7_4 block_7_0 block_6_4
+		 block_6_0 block_5_4 block_5_0 block_4_4
+		 block_3_4 block_2_4 LE_OL_OBUF block_1_4
+		 block_0_4 vs
+

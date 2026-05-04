@@ -1,0 +1,129 @@
+Release 8.1i - Fit P.20131013
+Copyright(c) 1995-2003 Xilinx Inc. All rights reserved
+
+ 6-21-2023 10:32AM
+
+NOTE: This file is designed to be imported into a spreadsheet program
+such as Microsoft Excel for viewing, printing and sorting. The comma ','
+character is used as the data field separator.
+This file is also designed to support parsing.
+
+Input file:  SD81.ngd
+output file: SD81_pad.csv
+Part type:   xc95144xl
+Speed grade: -10
+Package:     tq100
+
+Pinout by Pin Number:
+
+-----,-----,-----,-----,-----,-----,-----,-----,-----,-----,
+Pin Number,Signal Name,Pin Usage,Pin Name,Direction,IO Standard,IO Bank Number,{blank},Slew Rate,Termination,{blank},Voltage,Constraint,
+P1,A12x,O,I/O/GTS3,OUTPUT,,,,,,,,,
+P2,A0x,O,I/O/GTS4,OUTPUT,,,,,,,,,
+P3,A10x,O,I/O/GTS1,OUTPUT,,,,,,,,,
+P4,A11x,O,I/O/GTS2,OUTPUT,,,,,,,,,
+P5,VCC,,VCCINT,,,,,,,,,,
+P6,A15x,O,I/O,OUTPUT,,,,,,,,,
+P7,A16x,O,I/O,OUTPUT,,,,,,,,,
+P8,A17x,O,I/O,OUTPUT,,,,,,,,,
+P9,A18x,O,I/O,OUTPUT,,,,,,,,,
+P10,nOE_CTRL_CLOCK,O,I/O,OUTPUT,,,,,,,,,
+P11,A14x,O,I/O,OUTPUT,,,,,,,,,
+P12,nMEM_OE,O,I/O,OUTPUT,,,,,,,,,
+P13,nWRx,O,I/O,OUTPUT,,,,,,,,,
+P14,nOE_ROMCS,O,I/O,OUTPUT,,,,,,,,,
+P15,nOE_IL,O,I/O,OUTPUT,,,,,,,,,
+P16,D7,I/O,I/O,BIDIR,,,,,,,,,
+P17,nOE_RAMCS,O,I/O,OUTPUT,,,,,,,,,
+P18,D0,I/O,I/O,BIDIR,,,,,,,,,
+P19,D1,I/O,I/O,BIDIR,,,,,,,,,
+P20,D2,I/O,I/O,BIDIR,,,,,,,,,
+P21,GND,,GND,,,,,,,,,,
+P22,nCLOCK,GCK,I/O/GCK1,,,,,,,,,,
+P23,D6,I/O,I/O/GCK2,BIDIR,,,,,,,,,
+P24,A0,I,I/O,INPUT,,,,,,,,,
+P25,D5,I/O,I/O,BIDIR,,,,,,,,,
+P26,VCC,,VCCIO,,,,,,,,,,
+P27,TIE,,I/O/GCK3,,,,,,,,,,
+P28,A1,I,I/O,INPUT,,,,,,,,,
+P29,D3,I/O,I/O,BIDIR,,,,,,,,,
+P30,A2,I,I/O,INPUT,,,,,,,,,
+P31,GND,,GND,,,,,,,,,,
+P32,D4,I/O,I/O,BIDIR,,,,,,,,,
+P33,A3,I,I/O,INPUT,,,,,,,,,
+P34,A6,I,I/O,INPUT,,,,,,,,,
+P35,A15,I,I/O,INPUT,,,,,,,,,
+P36,TIE,,I/O,,,,,,,,,,
+P37,A14,I,I/O,INPUT,,,,,,,,,
+P38,VCC,,VCCIO,,,,,,,,,,
+P39,nHALT,O,I/O,OUTPUT,,,,,,,,,
+P40,A13,I,I/O,INPUT,,,,,,,,,
+P41,nMREQ,I,I/O,INPUT,,,,,,,,,
+P42,A12,I,I/O,INPUT,,,,,,,,,
+P43,nIORQ,I,I/O,INPUT,,,,,,,,,
+P44,GND,,GND,,,,,,,,,,
+P45,TDI,,TDI,,,,,,,,,,
+P46,A11,I,I/O,INPUT,,,,,,,,,
+P47,TMS,,TMS,,,,,,,,,,
+P48,TCK,,TCK,,,,,,,,,,
+P49,nRD,I,I/O,INPUT,,,,,,,,,
+P50,A10,I,I/O,INPUT,,,,,,,,,
+P51,VCC,,VCCIO,,,,,,,,,,
+P52,nWR,I,I/O,INPUT,,,,,,,,,
+P53,A9,I,I/O,INPUT,,,,,,,,,
+P54,TIE,,I/O,,,,,,,,,,
+P55,A8,I,I/O,INPUT,,,,,,,,,
+P56,TIE,,I/O,,,,,,,,,,
+P57,VCC,,VCCINT,,,,,,,,,,
+P58,A7,I,I/O,INPUT,,,,,,,,,
+P59,TIE,,I/O,,,,,,,,,,
+P60,A5,I,I/O,INPUT,,,,,,,,,
+P61,nM1,I,I/O,INPUT,,,,,,,,,
+P62,GND,,GND,,,,,,,,,,
+P63,A4,I,I/O,INPUT,,,,,,,,,
+P64,nRFSH,I,I/O,INPUT,,,,,,,,,
+P65,TIE,,I/O,,,,,,,,,,
+P66,TIE,,I/O,,,,,,,,,,
+P67,TIE,,I/O,,,,,,,,,,
+P68,TIE,,I/O,,,,,,,,,,
+P69,GND,,GND,,,,,,,,,,
+P70,TIE,,I/O,,,,,,,,,,
+P71,nRESET,I,I/O,INPUT,,,,,,,,,
+P72,LE_OL,O,I/O,OUTPUT,,,,,,,,,
+P73,TIE,,I/O,,,,,,,,,,
+P74,TIE,,I/O,,,,,,,,,,
+P75,GND,,GND,,,,,,,,,,
+P76,EN_M1_NOT,I,I/O,INPUT,,,,,,,,,
+P77,TIE,,I/O,,,,,,,,,,
+P78,SEL_128CHARS,I,I/O,INPUT,,,,,,,,,
+P79,ROM_WR_EN,I,I/O,INPUT,,,,,,,,,
+P80,FULL_PAGING,I,I/O,INPUT,,,,,,,,,
+P81,nRST_DATA_REG,I,I/O,INPUT,,,,,,,,,
+P82,nRST_CTRL_REG,I,I/O,INPUT,,,,,,,,,
+P83,TDO,,TDO,,,,,,,,,,
+P84,GND,,GND,,,,,,,,,,
+P85,GET_DATA_REG,O,I/O,OUTPUT,,,,,,,,,
+P86,GET_CTRL_REG,O,I/O,OUTPUT,,,,,,,,,
+P87,A1x,O,I/O,OUTPUT,,,,,,,,,
+P88,VCC,,VCCIO,,,,,,,,,,
+P89,A2x,O,I/O,OUTPUT,,,,,,,,,
+P90,A3x,O,I/O,OUTPUT,,,,,,,,,
+P91,A4x,O,I/O,OUTPUT,,,,,,,,,
+P92,A5x,O,I/O,OUTPUT,,,,,,,,,
+P93,A6x,O,I/O,OUTPUT,,,,,,,,,
+P94,A7x,O,I/O,OUTPUT,,,,,,,,,
+P95,A8x,O,I/O,OUTPUT,,,,,,,,,
+P96,A9x,O,I/O,OUTPUT,,,,,,,,,
+P97,nMEM_CE,O,I/O,OUTPUT,,,,,,,,,
+P98,VCC,,VCCINT,,,,,,,,,,
+P99,A13x,O,I/O/GSR,OUTPUT,,,,,,,,,
+P100,GND,,GND,,,,,,,,,,
+
+To preserve the pinout above for future design iterations in
+Project Navigator simply execute the (Lock Pins) process
+located under the (Implement Design) process in a toolbox named
+(Optional Implementation Tools) or invoke PIN2UCF from the
+command line. The location constraints will be written into your
+specified UCF file
+
+

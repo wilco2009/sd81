@@ -1,0 +1,14 @@
+#ifndef DAC_CONTROL_H
+#define DAC_CONTROL_H
+
+#include <Arduino.h>
+
+// Definiciones de hardware del DAC
+#define DAC_PIN PA4       // Pin PA4 para la salida DAC
+#define DAC_out DAC1->DHR12R1 // Registro de datos DAC1 a 12 bits
+
+// Funciones públicas del control DAC
+void setup_dac();
+void set_dac_output(uint16_t value);
+
+#endif // DAC_CONTROL_H

@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/ise/Documentos/git/github/SD81-Booster - Privado/V2/FPGA/SD81V2.1000/SD81.ncd
+OUTFILE=/home/ise/Documentos/git/github/SD81-Booster - Privado/V2/FPGA/SD81V2.1000/SD81.bit
+FAMILY=Spartan6
+PART=xc6slx9-3tqg144
+WORKINGDIR=/home/ise/Documentos/git/github/SD81-Booster - Privado/V2/FPGA/SD81V2.1000
+LICENSE=ISE
+USER_INFO=8416_11442_1478797146_620

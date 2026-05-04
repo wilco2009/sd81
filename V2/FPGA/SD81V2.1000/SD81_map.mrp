@@ -1,0 +1,491 @@
+Release 14.7 Map P.20131013 (lin64)
+Xilinx Mapping Report File for Design 'SD81'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol
+high -xe n -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir
+off -pr b -lc off -power off -o SD81_map.ncd SD81.ngd SD81.pcf 
+Target Device  : xc6slx9
+Target Package : tqg144
+Target Speed   : -3
+Mapper Version : spartan6 -- $Revision: 1.55 $
+Mapped Date    : Mon Nov 24 15:25:21 2025
+
+Design Summary
+--------------
+Number of errors:      0
+Number of warnings:   54
+Slice Logic Utilization:
+  Number of Slice Registers:                 1,049 out of  11,440    9%
+    Number used as Flip Flops:               1,002
+    Number used as Latches:                     39
+    Number used as Latch-thrus:                  0
+    Number used as AND/OR logics:                8
+  Number of Slice LUTs:                      1,507 out of   5,720   26%
+    Number used as logic:                    1,445 out of   5,720   25%
+      Number using O6 output only:             841
+      Number using O5 output only:             148
+      Number using O5 and O6:                  456
+      Number used as ROM:                        0
+    Number used as Memory:                      26 out of   1,440    1%
+      Number used as Dual Port RAM:             24
+        Number using O6 output only:             8
+        Number using O5 output only:             0
+        Number using O5 and O6:                 16
+      Number used as Single Port RAM:            0
+      Number used as Shift Register:             2
+        Number using O6 output only:             2
+        Number using O5 output only:             0
+        Number using O5 and O6:                  0
+    Number used exclusively as route-thrus:     36
+      Number with same-slice register load:     22
+      Number with same-slice carry load:        14
+      Number with other load:                    0
+
+Slice Logic Distribution:
+  Number of occupied Slices:                   610 out of   1,430   42%
+  Number of MUXCYs used:                       364 out of   2,860   12%
+  Number of LUT Flip Flop pairs used:        1,725
+    Number with an unused Flip Flop:           853 out of   1,725   49%
+    Number with an unused LUT:                 218 out of   1,725   12%
+    Number of fully used LUT-FF pairs:         654 out of   1,725   37%
+    Number of unique control sets:              90
+    Number of slice register sites lost
+      to control set restrictions:             301 out of  11,440    2%
+
+  A LUT Flip Flop pair for this architecture represents one LUT paired with
+  one Flip Flop within a slice.  A control set is a unique combination of
+  clock, reset, set, and enable signals for a registered element.
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+
+IO Utilization:
+  Number of bonded IOBs:                        98 out of     102   96%
+    Number of LOCed IOBs:                       97 out of      98   98%
+    IOB Flip Flops:                             20
+
+Specific Feature Utilization:
+  Number of RAMB16BWERs:                        32 out of      32  100%
+  Number of RAMB8BWERs:                          0 out of      64    0%
+  Number of BUFIO2/BUFIO2_2CLKs:                 1 out of      32    3%
+    Number used as BUFIO2s:                      1
+    Number used as BUFIO2_2CLKs:                 0
+  Number of BUFIO2FB/BUFIO2FB_2CLKs:             0 out of      32    0%
+  Number of BUFG/BUFGMUXs:                       6 out of      16   37%
+    Number used as BUFGs:                        6
+    Number used as BUFGMUX:                      0
+  Number of DCM/DCM_CLKGENs:                     2 out of       4   50%
+    Number used as DCMs:                         2
+    Number used as DCM_CLKGENs:                  0
+  Number of ILOGIC2/ISERDES2s:                  15 out of     200    7%
+    Number used as ILOGIC2s:                    15
+    Number used as ISERDES2s:                    0
+  Number of IODELAY2/IODRP2/IODRP2_MCBs:         0 out of     200    0%
+  Number of OLOGIC2/OSERDES2s:                   5 out of     200    2%
+    Number used as OLOGIC2s:                     5
+    Number used as OSERDES2s:                    0
+  Number of BSCANs:                              0 out of       4    0%
+  Number of BUFHs:                               0 out of     128    0%
+  Number of BUFPLLs:                             0 out of       8    0%
+  Number of BUFPLL_MCBs:                         0 out of       4    0%
+  Number of DSP48A1s:                            0 out of      16    0%
+  Number of ICAPs:                               0 out of       1    0%
+  Number of MCBs:                                0 out of       2    0%
+  Number of PCILOGICSEs:                         0 out of       2    0%
+  Number of PLL_ADVs:                            0 out of       2    0%
+  Number of PMVs:                                0 out of       1    0%
+  Number of STARTUPs:                            0 out of       1    0%
+  Number of SUSPEND_SYNCs:                       0 out of       1    0%
+
+Average Fanout of Non-Clock Nets:                3.77
+
+Peak Memory Usage:  791 MB
+Total REAL time to MAP completion:  13 secs 
+Total CPU time to MAP completion:   12 secs 
+
+Table of Contents
+-----------------
+Section 1 - Errors
+Section 2 - Warnings
+Section 3 - Informational
+Section 4 - Removed Logic Summary
+Section 5 - Removed Logic
+Section 6 - IOB Properties
+Section 7 - RPMs
+Section 8 - Guide Report
+Section 9 - Area Group and Partition Summary
+Section 10 - Timing Report
+Section 11 - Configuration String Information
+Section 12 - Control Set Information
+Section 13 - Utilization by Hierarchy
+
+Section 1 - Errors
+------------------
+
+Section 2 - Warnings
+--------------------
+WARNING:Security:42 - Your software subscription period has lapsed. Your current
+version of Xilinx tools will continue to function, but you no longer qualify for
+Xilinx software updates or new releases.
+WARNING:MapLib:830 - Cannot automatically set COMPENSATION attribute for PLL_ADV
+   clk104inst/pll_base_inst/PLL_ADV because no input clock signal was found.
+WARNING:MapLib:701 - Signal CLK100 connected to top level port CLK100 has been
+   removed.
+WARNING:Pack:2780 - The register "cfg_reg_0" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "cfg_reg_1" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "cfg_reg_2" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "cfg_reg_3" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "cfg_reg_4" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "cfg_reg_5" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "cfg_reg_6" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "cfg_reg_7" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "cfg_reg_8" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "cfg_reg_9" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "cfg_reg_10" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "cfg_reg_11" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "cfg_reg_12" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "cfg_reg_20" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "cfg_reg_13" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "cfg_reg_21" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "cfg_reg_14" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "cfg_reg_22" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "cfg_reg_30" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "cfg_reg_15" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "cfg_reg_23" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "cfg_reg_31" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "cfg_reg_16" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "cfg_reg_24" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "cfg_reg_32" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "cfg_reg_17" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "cfg_reg_25" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "cfg_reg_33" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "cfg_reg_18" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "cfg_reg_26" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "cfg_reg_19" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "cfg_reg_27" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "cfg_reg_28" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "cfg_reg_29" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net clock_ym2149 is sourced by
+   a combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net chroma_mode_wr is sourced
+   by a combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net aychips[0].ay/rst_n_inv is
+   sourced by a combinatorial pin. This is not good design practice. Use the CE
+   pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net kbdint is sourced by a
+   combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net GND_1_o_GND_1_o_AND_360_o
+   is sourced by a combinatorial pin. This is not good design practice. Use the
+   CE pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net GND_1_o_GND_1_o_AND_371_o
+   is sourced by a combinatorial pin. This is not good design practice. Use the
+   CE pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net DATA_in_out is sourced by a
+   combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net nFE_port_RD_NMIon_OR_68_o
+   is sourced by a combinatorial pin. This is not good design practice. Use the
+   CE pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net nIOWR_inv is sourced by a
+   combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net cs_SPULA is sourced by a
+   combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net GND_1_o_GND_1_o_AND_353_o
+   is sourced by a combinatorial pin. This is not good design practice. Use the
+   CE pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net nRESET_GND_1_o_AND_438_o is
+   sourced by a combinatorial pin. This is not good design practice. Use the CE
+   pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net CTRL_out is sourced by a
+   combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net DATA_out is sourced by a
+   combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net GND_1_o_GND_1_o_AND_365_o
+   is sourced by a combinatorial pin. This is not good design practice. Use the
+   CE pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net GND_1_o_GND_1_o_AND_356_o
+   is sourced by a combinatorial pin. This is not good design practice. Use the
+   CE pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net NMIset is sourced by a
+   combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:781 - PULLUP on an active net. PULLUP of comp DIN_PULLUP
+   is set but the tri state is not configured. 
+
+Section 3 - Informational
+-------------------------
+INFO:Security:54 - 'xc6slx9' is a WebPack part.
+INFO:LIT:243 - Logical network nBUSRQ_IBUF has no load.
+INFO:LIT:395 - The above info message is repeated 2 more times for the following
+   (max. 5 shown):
+   MICRO_DB_CLK_IBUF,
+   SPARE0_IBUF
+   To see the details of these info messages, please use the -detail switch.
+INFO:MapLib:562 - No environment variables are currently set.
+INFO:Pack:1716 - Initializing temperature to 85.000 Celsius. (default - Range:
+   0.000 to 85.000 Celsius)
+INFO:Pack:1720 - Initializing voltage to 1.140 Volts. (default - Range: 1.140 to
+   1.260 Volts)
+INFO:Map:215 - The Interim Design Summary has been generated in the MAP Report
+   (.mrp).
+INFO:Place:834 - Only a subset of IOs are locked. Out of 98 IOs, 97 are locked
+   and 1 are not locked. If you would like to print the names of these IOs,
+   please set the environment variable XIL_PAR_DESIGN_CHECK_VERBOSE to 1. 
+INFO:Pack:1650 - Map created a placed design.
+INFO:PhysDesignRules:1861 - To achieve optimal frequency synthesis performance
+   with the CLKFX and CLKFX180 outputs of the DCM comp dcm_booster_inst, consult
+   the device Data Sheet.
+
+Section 4 - Removed Logic Summary
+---------------------------------
+   7 block(s) removed
+   4 block(s) optimized away
+  14 signal(s) removed
+
+Section 5 - Removed Logic
+-------------------------
+
+The trimmed logic report below shows the logic removed from your design due to
+sourceless or loadless signals, and VCC or ground connections.  If the removal
+of a signal or symbol results in the subsequent removal of an additional signal
+or symbol, the message explaining that second removal will be indented.  This
+indentation will be repeated as a chain of related logic is removed.
+
+To quickly locate the original cause for the removal of a chain of logic, look
+above the place where that logic is listed in the trimming report, then locate
+the lines that are least indented (begin at the leftmost edge).
+
+Loadless block "ADDERTREE_INTERNAL_Madd214" (ROM) removed.
+Loadless block "ADDERTREE_INTERNAL_Madd514" (ROM) removed.
+Loadless block "clk104inst/clkout1_buf" (CKBUF) removed.
+ The signal "clk104inst/clkout0" is loadless and has been removed.
+The signal "shadowram/dinb<7>" is sourceless and has been removed.
+The signal "shadowram/dinb<6>" is sourceless and has been removed.
+The signal "shadowram/dinb<5>" is sourceless and has been removed.
+The signal "shadowram/dinb<4>" is sourceless and has been removed.
+The signal "shadowram/dinb<3>" is sourceless and has been removed.
+The signal "shadowram/dinb<2>" is sourceless and has been removed.
+The signal "shadowram/dinb<1>" is sourceless and has been removed.
+The signal "shadowram/dinb<0>" is sourceless and has been removed.
+The signal "shadowram/N0" is sourceless and has been removed.
+
+The trimmed logic reported below is either:
+   1. part of a cycle
+   2. part of disabled logic
+   3. a side-effect of other trimmed logic
+
+The signal "CLK100" is unused and has been removed.
+ Unused block "CLK100" (PAD) removed.
+The signal "clk104inst/clkfbout_buf" is unused and has been removed.
+ Unused block "clk104inst/clkf_buf" (CKBUF) removed.
+  The signal "clk104inst/clkfbout" is unused and has been removed.
+The signal "clk104inst/clkin1" is unused and has been removed.
+ Unused block "clk104inst/clkin1_buf" (CKBUF) removed.
+Unused block "clk104inst/pll_base_inst/PLL_ADV" (PLL_ADV) removed.
+
+Optimized Block(s):
+TYPE 		BLOCK
+GND 		XST_GND
+VCC 		XST_VCC
+GND 		shadowram/XST_GND
+VCC 		shadowram/XST_VCC
+
+To enable printing of redundant blocks removed and signals merged, set the
+detailed map report option and rerun map.
+
+Section 6 - IOB Properties
+--------------------------
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+| IOB Name                           | Type             | Direction | IO Standard          | Diff  | Drive    | Slew | Reg (s)      | Resistor | IOB      |
+|                                    |                  |           |                      | Term  | Strength | Rate |              |          | Delay    |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+| A0                                 | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| A1                                 | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| A2                                 | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| A3                                 | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| A4                                 | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| A5                                 | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| A6                                 | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| A7                                 | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| A8                                 | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| A9                                 | IOB              | INPUT     | LVCMOS33             |       |          |      | IFF          |          |          |
+| A10                                | IOB              | INPUT     | LVCMOS33             |       |          |      | IFF          |          |          |
+| A11                                | IOB              | INPUT     | LVCMOS33             |       |          |      | IFF          |          |          |
+| A12                                | IOB              | INPUT     | LVCMOS33             |       |          |      | IFF          |          |          |
+| A13                                | IOB              | INPUT     | LVCMOS33             |       |          |      | IFF          |          |          |
+| A14                                | IOB              | INPUT     | LVCMOS33             |       |          |      | IFF          |          |          |
+| A15                                | IOB              | INPUT     | LVCMOS33             |       |          |      | IFF          |          |          |
+| A0x                                | IOB              | BIDIR     | LVCMOS33             |       | 12       | FAST |              |          |          |
+| A10x                               | IOB              | BIDIR     | LVCMOS33             |       | 12       | FAST |              |          |          |
+| A11x                               | IOB              | BIDIR     | LVCMOS33             |       | 12       | FAST |              |          |          |
+| A12x                               | IOB              | BIDIR     | LVCMOS33             |       | 12       | FAST |              |          |          |
+| A13x                               | IOB              | BIDIR     | LVCMOS33             |       | 12       | FAST |              |          |          |
+| A14x                               | IOB              | BIDIR     | LVCMOS33             |       | 12       | FAST |              |          |          |
+| A15x                               | IOB              | BIDIR     | LVCMOS33             |       | 12       | FAST |              |          |          |
+| A16x                               | IOB              | OUTPUT    | LVCMOS33             |       | 12       | FAST |              |          |          |
+| A17x                               | IOB              | OUTPUT    | LVCMOS33             |       | 12       | FAST |              |          |          |
+| A18x                               | IOB              | OUTPUT    | LVCMOS33             |       | 12       | FAST |              |          |          |
+| A1x                                | IOB              | BIDIR     | LVCMOS33             |       | 12       | FAST |              |          |          |
+| A2x                                | IOB              | BIDIR     | LVCMOS33             |       | 12       | FAST |              |          |          |
+| A3x                                | IOB              | BIDIR     | LVCMOS33             |       | 12       | FAST |              |          |          |
+| A4x                                | IOB              | BIDIR     | LVCMOS33             |       | 12       | FAST |              |          |          |
+| A5x                                | IOB              | BIDIR     | LVCMOS33             |       | 12       | FAST |              |          |          |
+| A6x                                | IOB              | BIDIR     | LVCMOS33             |       | 12       | FAST |              |          |          |
+| A7x                                | IOB              | BIDIR     | LVCMOS33             |       | 12       | FAST |              |          |          |
+| A8x                                | IOB              | BIDIR     | LVCMOS33             |       | 12       | FAST |              |          |          |
+| A9x                                | IOB              | BIDIR     | LVCMOS33             |       | 12       | FAST |              |          |          |
+| B0                                 | IOB              | OUTPUT    | LVCMOS33             |       | 12       | FAST |              |          |          |
+| B1                                 | IOB              | OUTPUT    | LVCMOS33             |       | 12       | FAST |              |          |          |
+| B2                                 | IOB              | OUTPUT    | LVCMOS33             |       | 12       | FAST |              |          |          |
+| B3                                 | IOB              | OUTPUT    | LVCMOS33             |       | 12       | FAST |              |          |          |
+| B4                                 | IOB              | OUTPUT    | LVCMOS33             |       | 12       | FAST |              |          |          |
+| B5                                 | IOB              | OUTPUT    | LVCMOS33             |       | 12       | FAST |              |          |          |
+| B6                                 | IOB              | OUTPUT    | LVCMOS33             |       | 12       | FAST |              |          |          |
+| B7                                 | IOB              | OUTPUT    | LVCMOS33             |       | 12       | FAST |              |          |          |
+| BCK                                | IOB              | OUTPUT    | LVCMOS33             |       | 12       | FAST | OFF          |          |          |
+| BRIGHT                             | IOB              | OUTPUT    | LVCMOS33             |       | 12       | FAST |              |          |          |
+| CFG_CLK                            | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| CFG_DATA                           | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| CFG_RESET                          | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| CSYNC                              | IOB              | OUTPUT    | LVCMOS33             |       | 12       | FAST |              |          |          |
+| CTRL_CLK                           | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| D0                                 | IOB              | BIDIR     | LVCMOS33             |       | 12       | FAST | IFF          | PULLUP   |          |
+| D1                                 | IOB              | BIDIR     | LVCMOS33             |       | 12       | FAST | IFF          | PULLUP   |          |
+| D2                                 | IOB              | BIDIR     | LVCMOS33             |       | 12       | FAST | IFF          | PULLUP   |          |
+| D3                                 | IOB              | BIDIR     | LVCMOS33             |       | 12       | FAST | IFF          | PULLUP   |          |
+| D4                                 | IOB              | BIDIR     | LVCMOS33             |       | 12       | FAST | IFF          | PULLUP   |          |
+| D5                                 | IOB              | BIDIR     | LVCMOS33             |       | 12       | FAST | IFF          | PULLUP   |          |
+| D6                                 | IOB              | BIDIR     | LVCMOS33             |       | 12       | FAST | IFF          | PULLUP   |          |
+| D7                                 | IOB              | BIDIR     | LVCMOS33             |       | 12       | FAST | IFF          | PULLUP   |          |
+| DEBUG_RDY                          | IOB              | OUTPUT    | LVCMOS33             |       | 12       | FAST |              |          |          |
+| DIN                                | IOB              | OUTPUT    | LVCMOS33             |       | 12       | FAST | OFF          | PULLUP   |          |
+| DOWN                               | IOB              | INPUT     | LVCMOS33             |       |          |      |              | PULLUP   |          |
+| FIRE                               | IOB              | INPUT     | LVCMOS33             |       |          |      |              | PULLUP   |          |
+| GET_CTRL_REG                       | IOB              | OUTPUT    | LVCMOS33             |       | 12       | FAST | OFF          |          |          |
+| GET_DATA_REG                       | IOB              | OUTPUT    | LVCMOS33             |       | 12       | FAST | OFF          |          |          |
+| LEFT                               | IOB              | INPUT     | LVCMOS33             |       |          |      |              | PULLUP   |          |
+| LRCK                               | IOB              | OUTPUT    | LVCMOS33             |       | 12       | FAST | OFF          |          |          |
+| MICRO_DB_CLK                       | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| O0                                 | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| O1                                 | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| O2                                 | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| O3                                 | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| O4                                 | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| O5                                 | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| O6                                 | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| O7                                 | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| RIGHT                              | IOB              | INPUT     | LVCMOS33             |       |          |      |              | PULLUP   |          |
+| SPARE0                             | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| UP                                 | IOB              | INPUT     | LVCMOS33             |       |          |      |              | PULLUP   |          |
+| VBLUE                              | IOB              | OUTPUT    | LVCMOS33             |       | 12       | FAST |              |          |          |
+| VGREEN                             | IOB              | OUTPUT    | LVCMOS33             |       | 12       | FAST |              |          |          |
+| VRED                               | IOB              | OUTPUT    | LVCMOS33             |       | 12       | FAST |              |          |          |
+| nBUSAK                             | IOB              | OUTPUT    | LVCMOS33             |       | 12       | FAST |              |          |          |
+| nBUSRQ                             | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| nCLOCK                             | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| nHALT                              | IOB              | BIDIR     | LVCMOS33             |       | 12       | FAST |              |          |          |
+| nIORQ                              | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| nM1                                | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| nMEM_OE                            | IOB              | OUTPUT    | LVCMOS33             |       | 12       | FAST |              |          |          |
+| nMEM_OEm                           | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| nMREQ                              | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| nOE_OL                             | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| nRD                                | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| nRESET                             | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| nRFSH                              | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| nRST_CTRL_REG                      | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| nRST_DATA_REG                      | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| nWR                                | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| nWRx                               | IOB              | BIDIR     | LVCMOS33             |       | 12       | FAST |              |          |          |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+Section 7 - RPMs
+----------------
+
+Section 8 - Guide Report
+------------------------
+Guide not run on this design.
+
+Section 9 - Area Group and Partition Summary
+--------------------------------------------
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Area Group Information
+----------------------
+
+  No area groups were found in this design.
+
+----------------------
+
+Section 10 - Timing Report
+--------------------------
+A logic-level (pre-route) timing report can be generated by using Xilinx static
+timing analysis tools, Timing Analyzer (GUI) or TRCE (command line), with the
+mapped NCD and PCF files. Please note that this timing report will be generated
+using estimated delay information. For accurate numbers, please generate a
+timing report with the post Place and Route NCD file.
+
+For more information about the Timing Analyzer, consult the Xilinx Timing
+Analyzer Reference Manual; for more information about TRCE, consult the Xilinx
+Command Line Tools User Guide "TRACE" chapter.
+
+Section 11 - Configuration String Details
+-----------------------------------------
+Use the "-detail" map option to print out Configuration Strings
+
+Section 12 - Control Set Information
+------------------------------------
+Use the "-detail" map option to print out Control Set Information.
+
+Section 13 - Utilization by Hierarchy
+-------------------------------------
+Use the "-detail" map option to print out the Utilization by Hierarchy section.

@@ -1,0 +1,1398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"/home/ise/Documentos/git/github/SD81-Booster - Privado/V2/FPGA/SD81V2.004/SD81.v" Line 232: Port <arg fmt="%s" index="1">CLKFX180</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"/home/ise/Documentos/git/github/SD81-Booster - Privado/V2/FPGA/SD81V2.004/SD81.v" Line 435: Port <arg fmt="%s" index="1">dinb</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="872" delta="old" >"/home/ise/Documentos/git/github/SD81-Booster - Privado/V2/FPGA/SD81V2.004/SD81.v" Line 894: Using initial value of <arg fmt="%s" index="1">int_addr</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/ise/Documentos/git/github/SD81-Booster - Privado/V2/FPGA/SD81V2.004/SD81.v" Line 227: Assignment to <arg fmt="%s" index="1">system_reset_n</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/ise/Documentos/git/github/SD81-Booster - Privado/V2/FPGA/SD81V2.004/ipcore_dir/clk26.v" Line 127: Assignment to <arg fmt="%s" index="1">status_int</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1499" delta="old" >"/home/ise/Documentos/git/github/SD81-Booster - Privado/V2/FPGA/SD81V2.004/ipcore_dir/bramdp_w.v" Line 39: Empty module &lt;<arg fmt="%s" index="1">bramdp_w</arg>&gt; remains a black box.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/ise/Documentos/git/github/SD81-Booster - Privado/V2/FPGA/SD81V2.004/SD81.v" Line 465: Assignment to <arg fmt="%s" index="1">beeper_reg</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/ise/Documentos/git/github/SD81-Booster - Privado/V2/FPGA/SD81V2.004/SD81.v" Line 503: Result of <arg fmt="%d" index="1">6</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">5</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/ise/Documentos/git/github/SD81-Booster - Privado/V2/FPGA/SD81V2.004/SD81.v" Line 504: Result of <arg fmt="%d" index="1">6</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">5</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/ise/Documentos/git/github/SD81-Booster - Privado/V2/FPGA/SD81V2.004/SD81.v" Line 505: Result of <arg fmt="%d" index="1">6</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">5</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/ise/Documentos/git/github/SD81-Booster - Privado/V2/FPGA/SD81V2.004/SD81.v" Line 506: Result of <arg fmt="%d" index="1">6</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">5</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/ise/Documentos/git/github/SD81-Booster - Privado/V2/FPGA/SD81V2.004/SD81.v" Line 476: Assignment to <arg fmt="%s" index="1">scr_col_debug</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/ise/Documentos/git/github/SD81-Booster - Privado/V2/FPGA/SD81V2.004/SD81.v" Line 579: Result of <arg fmt="%d" index="1">10</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">9</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/ise/Documentos/git/github/SD81-Booster - Privado/V2/FPGA/SD81V2.004/SD81.v" Line 590: Result of <arg fmt="%d" index="1">10</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">9</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/ise/Documentos/git/github/SD81-Booster - Privado/V2/FPGA/SD81V2.004/SD81.v" Line 551: Assignment to <arg fmt="%s" index="1">debug_param1</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"/home/ise/Documentos/git/github/SD81-Booster - Privado/V2/FPGA/SD81V2.004/SD81.v" Line 1086: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">channel_a</arg>&gt;. Formal port size is <arg fmt="%d" index="2">13</arg>-bit while actual signal size is <arg fmt="%d" index="1">14</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"/home/ise/Documentos/git/github/SD81-Booster - Privado/V2/FPGA/SD81V2.004/SD81.v" Line 1087: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">channel_b</arg>&gt;. Formal port size is <arg fmt="%d" index="2">13</arg>-bit while actual signal size is <arg fmt="%d" index="1">14</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"/home/ise/Documentos/git/github/SD81-Booster - Privado/V2/FPGA/SD81V2.004/SD81.v" Line 1088: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">channel_c</arg>&gt;. Formal port size is <arg fmt="%d" index="2">13</arg>-bit while actual signal size is <arg fmt="%d" index="1">14</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"/home/ise/Documentos/git/github/SD81-Booster - Privado/V2/FPGA/SD81V2.004/SD81.v" Line 1086: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">channel_a</arg>&gt;. Formal port size is <arg fmt="%d" index="2">13</arg>-bit while actual signal size is <arg fmt="%d" index="1">14</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"/home/ise/Documentos/git/github/SD81-Booster - Privado/V2/FPGA/SD81V2.004/SD81.v" Line 1087: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">channel_b</arg>&gt;. Formal port size is <arg fmt="%d" index="2">13</arg>-bit while actual signal size is <arg fmt="%d" index="1">14</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"/home/ise/Documentos/git/github/SD81-Booster - Privado/V2/FPGA/SD81V2.004/SD81.v" Line 1088: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">channel_c</arg>&gt;. Formal port size is <arg fmt="%d" index="2">13</arg>-bit while actual signal size is <arg fmt="%d" index="1">14</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/ise/Documentos/git/github/SD81-Booster - Privado/V2/FPGA/SD81V2.004/beeper.v" Line 49: Result of <arg fmt="%d" index="1">14</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">13</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/ise/Documentos/git/github/SD81-Booster - Privado/V2/FPGA/SD81V2.004/beeper.v" Line 50: Result of <arg fmt="%d" index="1">14</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">13</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/ise/Documentos/git/github/SD81-Booster - Privado/V2/FPGA/SD81V2.004/DAC_i2s.v" Line 31: Result of <arg fmt="%d" index="1">9</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/ise/Documentos/git/github/SD81-Booster - Privado/V2/FPGA/SD81V2.004/DAC_i2s.v" Line 63: Result of <arg fmt="%d" index="1">7</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">6</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/ise/Documentos/git/github/SD81-Booster - Privado/V2/FPGA/SD81V2.004/SD81.v" Line 1138: Assignment to <arg fmt="%s" index="1">bclk</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/ise/Documentos/git/github/SD81-Booster - Privado/V2/FPGA/SD81V2.004/SD81.v" Line 1139: Assignment to <arg fmt="%s" index="1">lrclk</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/ise/Documentos/git/github/SD81-Booster - Privado/V2/FPGA/SD81V2.004/SD81.v" Line 1140: Assignment to <arg fmt="%s" index="1">sdata</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"/home/ise/Documentos/git/github/SD81-Booster - Privado/V2/FPGA/SD81V2.004/SD81.v" Line 173: Net &lt;<arg fmt="%s" index="1">shift_register_fast_debug[7]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"/home/ise/Documentos/git/github/SD81-Booster - Privado/V2/FPGA/SD81V2.004/SD81.v" Line 174: Net &lt;<arg fmt="%s" index="1">shift_register_fast_addr_debug[15]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"/home/ise/Documentos/git/github/SD81-Booster - Privado/V2/FPGA/SD81V2.004/SD81.v" Line 188: Net &lt;<arg fmt="%s" index="1">debug_capture_done</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"/home/ise/Documentos/git/github/SD81-Booster - Privado/V2/FPGA/SD81V2.004/SD81.v" Line 435: Input port <arg fmt="%s" index="1">dinb[7]</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">/home/ise/Documentos/git/github/SD81-Booster - Privado/V2/FPGA/SD81V2.004/SD81.v</arg>&quot; line <arg fmt="%d" index="2">1098</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">beeper_inst</arg>&gt; of block &lt;<arg fmt="%s" index="4">beeper</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">SD81</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">/home/ise/Documentos/git/github/SD81-Booster - Privado/V2/FPGA/SD81V2.004/SD81.v</arg>&quot; line <arg fmt="%d" index="2">1132</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">DAC</arg>&gt; of block &lt;<arg fmt="%s" index="4">i2s_tx</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">SD81</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">CFG_CLK</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ise/Documentos/git/github/SD81-Booster - Privado/V2/FPGA/SD81V2.004/SD81.v</arg>&quot; line <arg fmt="%s" index="2">262</arg>: Output port &lt;<arg fmt="%s" index="3">LOCKED</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">dcm_final_inst</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ise/Documentos/git/github/SD81-Booster - Privado/V2/FPGA/SD81V2.004/SD81.v</arg>&quot; line <arg fmt="%s" index="2">1075</arg>: Output port &lt;<arg fmt="%s" index="3">port_a_dout</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">aychips[0].ay</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ise/Documentos/git/github/SD81-Booster - Privado/V2/FPGA/SD81V2.004/SD81.v</arg>&quot; line <arg fmt="%s" index="2">1075</arg>: Output port &lt;<arg fmt="%s" index="3">oe_n</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">aychips[0].ay</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ise/Documentos/git/github/SD81-Booster - Privado/V2/FPGA/SD81V2.004/SD81.v</arg>&quot; line <arg fmt="%s" index="2">1075</arg>: Output port &lt;<arg fmt="%s" index="3">port_a_oe_n</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">aychips[0].ay</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ise/Documentos/git/github/SD81-Booster - Privado/V2/FPGA/SD81V2.004/SD81.v</arg>&quot; line <arg fmt="%s" index="2">1075</arg>: Output port &lt;<arg fmt="%s" index="3">channel_c</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">aychips[1].ay</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ise/Documentos/git/github/SD81-Booster - Privado/V2/FPGA/SD81V2.004/SD81.v</arg>&quot; line <arg fmt="%s" index="2">1075</arg>: Output port &lt;<arg fmt="%s" index="3">port_a_dout</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">aychips[1].ay</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ise/Documentos/git/github/SD81-Booster - Privado/V2/FPGA/SD81V2.004/SD81.v</arg>&quot; line <arg fmt="%s" index="2">1075</arg>: Output port &lt;<arg fmt="%s" index="3">oe_n</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">aychips[1].ay</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ise/Documentos/git/github/SD81-Booster - Privado/V2/FPGA/SD81V2.004/SD81.v</arg>&quot; line <arg fmt="%s" index="2">1075</arg>: Output port &lt;<arg fmt="%s" index="3">port_a_oe_n</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">aychips[1].ay</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ise/Documentos/git/github/SD81-Booster - Privado/V2/FPGA/SD81V2.004/SD81.v</arg>&quot; line <arg fmt="%s" index="2">1132</arg>: Output port &lt;<arg fmt="%s" index="3">bclk</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">DAC</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ise/Documentos/git/github/SD81-Booster - Privado/V2/FPGA/SD81V2.004/SD81.v</arg>&quot; line <arg fmt="%s" index="2">1132</arg>: Output port &lt;<arg fmt="%s" index="3">lrclk</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">DAC</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ise/Documentos/git/github/SD81-Booster - Privado/V2/FPGA/SD81V2.004/SD81.v</arg>&quot; line <arg fmt="%s" index="2">1132</arg>: Output port &lt;<arg fmt="%s" index="3">sdata</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">DAC</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">shift_register_fast_debug</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">shift_register_fast_addr_debug</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">debug_capture_done</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">cfg_cnt&lt;5&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">cfg_cnt&lt;4&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">cfg_cnt&lt;3&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">cfg_cnt&lt;2&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">cfg_cnt&lt;1&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">cfg_cnt&lt;0&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">joy_cnf&lt;29&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">joy_cnf&lt;28&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">joy_cnf&lt;27&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">joy_cnf&lt;26&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">joy_cnf&lt;25&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">joy_cnf&lt;24&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">joy_cnf&lt;23&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">joy_cnf&lt;22&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">joy_cnf&lt;21&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">joy_cnf&lt;20&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">joy_cnf&lt;19&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">joy_cnf&lt;18&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">joy_cnf&lt;17&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">joy_cnf&lt;16&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">joy_cnf&lt;15&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">joy_cnf&lt;14&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">joy_cnf&lt;13&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">joy_cnf&lt;12&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">joy_cnf&lt;11&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">joy_cnf&lt;10&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">joy_cnf&lt;9&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">joy_cnf&lt;8&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">joy_cnf&lt;7&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">joy_cnf&lt;6&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">joy_cnf&lt;5&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">joy_cnf&lt;4&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">joy_cnf&lt;3&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">joy_cnf&lt;2&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">joy_cnf&lt;1&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">joy_cnf&lt;0&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">EN_MC45</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">nMODE48K</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">nQS_en</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">FULL_PAGING</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">cfg_reg&lt;33&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">cfg_reg&lt;32&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">cfg_reg&lt;31&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">cfg_reg&lt;30&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">cfg_reg&lt;29&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">cfg_reg&lt;28&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">cfg_reg&lt;27&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">cfg_reg&lt;26&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">cfg_reg&lt;25&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">cfg_reg&lt;24&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">cfg_reg&lt;23&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">cfg_reg&lt;22&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">cfg_reg&lt;21&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">cfg_reg&lt;20&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">cfg_reg&lt;19&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">cfg_reg&lt;18&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">cfg_reg&lt;17&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">cfg_reg&lt;16&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">cfg_reg&lt;15&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">cfg_reg&lt;14&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">cfg_reg&lt;13&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">cfg_reg&lt;12&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">cfg_reg&lt;11&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">cfg_reg&lt;10&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">cfg_reg&lt;9&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">cfg_reg&lt;8&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">cfg_reg&lt;7&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">cfg_reg&lt;6&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">cfg_reg&lt;5&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">cfg_reg&lt;4&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">cfg_reg&lt;3&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">cfg_reg&lt;2&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">cfg_reg&lt;1&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">cfg_reg&lt;0&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="2999" delta="old" >Signal &apos;<arg fmt="%s" index="1">lin2log</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">ay_3_8192</arg>&apos;, is tied to its initial value.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">data_out_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">sim_int_inst</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;data_out_5&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">data_out_4</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">sim_int_inst</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">char_latch_fast_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ishalt_delayed_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="3231" delta="old" >The small RAM &lt;<arg fmt="%s" index="1">Mram_lin2log1</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+</msg>
+
+<msg type="info" file="Xst" num="3231" delta="old" >The small RAM &lt;<arg fmt="%s" index="1">Mram_lin2log</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+</msg>
+
+<msg type="info" file="Xst" num="3212" delta="old" >HDL ADVISOR - Asynchronous or synchronous initialization of the register &lt;<arg fmt="%s" index="1">envelope_shape</arg>&gt; prevents it from being combined with the RAM &lt;<arg fmt="%s" index="2">Mram_attack_GND_30_o_wide_mux_167_OUT</arg>&gt; for implementation as read-only block RAM.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ishalt_delayed_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">char_latch_fast_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">data_out_4</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">sim_int</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">data_out_5</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">sim_int</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">attr_latch_fast_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">SD81</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;attr_latch_fast_cur_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">attr_latch_fast_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">SD81</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;attr_latch_fast_cur_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">attr_latch_fast_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">SD81</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;attr_latch_fast_cur_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">scr_col1_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">SD81</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;scr_col2_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">attr_latch_fast_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">SD81</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;attr_latch_fast_cur_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">scr_col1_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">SD81</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;scr_col2_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">attr_latch_fast_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">SD81</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;attr_latch_fast_cur_4&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">scr_col1_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">SD81</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;scr_col2_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">attr_latch_fast_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">SD81</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;attr_latch_fast_cur_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">scr_col1_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">SD81</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;scr_col2_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">attr_latch_fast_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">SD81</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;attr_latch_fast_cur_6&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">scr_col1_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">SD81</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;scr_col2_4&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">attr_latch_fast_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">SD81</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;attr_latch_fast_cur_7&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/channel_c_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/channel_c_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/channel_c_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/channel_c_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/channel_c_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/channel_c_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/channel_c_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/channel_c_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/channel_c_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/channel_c_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/channel_c_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/channel_c_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/channel_c_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/channel_b_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/channel_b_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/channel_b_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/channel_b_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/channel_b_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/channel_b_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/channel_b_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/channel_b_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/channel_b_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/channel_b_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/channel_b_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/channel_b_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/channel_b_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/channel_a_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/channel_a_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/channel_a_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/channel_a_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/channel_a_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/channel_a_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/channel_a_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/channel_a_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/channel_a_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/channel_a_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/channel_a_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/channel_a_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/channel_a_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/linear_chan_c_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/linear_chan_c_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/linear_chan_c_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/linear_chan_c_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/linear_chan_c_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/linear_chan_a_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/linear_chan_a_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/linear_chan_a_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/linear_chan_a_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/linear_chan_a_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/linear_chan_b_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/linear_chan_b_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/linear_chan_b_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/linear_chan_b_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/linear_chan_b_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/tone_noise</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/counter_envelope_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/counter_envelope_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/counter_envelope_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/counter_envelope_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/counter_envelope_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/counter_envelope_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/counter_envelope_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/counter_envelope_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/counter_envelope_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/counter_envelope_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/counter_envelope_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/counter_envelope_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/counter_envelope_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/counter_envelope_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/counter_envelope_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/counter_envelope_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/counter_noise_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/counter_noise_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/counter_noise_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/counter_noise_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/counter_noise_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/counter_tone_b_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/counter_tone_b_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/counter_tone_b_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/counter_tone_b_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/counter_tone_b_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/counter_tone_b_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/counter_tone_b_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/counter_tone_b_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/counter_tone_b_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/counter_tone_b_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/counter_tone_b_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/counter_tone_b_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/counter_tone_a_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/counter_tone_a_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/counter_tone_a_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/counter_tone_a_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/counter_tone_a_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/counter_tone_a_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/counter_tone_a_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/counter_tone_a_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/counter_tone_a_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/counter_tone_a_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/counter_tone_a_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/counter_tone_a_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/counter_tone_c_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/counter_tone_c_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/counter_tone_c_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/counter_tone_c_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/counter_tone_c_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/counter_tone_c_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/counter_tone_c_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/counter_tone_c_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/counter_tone_c_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/counter_tone_c_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/counter_tone_c_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/counter_tone_c_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/noise_shiftreg_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/noise_shiftreg_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/noise_shiftreg_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/noise_shiftreg_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/noise_shiftreg_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/noise_shiftreg_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/noise_shiftreg_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/noise_shiftreg_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/noise_shiftreg_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/noise_shiftreg_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/noise_shiftreg_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/noise_shiftreg_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/noise_shiftreg_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/noise_shiftreg_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/noise_shiftreg_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/noise_shiftreg_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/noise_shiftreg_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/divprescaler_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/divprescaler_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/divprescaler_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/divprescaler_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/divprescaler_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/divprescaler_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/divprescaler_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/divprescaler_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/divprescaler_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/divprescaler_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/divprescaler_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/divprescaler_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/divprescaler_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/divprescaler_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/divprescaler_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/divprescaler_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/tone_c</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/env_shape_first_period</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/tone_b</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[1].ay/tone_a</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/channel_c_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/channel_c_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/channel_c_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/channel_c_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/channel_c_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/channel_c_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/channel_c_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/channel_c_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/channel_c_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/channel_c_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/channel_c_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/channel_c_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/channel_c_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/channel_b_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/channel_b_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/channel_b_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/channel_b_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/channel_b_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/channel_b_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/channel_b_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/channel_b_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/channel_b_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/channel_b_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/channel_b_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/channel_b_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/channel_b_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/channel_a_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/channel_a_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/channel_a_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/channel_a_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/channel_a_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/channel_a_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/channel_a_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/channel_a_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/channel_a_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/channel_a_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/channel_a_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/channel_a_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/channel_a_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/linear_chan_c_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/linear_chan_c_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/linear_chan_c_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/linear_chan_c_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/linear_chan_c_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/linear_chan_a_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/linear_chan_a_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/linear_chan_a_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/linear_chan_a_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/linear_chan_a_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/linear_chan_b_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/linear_chan_b_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/linear_chan_b_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/linear_chan_b_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/linear_chan_b_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/tone_noise</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/counter_envelope_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/counter_envelope_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/counter_envelope_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/counter_envelope_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/counter_envelope_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/counter_envelope_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/counter_envelope_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/counter_envelope_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/counter_envelope_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/counter_envelope_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/counter_envelope_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/counter_envelope_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/counter_envelope_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/counter_envelope_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/counter_envelope_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/counter_envelope_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/counter_noise_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/counter_noise_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/counter_noise_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/counter_noise_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/counter_noise_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/counter_tone_b_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/counter_tone_b_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/counter_tone_b_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/counter_tone_b_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/counter_tone_b_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/counter_tone_b_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/counter_tone_b_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/counter_tone_b_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/counter_tone_b_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/counter_tone_b_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/counter_tone_b_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/counter_tone_b_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/counter_tone_a_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/counter_tone_a_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/counter_tone_a_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/counter_tone_a_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/counter_tone_a_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/counter_tone_a_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/counter_tone_a_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/counter_tone_a_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/counter_tone_a_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/counter_tone_a_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/counter_tone_a_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/counter_tone_a_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/counter_tone_c_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/counter_tone_c_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/counter_tone_c_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/counter_tone_c_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/counter_tone_c_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/counter_tone_c_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/counter_tone_c_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/counter_tone_c_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/counter_tone_c_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/counter_tone_c_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/counter_tone_c_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/counter_tone_c_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/noise_shiftreg_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/noise_shiftreg_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/noise_shiftreg_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/noise_shiftreg_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/noise_shiftreg_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/noise_shiftreg_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/noise_shiftreg_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/noise_shiftreg_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/noise_shiftreg_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/noise_shiftreg_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/noise_shiftreg_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/noise_shiftreg_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/noise_shiftreg_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/noise_shiftreg_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/noise_shiftreg_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/noise_shiftreg_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/noise_shiftreg_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/divprescaler_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/divprescaler_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/divprescaler_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/divprescaler_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/divprescaler_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/divprescaler_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/divprescaler_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/divprescaler_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/divprescaler_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/divprescaler_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/divprescaler_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/divprescaler_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/divprescaler_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/divprescaler_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/divprescaler_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/divprescaler_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/tone_c</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/env_shape_first_period</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/tone_b</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">aychips[0].ay/tone_a</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">cnt26_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">cnt26_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SD81</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">data_out_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">sim_int</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;data_out_2&gt; &lt;data_out_3&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="3002" delta="old" >This design contains one or more registers/latches that are directly
+incompatible with the <arg fmt="%s" index="1">Spartan6</arg> architecture. The two primary causes of this is
+either a register or latch described with both an asynchronous set and
+asynchronous reset, or a register or latch described with an asynchronous
+set or reset which however has an initialization value of the opposite 
+polarity (i.e. asynchronous reset with an initialization value of 1).
+ While this circuit can be built, it creates a sub-optimal implementation
+in terms of area, power and performance. For a more optimal implementation
+Xilinx highly recommends one of the following:
+
+       1) Remove either the set or reset from all registers and latches
+          if not needed for required functionality
+       2) Modify the code in order to produce a synchronous set
+          and/or reset (both is preferred)
+       3) Ensure all registers have the same initialization value as the
+          described asynchronous set or reset polarity
+       4) Use the -async_to_sync option to transform the asynchronous
+          set/reset to synchronous operation
+          (timing simulation highly recommended when using this option)
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">trace_pos_8</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">SD81</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2254" delta="old" >Area constraint could not be met for block &lt;<arg fmt="%s" index="1">SD81</arg>&gt;, final ratio is <arg fmt="%i" index="2">117</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="1426" delta="old" >The value init of the FF/Latch <arg fmt="%s" index="1">border_ink_0_LD</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">SD81</arg>.
+You should achieve better results by setting this init to <arg fmt="%i" index="3">1</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="1426" delta="old" >The value init of the FF/Latch <arg fmt="%s" index="1">VSYNC_zx81_LD</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">SD81</arg>.
+You should achieve better results by setting this init to <arg fmt="%i" index="3">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="1426" delta="old" >The value init of the FF/Latch <arg fmt="%s" index="1">chroma_mode_reg_5_LD</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">SD81</arg>.
+You should achieve better results by setting this init to <arg fmt="%i" index="3">0</arg>.
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="old" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>
+

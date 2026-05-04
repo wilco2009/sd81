@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "/home/ise/Documentos/git/github/SD81-Booster - Privado/V2/FPGA/golden_image/golden_image.xst" -ofn "/home/ise/Documentos/git/github/SD81-Booster - Privado/V2/FPGA/golden_image/golden_image.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 "golden_image.ngc" golden_image.ngd  
