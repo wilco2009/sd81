@@ -95,8 +95,8 @@ El firmware del MCU tiene dos partes diferenciadas:
 
 | Parte | Archivo | Dirección |
 |-------|---------|-----------|
-| **Bootloader** | `V2/Arduino/bootloader/build/STMicroelectronics.stm32.GenF4/bootloader.ino.bin` | `0x08000000` |
-| **Aplicación** | `V2/Arduino/SD81BoosterV2_038_STM32/build/STMicroelectronics.stm32.GenF4/SD81BoosterV2_038_STM32.ino.bin` | `0x0800C000` |
+| **Bootloader** | `FIRMWARE/bootloader.bin` | `0x08000000` |
+| **Aplicación** | `FIRMWARE/firmware.bin` | `0x0800C000` |
 
 **Proceso normal (bootloader vía SD):**
 1. Copiar el archivo `SD81BoosterV2_038_STM32.ino.bin` renombrado como `firmware.bin` en la raíz de la SD

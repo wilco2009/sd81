@@ -313,7 +313,9 @@ Z80 ← SD81: `< error code >`
 
 ### SET 128CHARS (1Bh)
 
-Switch to 128-character user-defined character mode (QuickSilva compatible).
+Activate standard 128-character user-defined character mode. In this mode the character bitmap address is taken from the Z80 **I register**, as in the original ZX81 UDG mechanism extended to 128 characters.
+
+This is distinct from the QuickSilva mode, which uses a fixed memory address independent of the I register and can only be toggled by pressing the **QSILVA button** (located below the reset button on the interface).
 
 Z80 → SD81: `1Bh`
 
@@ -333,7 +335,9 @@ Z80 ← SD81: nothing
 
 ### SET FULLPAGING (1Dh)
 
-Activate full memory paging mode: 512 KB RAM, 64 pages of 8 KB each. Equivalent to `LOAD *MAP` in extended mode.
+Activate full memory paging mode: 512 KB RAM, 64 pages of 8 KB each.
+
+This command is used internally by the ROM extension when `LOAD *MAP` is called with a page number greater than 32. It is not directly accessible as a standalone BASIC command, but can be issued independently from machine code.
 
 Z80 → SD81: `1Dh`
 
@@ -596,12 +600,12 @@ Board package required: **STM32 by STMicroelectronics** (install via Board Manag
 Target board: `Generic STM32F4 Series` → `Generic F407VETx`
 
 The current firmware source is located in:
-`V2/Arduino/SD81BoosterV2_038_STM32/`
+`FIRMWARE/SD81BoosterV2_038_STM32/`
 
 ### Library dependencies
 
 - **SdFat** 2.2.0 by Bill Greiman — SD card access (install via Library Manager).
-- **JTAGSD** — CPLD programming from SD. Located in `V2/Arduino/libraries/JTAGSD/`. Copy this folder to your Arduino libraries directory (usually `Documents/Arduino/libraries/`).
+- **STM32duino RTC** — Real-time clock support for STM32 (install via Library Manager).
 
 ### Firmware binaries
 
@@ -609,8 +613,8 @@ The compiled firmware consists of two parts:
 
 | Part | File | Flash address |
 |------|------|--------------|
-| Bootloader | `V2/Arduino/bootloader/build/STMicroelectronics.stm32.GenF4/bootloader.ino.bin` | `0x08000000` |
-| Application | `V2/Arduino/SD81BoosterV2_038_STM32/build/STMicroelectronics.stm32.GenF4/SD81BoosterV2_038_STM32.ino.bin` | `0x0800C000` |
+| Bootloader | `FIRMWARE/bootloader.bin` | `0x08000000` |
+| Application | `FIRMWARE/firmware.bin` | `0x0800C000` |
 
 ---
 

@@ -1,6 +1,0 @@
-para restaurar la configuración después de una instalación nueva ejecutar el script desde una ventana de powershell
-
-PowerShell -ExecutionPolicy Bypass -File ".\restore_SD81_boards.ps1"
-
-
-no es necesario copiar el archivo boards.txt que es solo de backup por seguridad

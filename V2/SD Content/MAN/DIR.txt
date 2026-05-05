@@ -1,0 +1,3 @@
+SHOW FOLDER FILES
+LOAD *DIR
+LOAD *DIR "<path><filename>"
