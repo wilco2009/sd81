@@ -1795,7 +1795,7 @@ El firmware de producción emite mensajes básicos de estado que permiten identi
 
 ## 17. Actualización del firmware
 
-El SD81 Booster tiene dos componentes de firmware actualizables: el **microcontrolador (MCU)** y la **FPGA/CPLD**.
+El SD81 Booster tiene dos componentes de firmware actualizables: el **microcontrolador (MCU)** y la **FPGA**.
 
 > ⚠️ **Importante:** No interrumpas el proceso de actualización una vez iniciado. Una actualización incompleta puede dejar el interface en un estado no operativo.
 
@@ -1831,11 +1831,11 @@ En caso de que el interface quede inoperativo y no sea posible actualizar via SD
 
 ---
 
-### 17.2 Actualización de la FPGA/CPLD
+### 17.2 Actualización de la FPGA
 
-La actualización de la FPGA/CPLD está orientada exclusivamente a **personal técnico especializado** y requiere un cable programador **Xilinx Platform Cable USB**. Las instrucciones completas y los binarios están disponibles en el repositorio del proyecto.
+La FPGA (Xilinx Spartan-6 XC6SLX9) carga su configuración en cada arranque desde una memoria flash SPI auxiliar (25Q128). La actualización consiste en grabar un archivo MCS en dicha flash mediante JTAG, usando la herramienta **Xilinx ISE iMPACT** y un cable **Xilinx Platform Cable USB**. Este proceso está orientado exclusivamente a **personal técnico especializado**. Las instrucciones completas y los archivos necesarios están disponibles en el repositorio del proyecto.
 
-> ⚠️ **Advertencia:** Una programación incorrecta de la FPGA/CPLD puede dejar el interface permanentemente inoperativo.
+> ⚠️ **Advertencia:** Una programación incorrecta de la flash SPI puede dejar el interface permanentemente inoperativo.
 
 ---
 
@@ -1845,7 +1845,7 @@ La actualización de la FPGA/CPLD está orientada exclusivamente a **personal t�
 |---------|-----------|
 | **Alófono** | Unidad mínima de sonido del habla usada por el sintetizador de voz. El SD81 Booster usa los alófonos del chip SP0256. |
 | **Bloque** | División de 8 KB del espacio de direccionamiento del Z80. El SD81 Booster divide los 64 KB del Z80 en 8 bloques (0–7). |
-| **CPLD / FPGA** | Circuito lógico programable que implementa por hardware la lógica de vídeo, el mapeador de memoria y otras funciones del interface. |
+| **FPGA** | Circuito lógico programable (Xilinx Spartan-6 XC6SLX9) que implementa por hardware la lógica de vídeo, el mapeador de memoria y otras funciones del interface. |
 | **FAT32** | Sistema de archivos requerido por la tarjeta microSD del interface. Incompatible con exFAT y NTFS. |
 | **FAST** | Token del BASIC del ZX81 (SHIFT+F). En el SD81 Booster, activa el modo de carga/guardado desde la SD. |
 | **Fichero de pantalla (HFILE)** | Bloque de memoria que contiene los datos de la pantalla en los modos Superfast. |

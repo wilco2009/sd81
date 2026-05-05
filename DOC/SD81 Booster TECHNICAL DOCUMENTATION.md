@@ -635,27 +635,29 @@ See [FIRMWARE/README_update.md](../FIRMWARE/README_update.md) for full instructi
 
 ---
 
-## Programming the CPLD
+## Programming the FPGA
 
-The CPLD (Xilinx XC95144XL) is programmed via JTAG. This is only required for manufacturing or repair — normal users do not need to do this.
+The FPGA (Xilinx Spartan-6 XC6SLX9) loads its configuration at power-up from an auxiliary SPI flash memory chip (25Q128). Programming is done by writing an MCS file to this SPI flash via JTAG, using the FPGA as a bridge. This is only required for manufacturing or repair — normal users do not need to do this.
 
 ### JTAG connector
 
-Connect a Xilinx USB Platform Cable (or compatible clone) to the JTAG header on the bottom-right of the board, in this order from top to bottom:
+Connect a Xilinx USB Platform Cable (or compatible clone) to the JTAG header on the board, in this order from top to bottom:
 
 TMS — TDI — TDO — TCK — GND — VREF
 
 The board must be powered during programming (e.g. via the USB-C connector).
 
-### Using Xilinx ISE Impact
+### Using Xilinx ISE iMPACT — SPI flash indirect programming
 
-1. Open Impact and double-click **Boundary Scan**.
-2. Right-click in the Boundary Scan window and select **Initialize Chain**. The CPLD (`XC95144XL`) should appear.
-3. Right-click the CPLD, select **Assign New Configuration File**, and browse to `SD81.JED`.
-4. Right-click the CPLD and select **Erase**, then **Program**.
-5. If successful, **PROGRAM SUCCEEDED** is displayed.
+1. Open iMPACT and double-click **Boundary Scan**.
+2. Right-click in the Boundary Scan window and select **Initialize Chain**. The FPGA (`XC6SLX9`) should appear.
+3. Right-click the FPGA and select **Add SPI/BPI Flash**. Browse to `FIRMWARE/SD81Booster.mcs` and select it.
+4. When prompted, select the flash device: **SPI PROM → 25Q128** (128 Mbit).
+5. Right-click the flash and select **Program**.
+6. If successful, **PROGRAM SUCCEEDED** is displayed.
+7. Power-cycle the board. The FPGA will load its configuration from the SPI flash automatically.
 
-ISE Design Suite (which includes Impact) is available for Windows and Linux from the [Xilinx archive](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/vivado-design-tools/archive-ise.html).
+ISE Design Suite (which includes iMPACT) is available for Windows and Linux from the [Xilinx archive](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/vivado-design-tools/archive-ise.html).
 
 ---
 

@@ -21,7 +21,7 @@ Referencia externa: Mazogs con color Chroma81 por Pedro Gimeno — https://codeb
 | Componente | Descripción |
 |-----------|-------------|
 | **MCU** | STM32F407VET (firmware en C/Arduino framework, carpeta `V2/Arduino/`) |
-| **CPLD** | Xilinx (lógica de pegamento, carpeta `V2/CPLD/`) |
+| **FPGA** | Xilinx Spartan-6 XC6SLX9 (lógica de pegamento, carpeta `V2/FPGA/`) |
 | **ROM Z80** | ROM del ZX81 modificada (carpeta `z80rom/`) |
 | **Documentación** | `README.md`, `MANUAL/`, `DOC/` |
 | **Herramientas** | `TOOLS/` (scripts de actualización de firmware) |
@@ -51,9 +51,8 @@ SD81-Booster/
 │   ├── Arduino/                      ← Firmware MCU (versión actual: SD81BoosterV2_038_STM32)
 │   │   ├── Old/                      ← Versiones antiguas (Arduino Mega/AVR)
 │   │   └── libraries/
-│   ├── CPLD/                         ← Lógica CPLD Xilinx
+│   ├── FPGA/                         ← Lógica FPGA Xilinx Spartan-6 XC6SLX9
 │   └── Alofones/                     ← Archivos de audio de alófonos (uso interno)
-├── flash/                            ← Herramientas para grabar bootloader AVR (obsoleto)
 └── z80rom/                           ← Código fuente de la ROM Z80 modificada
 ```
 

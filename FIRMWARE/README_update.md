@@ -8,6 +8,10 @@ This document explains how to update the SD81 Booster firmware.
 
 ## Firmware structure
 
+The SD81 Booster has two programmable components, each updated independently:
+
+### MCU (STM32F407VET)
+
 The MCU firmware consists of two independent parts, each flashed to a separate region:
 
 | Part | Binary | Flash address | Description |
@@ -15,9 +19,17 @@ The MCU firmware consists of two independent parts, each flashed to a separate r
 | **Bootloader** | `bootloader.bin` | `0x08000000` | Runs first on power-on. Checks the SD card for a `firmware.bin` file and flashes it automatically. Occupies sectors 0–2 (48 KB). |
 | **Application** | `firmware.bin` | `0x0800C000` | The main firmware. Loaded by the bootloader after update, or directly on normal boot. |
 
-Both binaries are included in this folder.
-
 Under normal circumstances, **only the application needs to be updated**. The bootloader rarely changes.
+
+### FPGA (Xilinx Spartan-6 XC6SLX9)
+
+| File | Description |
+|------|-------------|
+| `SD81Booster.mcs` | MCS image to be written to the auxiliary SPI flash (25Q128) connected to the FPGA. |
+
+The FPGA loads its configuration from this SPI flash at power-up. See [the FPGA programming section](#fpga-programming-via-jtag) below for update instructions.
+
+All binaries are included in this folder.
 
 ---
 
@@ -76,3 +88,25 @@ Use this method only if the normal SD update fails or the application is corrupt
 9. Close the case and reconnect the interface to the ZX81.
 
 > **Note:** Only flash the bootloader if it is known to be corrupted. In most cases, flashing only the application (`0x0800C000`) is sufficient.
+
+---
+
+## FPGA programming via JTAG
+
+This procedure is intended for **advanced users and manufacturers only**. It requires a Xilinx USB Platform Cable (or compatible clone) and Xilinx ISE iMPACT.
+
+The FPGA (Spartan-6 XC6SLX9) does not store its configuration internally. It loads from an auxiliary SPI flash chip (25Q128) at every power-up. Programming means writing `SD81Booster.mcs` to that flash via JTAG indirect programming.
+
+> ⚠️ **Warning:** Incorrect programming may render the interface permanently inoperative.
+
+**Steps:**
+
+1. Connect the JTAG cable to the JTAG header on the board (TMS — TDI — TDO — TCK — GND — VREF).
+2. Power the board via USB-C.
+3. Open **Xilinx ISE iMPACT** and double-click **Boundary Scan**.
+4. Right-click in the Boundary Scan window → **Initialize Chain**. The FPGA (`XC6SLX9`) should appear.
+5. Right-click the FPGA → **Add SPI/BPI Flash**. Browse to `SD81Booster.mcs` and select it.
+6. When prompted for the flash device, select **SPI PROM → 25Q128** (128 Mbit).
+7. Right-click the flash → **Program**.
+8. Wait for **PROGRAM SUCCEEDED**.
+9. Power-cycle the board. The FPGA will load its new configuration automatically.

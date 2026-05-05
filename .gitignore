@@ -1,3 +1,103 @@
 *~
+
+# ── Claude Code ────────────────────────────────────────────
+# Context file for Claude Code sessions (not part of project)
+/CLAUDE.md
+
+# ── Working notes ──────────────────────────────────────────
+/Updates/
+
+# ── Arduino / STM32duino ───────────────────────────────────
+# Old AVR/Mega firmware versions (kept locally, not in repo)
+/V2/Arduino/Old/
+# Build output
+**/build/
+**/.theia/
+*.elf
+*.eep
+*.d
+
+# ── Eagle PCB ──────────────────────────────────────────────
+# Old versions archive (kept locally, not in repo)
+/V2/Eagle/BAK/
+# Auto-generated backup files (created on every save)
+*.b##
+*.b#[0-9]
+*.s##
+*.s#[0-9]
+*.l#[0-9]
+# CAM / DRC output (generated from .brd)
+*.ctl
+*.mnb
+*.mnt
+
+# ── Xilinx ISE (Spartan-6 FPGA) ────────────────────────────
+# Old versions archive (kept locally, not in repo)
+/V2/FPGA/BAK/
+# Reports and logs
+*.bgn
+*.bld
+*.cmd_log
+*.debug
+*.drc
+*.lso
+*.lst
+*.log
+*.mrp
+*.ngr
+*.out
+*.pad
+*.par
+*.twr
+*.twx
+*.syr
+*.xreport
+*.xrpt
+*.xmsgs
+*.xwbt
+*.ptwx
+*.stx
+# Intermediate netlist and implementation files
+*.ngc
+*.ngd
+*.ncd
+*.ngm
+*.bmm
+*.xdl
+*.map
+*.sym
+*.xpi
+*.xbcd
+# Core Generator / IP generated
+*.veo
+*.vdbl
+*.vdbx
+*.sdbl
+*.sdbx
+*.cgc
+*.cgp
+*.ipf
+*.cfi
+*.cdc
+*.ncf
+*.ut
+*.pcf
+*.prm
+*.gise
+*.projectmgr
+*.do
+*.in
+*.key
+# Xilinx temporary directories
+**/_ngo/
+**/_xmsgs/
+**/xlnx_auto_0_xdb/
+**/.Xil/
+**/SD81_html/
+**/xst/work/
+**/xst/dump.xst/
+**/iseconfig/
+
+# ── Z80 ROM ────────────────────────────────────────────────
 /z80rom/sdmodrom.o
 /z80rom/sdmodrom.bin

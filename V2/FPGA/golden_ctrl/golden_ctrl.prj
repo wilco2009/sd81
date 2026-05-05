@@ -1,4 +1,0 @@
-verilog work "spi_clock_gen.v"
-verilog work "spi_flash_reader.v"
-verilog work "icap_sequencer.v"
-verilog work "golden_ctrl.v"
