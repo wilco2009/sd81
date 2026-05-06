@@ -18,8 +18,8 @@ The firmware consists of two independent projects, each compiled to a different 
 Both are compiled with the **Arduino framework for STM32** (STM32duino), using custom board definitions derived from the `STM32 Black F407VE`.
 
 Source code:
-- Bootloader: `V2/Arduino/bootloader/`
-- Application: `V2/Arduino/SD81BoosterV2_038_STM32/`
+- Bootloader: `Arduino/bootloader/`
+- Application: `Arduino/SD81BoosterV2_038_STM32/`
 
 ---
 
@@ -94,7 +94,7 @@ The entries should be inserted after the `GenF4.menu.pnum.BLACK_F407VE.debug.svd
 
 ### Windows — automatic (recommended)
 
-A PowerShell script is included in `V2/Arduino/configuracion boards.txt/` that locates the correct `boards.txt` automatically, checks whether the entries already exist, and inserts them in the right place.
+A PowerShell script is included in `Arduino/configuracion boards.txt/` that locates the correct `boards.txt` automatically, checks whether the entries already exist, and inserts them in the right place.
 
 From a PowerShell window:
 

@@ -8,12 +8,12 @@
 /Updates/
 
 # ── Allophone audio (internal build tool, not for SD card) ──
-/V2/Alofones/
-/V2/SD Content/SYS/VOICE/
+/Alofones/
+/SD Content/SYS/VOICE/
 
 # ── Arduino / STM32duino ───────────────────────────────────
 # Old firmware versions archive (kept locally, not in repo)
-/V2/Arduino/bak/
+/Arduino/bak/
 # Build output
 **/build/
 **/.theia/
@@ -23,7 +23,7 @@
 
 # ── Eagle PCB ──────────────────────────────────────────────
 # Old versions archive (kept locally, not in repo)
-/V2/Eagle/BAK/
+/Eagle/BAK/
 # Auto-generated backup files (created on every save)
 *.b##
 *.b#[0-9]
@@ -35,13 +35,13 @@
 *.mnb
 *.mnt
 # Eagle scripts and generated reports
-/V2/Eagle/*.scr
-/V2/Eagle/*.pdf
-/V2/Eagle/partlist_smd.txt
+/Eagle/*.scr
+/Eagle/*.pdf
+/Eagle/partlist_smd.txt
 
 # ── Xilinx ISE (Spartan-6 FPGA) ────────────────────────────
 # Old versions archive (kept locally, not in repo)
-/V2/FPGA/BAK/
+/FPGA/BAK/
 # Reports and logs
 *.bgn
 *.bld
