@@ -7,9 +7,13 @@
 # ── Working notes ──────────────────────────────────────────
 /Updates/
 
+# ── Allophone audio (internal build tool, not for SD card) ──
+/V2/Alofones/
+/V2/SD Content/SYS/VOICE/
+
 # ── Arduino / STM32duino ───────────────────────────────────
-# Old AVR/Mega firmware versions (kept locally, not in repo)
-/V2/Arduino/Old/
+# Old firmware versions archive (kept locally, not in repo)
+/V2/Arduino/bak/
 # Build output
 **/build/
 **/.theia/
@@ -30,6 +34,10 @@
 *.ctl
 *.mnb
 *.mnt
+# Eagle scripts and generated reports
+/V2/Eagle/*.scr
+/V2/Eagle/*.pdf
+/V2/Eagle/partlist_smd.txt
 
 # ── Xilinx ISE (Spartan-6 FPGA) ────────────────────────────
 # Old versions archive (kept locally, not in repo)
