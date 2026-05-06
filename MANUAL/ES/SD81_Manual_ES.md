@@ -1018,7 +1018,7 @@ Para desactivarlo:
 LOAD *MC45 STOP
 ```
 
-> ⚠️ **Advertencia:** El modo MC45 se implementa forzando a cero el pin M1 del Z80 de forma intermitente y durante intervalos de tiempo muy breves, lo que mantiene la carga sobre dicho pin en niveles bajos y hace que la posibilidad de daño sea muy reducida. Además, el interface ya incorpora internamente la resistencia de protección necesaria, por lo que **no es necesario realizar ninguna modificación en el ZX81**.
+> ⚠️ **Advertencia:** El modo MC45 se implementa forzando a cero el pin M1 del Z80 de forma intermitente y durante intervalos de tiempo muy breves, lo que mantiene la carga sobre dicho pin en niveles bajos y hace que la posibilidad de daño sea muy reducida. Además, el interface ya incorpora internamente una **resistencia de protección de 33Ω** en la línea M1, por lo que **no es necesario realizar ninguna modificación en el ZX81**. (Algunos documentos mencionan una resistencia de 680Ω; ese valor corresponde a una modificación alternativa del propio ZX81, no al interface.)
 >
 > Pese a todo, el uso de esta característica se realiza bajo la **responsabilidad exclusiva del usuario**.
 >
